@@ -1,0 +1,71 @@
+Project name: platform_manifest
+  *ZION959 - fixed c/p
+  *ZION959 - Track some CyanogenMod repos
+  *ZION959 - track kerneladiuter & slimota & floatactionbutton
+  *ZION959 - track lib png
+
+Project name: android_frameworks_base
+  *fusionjack - Base: Extended Hardware Buttons (1/2)
+  *Scott Mertz - [1/3] CmHardwareService: Initial implementation
+  *Ricardo Cerqueira - Add a HAF access permission
+  *Dirk Rettschlag (MarcLandis) -  SlimRemix Settings
+  *fusionjack - LiveDisplayTile: Fix compilation error
+  *Steve Kondik - livedisplay: Don't depend on automatic brightness
+  *Steve Kondik - livedisplay: Updated icon from Asher
+  *Steve Kondik - livedisplay: Fix issues when using multiple users
+  *Steve Kondik - livedisplay: Add "off" state and fix issues with QS tile
+  *Steve Kondik - livedisplay: Fix color calibration
+  *Steve Kondik - livedisplay: Implement active display adjustment
+  *fusionjack - Framework: SlimAction as QuickTile (1/2)
+  *Mårten Kongstad - RRO aosp fixes - squashed commit
+  *camcory - Layers 2.1 (backwards compatible)
+
+Project name: platform_manifest
+  *ZION959 - fixed c/p
+  *ZION959 - Track some CyanogenMod repos
+  *ZION959 - track kerneladiuter & slimota & floatactionbutton
+  *ZION959 - track lib png
+
+Project name: packages_apps_Camera2
+  *Andreas Blaesius - Automatic translation import
+
+Project name: packages_apps_Mms
+  *Andreas Blaesius - Automatic translation import
+
+Project name: android_packages_apps_Settings
+  *fusionjack - Settings: Extended Hardware Buttons (2/2)
+  *Scott Mertz - Settings: Change to CmHardwareService
+  *Shareef Ali - Setting: LiveDisplay: fix percentage not showing when the dialog shows up.
+  *Dave Daynard - Settings: Livedisplay: Respect default values passed from CMHW
+  *Steve Kondik - livedisplay: Fix for multiuser
+  *Steve Kondik - livedisplay: Add an "off" state
+  *Danny Baumann - Use 100K steps for color temperature sliders.
+  *fusionjack - livedisplay: Add LiveDisplay settings
+  *p4r4n01d - Display Settings: Better font size control
+  *Steve Kondik - settings: Fix the custom screen color controls
+  *Zhang Fang - Settings: Add screen color settings
+  *Danny Baumann - settings: Squashed commit of CMHW features
+  *Yin Liu - Fix memory leak issue in application settings
+  *xWASABI - Exposing Settings backgrounds for more theming options, while not impacted stock.
+  *camcory - Fix subsettings FC
+  *camcory - Layers 2.1 (backwards compatible)
+  *fusionjack - Treat MobileNetworks as a first class citizen
+  *fusionjack - Treat ScreenOffGesture as a first class citizen
+  *fusionjack - Settings: Advanced option
+  *ZION959 - Settings: SlimOTA
+  *fusionjack - AdvancedSettings: Build Changelog
+
+Project name: packages_apps_SlimLauncher
+  *Andreas Blaesius - Automatic translation import
+
+Project name: packages_providers_DownloadProvider
+  *Andreas Blaesius - Automatic translation import
+
+Project name: vendor_slim
+  *Scott Mertz - [2/3] Introduce CM Hardware abstraction framework
+  *ZION959 - derp fixed
+  *ZION959 - update slimremix apps
+  *ZION959 - fixed opicharger
+  *fusionjack - vendor/slim: SlimChangelog (2/3)
+  *fusionjack - Add CameraNextMod
+

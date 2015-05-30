@@ -1,0 +1,42 @@
+Project name: platform_manifest
+  *ZION959 - removed Slim webview & libcore
+  *ZION959 - track libcore & webview
+
+Project name: android_frameworks_base
+  *Alberto97 - Add alternate WebView provider package
+
+Project name: android_frameworks_webview
+  *arter97 - Update WebView 43.0.2357.76 to 43.0.2357.86
+
+Project name: android_libcore
+  *Christopher Ferris - Remove forced alignment code.
+  *Narayan Kamath - Remove unnecessary code from InputStreamReader/OutputStreamWriter.init.
+  *Sergio Giro - java/io/RandomAccessFile: do not nullify FileChannel when closing the RAF
+  *Narayan Kamath - Date.toString must always use Locale.US.
+  *Kenny Root - Refactor security classes for static initialization
+  *Andreas Gampe - Libcore: Refactor TimeZone for compile-time initialization
+  *Andreas Gampe - Libcore: Make Date compile-time initializable
+  *Piotr Jastrzebski - Stop sleeping in waitUntilAllThreadsStopped spin instead.
+  *Narayan Kamath - GZIPInputStream: Correctly handle extras in gzip headers.
+  *Narayan Kamath - GZIPInputStream: Fix handling of header CRCs.
+  *Elliott Hughes - More FileDescriptor.isSocket cleanup.
+  *Narayan Kamath - Extend ArrayList fastpath to Collections.sort(List<T>, Comparator<T>).
+  *Narayan Kamath - Fix CharsetEncoder.canEncode for empty CharSequences
+  *Narayan Kamath - Fix CharsetEncoder.canEncode for ignorable code points.
+  *Narayan Kamath - Add a zero-copy path for Collections.sort() on ArrayList.
+  *Miklos Vajna - MimeUtils: add ODF presentation (template)
+  *Neil Fuller - When connecting to a SOCKS proxy, use the resolved IP
+  *Neil Fuller - Fix InetSocketAddress.getHostString(): return the name if available
+  *Calin Juravle - Use EMPTY_ITERATOR for EmptyList
+
+Project name: platform_manifest
+  *ZION959 - removed Slim webview & libcore
+  *ZION959 - track libcore & webview
+
+Project name: vendor_slim
+  *fusionjack - vendor/slim: SlimChangelog (2/3)
+  *fusionjack - Add CameraNextMod
+  *ZION959 - removed prebuilt chromium
+  *ZION959 - general fixed
+  *ZION959 - add back supersu
+
