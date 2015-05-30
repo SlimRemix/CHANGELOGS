@@ -2,13 +2,14 @@ Project name: platform_manifest
   *ZION959 - fixed c/p
   *ZION959 - Track some CyanogenMod repos
   *ZION959 - track kerneladiuter & slimota & floatactionbutton
-  *ZION959 - track lib png
+
+Project name: CHANGELOGS
+  *ZION959 - initial commits for slimremix changelog
 
 Project name: android_frameworks_base
   *fusionjack - Base: Extended Hardware Buttons (1/2)
   *Scott Mertz - [1/3] CmHardwareService: Initial implementation
   *Ricardo Cerqueira - Add a HAF access permission
-  *Dirk Rettschlag (MarcLandis) -  SlimRemix Settings
   *fusionjack - LiveDisplayTile: Fix compilation error
   *Steve Kondik - livedisplay: Don't depend on automatic brightness
   *Steve Kondik - livedisplay: Updated icon from Asher
@@ -24,7 +25,14 @@ Project name: platform_manifest
   *ZION959 - fixed c/p
   *ZION959 - Track some CyanogenMod repos
   *ZION959 - track kerneladiuter & slimota & floatactionbutton
-  *ZION959 - track lib png
+
+Project name: android_device_samsung_trlte-common
+  *ZION959 - Turn art optimization to everything
+  *ZION959 - enabled hardware keys
+  *Zion-Tran - 3GB dalvik heap and hwui memory (Originally 2GB)
+  *ZION959 - fixed viper4android global
+  *willl03 - trlte: Set call recording source to voice line
+  *ZION959 - L1/L2 cache size parameters by @JustArchi
 
 Project name: packages_apps_Camera2
   *Andreas Blaesius - Automatic translation import
@@ -33,6 +41,7 @@ Project name: packages_apps_Mms
   *Andreas Blaesius - Automatic translation import
 
 Project name: android_packages_apps_Settings
+  *ZION959 - moved advanced setting
   *fusionjack - Settings: Extended Hardware Buttons (2/2)
   *Scott Mertz - Settings: Change to CmHardwareService
   *Shareef Ali - Setting: LiveDisplay: fix percentage not showing when the dialog shows up.
@@ -62,10 +71,10 @@ Project name: packages_providers_DownloadProvider
   *Andreas Blaesius - Automatic translation import
 
 Project name: vendor_slim
+  *ZION959 - copy changelog to CHANGELOGS directory
+  *ZION959 - update sepolicy for CmHardwareService
   *Scott Mertz - [2/3] Introduce CM Hardware abstraction framework
   *ZION959 - derp fixed
   *ZION959 - update slimremix apps
   *ZION959 - fixed opicharger
-  *fusionjack - vendor/slim: SlimChangelog (2/3)
-  *fusionjack - Add CameraNextMod
 
