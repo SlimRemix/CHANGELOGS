@@ -1,0 +1,45 @@
+Project name: android_frameworks_base
+  *Stevespear426 - Base: All in One Animation Control [1/2]
+  *Hernán Castañon Álvarez - DocumentsUI: Add navigation bar color
+  *Alexander Westphal - New DocumentsUI icon
+  *Alex Cruz - DocumentsUI: Turn advanced devices and file sizes on by default
+  *Volk204 - DocumentsUI: RU translations
+  *“choldimir” - DocumentsUI: CA translations
+  *Felix Ableitner - Replaced custom strings with Android defaults
+  *Andreas B - DocumentsUI: DE-Translation (add custom strings)
+  *DelphinPETER - DocumentsUI: FR translation
+  *ale8530 - DocumentsUI: IT strings
+  *Quique De Gabriel - frameworks/Documents: ES translations
+  *maxwen - DocumentsUI: fix recursive delete
+  *maxwen - DocumentsUI: catch berserk apps on building recents
+  *maxwen - base: DocumentUI: fix a few issues handling remote content
+  *Felix Ableitner - DocumentsUI: Remove catch-all statements
+  *Yamil Ghazi - DocumentsUI: Allow open files instead of URIs
+  *Alex - Fix Icon size in DocumentsUI
+  *xplodwild - DocumentsUI: Add a standalone File Manager
+  *maxwen - base: kill some log spam
+  *ZION959 - PhoneWindowManager: slimremix boot messaage
+  *ZION959 - Frameworks: I like it fast -25
+  *Craig Gomez - Disable debug music transport control
+  *Mazda - Speed things up!!
+  *Chet Kener - Speed Up Windows Orientation
+  *maxwen - base: fix battery stats wakelock crazyness
+  *Chet Kener - Disable Lots of Debugging
+  *fusionjack - Turn off debugging
+  *fusionjack - Disabled scrolling cache
+  *PrimeDirective - Scroll: modified velocitytracker
+  *PrimeDirective - improve rotation handling
+  *fusionjack - Memorize memory class lookup methods
+  *fusionjack - Reduce log verbosity: Don't spam logcat
+  *Alan Jeon - Turn debug flag off
+  *Andreas Blaesius - Automatic translation import
+
+Project name: android_device_samsung_trlte-common
+  *ZION959 - enabled changelog
+
+Project name: android_packages_apps_Settings
+  *Stevespear426 - Settings: All in One Animation Control [2/2]
+
+Project name: vendor_slim
+  *ZION959 - add CameraNextMod
+
