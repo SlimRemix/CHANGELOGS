@@ -1,0 +1,13 @@
+
+**** sr:android-floating-action-button ****
+97e6ea9 : Update consumer-proguard-rules.pro <Matungos> 3 months ago
+f8b3d6c : Removed README comments about min API version <str4d> 3 months ago
+d5b40ee : Differentiate sample app for support FAB <str4d> 6 months ago
+96c3f33 : Fix after merge <str4d> 7 months ago
+6014db6 : Library is now available on Maven Central <str4d> 8 months ago
+670f8b1 : com.getbase -> net.i2p.android.ext <str4d> 9 months ago
+192daf9 : Support API 4+ <str4d> 9 months ago
+d41654b : Use property names instead of Property objects <str4d> 9 months ago
+780aea5 : Move colors to v14 <str4d> 9 months ago
+13956cf : Define default colors in XML <str4d> 9 months ago
+ 

@@ -1,0 +1,76 @@
+
+**** sr:android_build ****
+d4444ba : revert: Use Qualcomm Snapdragon LLVM Compiler 3.6 (https://developer.qualcomm.com/mobile-development/increase-app-performance/snapdragon-llvm-compiler-android) for Android Lollipop 5.x for devices with Qualcomm CPU <ZION959> 10 hours ago
+ 
+**** github:SlimRemix/android_device_samsung_trlte-common ****
+1960e74 : trlte-common enable stylus gestures. <ZION959> 5 hours ago
+ 
+**** sr:frameworks_base ****
+1dd1189 : base: Change toast frames color to some better look ones <Hernán Castañon Álvarez> 5 months ago
+1a19c28 : Frameworks/base: Use ArraySet more explicitly <Andreas Gampe> 4 months ago
+9045c4f : Frameworks/base: Add removeAll for ArraySet <Andreas Gampe> 4 months ago
+b477920 : Prevent power key capture when screen is off <Wilhelm Fitzpatrick> 5 months ago
+81f68b6 : PhoneWindowPolicy: Fix NPE race condition by excessive screen on delay <Jorge Ruesga> 1 year, 8 months ago
+c0b598f : Camera : allow camera to use power key as shutter <Danesh M> 28 minutes ago
+a8bd3ed : Frameworks: Allow/Prevent notification light in Zen mode (1 of 2) <DvTonder> 34 minutes ago
+01cad48 : Return of Silent mode (1/2) <Roman Birg> 37 minutes ago
+da19154 : Fix "ghost" weather display in expanded status bar <cristianomatos> 6 months ago
+6a50b1d : Add ability to ignore interruptions while active media playback <Danesh M> 5 months ago
+8b4f054 : fixed build <ZION959> 51 minutes ago
+1af2e3b : Map long press of MUTE to KEYCODE_MEDIA_PLAY_PAUSE <Michael Bestas> 5 months ago
+fbdd34e : Fix volume key music controls and wake up <Michael Bestas> 7 months ago
+f6e2cd7 : Settings: Forward Port Volume Long Press Skip Tracks (1/2) <Austin T. Conn> 7 months ago
+08531e9 : NotificationTile: Simple mode ring/vibrate/priority/silent <fusionjack> 5 months ago
+1891892 : AudioService: fix crash when no music player found <Roman Birg> 3 months ago
+bb7fa2f : Do not start music app when headset is unplugged <tsubus> 4 months ago
+bb26a6b : AudioService: launch default music player on headset connect [2/2] <Danesh M> 2 years, 6 months ago
+66bf2b7 : SystemUI: Allow disabling adjusting volume sounds [1/2] <BigBrother1984> 8 months ago
+4075332 : SystemUI: option to disable lock screen shortcuts (1/2) <Altaf-Mahdi> 5 hours ago
+c6d292c : ImageHelper: Handle null drawable <ZION959> 5 hours ago
+e646e17 : fixed build : Task manager improvements <ZION959> 6 hours ago
+58eb717 : input: Add option to toggle pointer icon when using stylus(2/3) <Steve Kondik> 19 hours ago
+e6b907f : Stylus gestures features (1/2) <Steve Kondik> 19 hours ago
+2fb01b2 : SystemUI : Fix Task Manager strings <dexmc> 6 weeks ago
+40a7488 : TaskManager: Update some functions <Lokesh Chamane> 5 weeks ago
+bac1807 : Task manager improvements <Altaf-Mahdi> 19 hours ago
+84980d6 : Improve Task manager UI improved task and button view removed task manager text and layout Screenshot- https://drive.google.com/file/d/0B-nhdyBCbCSxbEdUUFZMU0p0Qnc/view?usp=sharing <westcripp> 7 weeks ago
+356e4ea : Materialize task kill button <westcripp> 7 weeks ago
+6412eed : Expose task manager values for themers <Alex Cruz> 7 weeks ago
+45de8c5 : Fixed Task Manager bug described in post below <Alex Cruz> 5 hours ago
+55244ad : CAF Task Manager switch [1/2] <Alex Cruz> 5 hours ago
+7822980 : SystemUI: add Weather display to status bar header <Roman Birg> 5 hours ago
+beac4bf : Battery Bar [1/2] <ZION959> 21 hours ago
+6242f79 : Status bar greeting [1/2] <ZION959> 20 hours ago
+ 
+**** sr:android_frameworks_rs ****
+8e0b826 : derp, forgot to commit some changes <Your Name> 7 hours ago
+c5f1ddc : Use Qualcomm Snapdragon LLVM Compiler 3.5 to compile driver runtime <Your Name> 3 days ago
+80f6896 : fixed build for Qclang 3.6 <ZION959> 7 hours ago
+ 
+**** sr:packages_apps_Settings ****
+b3351c4 : Settings: Allow/Prevent notification light in Zen mode (2 of 2) <DvTonder> 3 months ago
+eb6d213 : Settings: add Silent mode toggle (2/2) <Roman Birg> 3 months ago
+2c6d9f4 : Add ability to ignore interruptions while active media playback <Danesh M> 5 months ago
+ebdf404 : Show Toast if usb not connected in Storage Settings <naman14> 2 months ago
+8e11306 : Settings: fix bad MTP uncheck behavior <Martin Brabham> 3 months ago
+6eba923 : USB Settings: Warn before enabling UMS mode <Matt Mower> 6 months ago
+ef78c41 : USB Settings: Set a sane USB_FUNCTION_DEFAULT <Matt Mower> 6 months ago
+932c021 : Settings: add "Show weather" toggle for quick settings panel <Roman Birg> 7 months ago
+1598945 : Settings: Forward Port Volume Long Press Skip Tracks (2/2) <Michael Bestas> 7 months ago
+ea53cbd : fixup "wifi: forward port avoid poor connection setting" <Evisceration> 7 months ago
+bdd3923 : wifi: forward port avoid poor connection setting <Jonathan Dean> 7 months ago
+b5112c1 : Settings: launch default music player on headset connect [1/2] <ZION959> 5 hours ago
+c131254 : Settings: Allow disabling adjusting volume sounds [2/2] <ZION959> 5 hours ago
+90b4238 : Settings: add setting for default alarm tone <maxwen> 6 months ago
+720607d : Settings: option to disable lock screen shortcuts (2/2) <ZION959> 5 hours ago
+f47476d : Settings: Materialize standard colors in colorpicker <alviteri> 4 months ago
+3ffac1e : settings: Add option to toggle the pointer icon when using stylus(1/3) <Steve Kondik> 5 months ago
+39655d6 : Stylus gestures features (2/2) <masiullah> 19 hours ago
+e9fa68b : CAF Task Manager switch [2/2] <Alex Cruz> 19 hours ago
+12b3dc0 : Battery Bar [2/2] <Alex Cruz> 5 hours ago
+b2f9c46 : Status bar greeting [2/2] <ZION959> 20 hours ago
+ 
+**** sr:android_vendor_SaberMod ****
+1bbbcec : Spice up the FORCE_DISABLE_DEBUGGING option <Joe Maples> 11 days ago
+e40e423 : Add kernel toolchains to TARGET_ARCH_LIB_PATH <Paul Beeler> 3 weeks ago
+ 
