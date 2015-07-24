@@ -1,0 +1,32 @@
+
+**** github:SlimRemix/android_device_samsung_trltespr ****
+730e8d7 : Fix up system.prop <nicklovell23> 29 hours ago
+ 
+**** sr:frameworks_base ****
+da09273 : SlimDim: don't dim navbar on lockscreen <Daniel Koman> 13 hours ago
+b2adf302 : Automatic translation import <Andreas Blaesius> 18 hours ago
+b838553 : SystemUI: SlimDim - pref to listen on entire screen for touches [1/2] <Daniel Koman> 2 days ago
+7baa768 : SlimDim: listen for touches in navbar empty areas also <Daniel Koman> 2 days ago
+c86f0d0 : SystemUI: SlimDim [1/2] <Daniel Koman> 11 days ago
+ 
+**** github:SlimRoms/packages_apps_Mms ****
+9b8e393 : Automatic translation import <Andreas Blaesius> 18 hours ago
+ 
+**** sr:packages_apps_Settings ****
+1a2c6d6 : Settings: SlimDim - pref to listen on entire screen for touches [2/2] <Daniel Koman> 2 days ago
+a336308 : Settings: add expanded desktop navbar action <Daniel Koman> 2 days ago
+91dbf73 : Settings: SlimDim  [2/2] <Daniel Koman> 4 days ago
+c289edb : Add button in "hidden" settings to flip "VoLTE Provisioned" flag <Pavel Zhamaitsiak> 6 months ago
+ 
+**** github:SlimRoms/packages_apps_SlimLauncher ****
+b743578 : Automatic translation import <Andreas Blaesius> 18 hours ago
+ 
+**** sr:platform_manifest ****
+86046b4 : track various pakages slimremix repo <ZION959> 2 days ago
+4a30d38 : derp fixed <ZION959> 2 days ago
+018da52 : revert: track slim libcore (reverted from commit 67e5f73f5bbb90a2d4edb630a580b494bbcb647b) <ZION959> 3 days ago
+67e5f73 : track slim libcore <ZION959> 3 days ago
+ 
+**** github:SlimRoms/vendor_slim ****
+0ce3bf9 : Bump version <Josue Rivera> 3 days ago
+ 

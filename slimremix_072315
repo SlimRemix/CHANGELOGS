@@ -1,0 +1,111 @@
+
+**** sr:frameworks_base ****
+f40d80a : SystemUI: Add option to disable search bar in recents (2/2) <Yashar Ahmedizade> 3 hours ago
+bb1e0c3 : Fix a bug disappearing installerPackageName info of packages after reboot. <hyemin.hwang> 2 weeks ago
+c47ba34 : livedisplay: Round values up <Steve Kondik> 9 days ago
+fa057a3 : livedisplay: Fix issue where settings weren't applied <Steve Kondik> 10 days ago
+36d5dca : Fix LiveDisplay notification. <Dave Kover> 4 weeks ago
+95a5c27 : Revert "Bluetooth: Check for mPanservice before changing tethering state" <Ricardo Cerqueira> 11 days ago
+4e0e7c7 : qs: fix NPE in visualizer tile <Jorge Ruesga> 2 weeks ago
+7cd451a : SystemUI: more keyguard visualizer tweaks <Roman Birg> 2 weeks ago
+c88c884 : SystemUI: fix keyguard unlock drawable not updating <Roman Birg> 2 weeks ago
+9dc990a : Recents: Fix 'clear all' button bottom position not working <fusionjack> 2 weeks ago
+03366b8 : livedisplay: Fix outdoor mode detection <Steve Kondik> 3 weeks ago
+e289a06 : Barrier only messages shouldn't prevent the idle handlers from running <Christian Poetzsch> 8 weeks ago
+f20a470 : Add Process IOWAIT info to ANR dump <Emmanuel Berthier> 1 year, 2 months ago
+8922ba7 : Use isolated thread to perform onStart() <Charles Tsai> 9 weeks ago
+36059e8 : SystemUI: dismiss brightness slider on screen off <Roman Birg> 3 weeks ago
+02be238 : Allow screen unpinning on devices without navbar <UtkarshGupta> 3 hours ago
+2fe129e : Revert "SystemUI: Create expandable volume panel." <srisurya95> 13 hours ago
+7281a29 : FWB: Second Clock (1/2) <neighbors28> 5 months ago
+7b7625a : Fix battery bar on nav for tablets and phones Tweaked from https://github.com/BrokenOs/frameworks_base/commit/29a828cb7e1b204212e0be63003886879884fb59 <InkSlinger666> 8 weeks ago
+c38ec43 : Fix batteryBar on Navbar * this fixs the dual navbar battery bar when its supposed to be hidden and makes it work as intended * this also breaks statusbar tests need to spend some time solving this in java here https://github.com/PurifiedRom/android_frameworks_base/commit/39e80d24d28ac2026ff9dd3f7c832b6f489fe404#diff-ca2883aa3b534f5a1db5e0789780cf18R86 * proper fix would be to have it look for xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui which is what the statusbar uses and xmlns:systemui="http://schemas.android.com/apk/res-auto which is what navbar uses * we dont run statusbar tests so it isnt a big concern at the moment <beanstown106> 3 months ago
+bfbedef : SystemUI: Use smaller battery padding <LuK1337> 3 months ago
+bcaec03 : SystemUI: Create expandable volume panel. <Adnan Begovic> 7 months ago
+548f822 : Hide msim 'no-sim' icons <Arvind Mukund> 6 months ago
+e18c00a : advanced reboot: add soft reboot option <ghsr> 3 months ago
+6c090f5 : use 24dip height of statusbar - M style <LorDClockaN> 13 days ago
+9853a9b : SlimRemiX is starting..... <srisurya95> 18 hours ago
+11d3887 : WallpaperManagerService: use a single file observer <Roman Birg> 2 weeks ago
+3360b58 : Speed up Statusbar and Activity Manager <Chet Kener> 7 months ago
+8bc85f3 : SlimDim: Use semaphore to cancel ontouch callback <Jean-Pierre Rasquin> 5 days ago
+6397f3a : DO NOT MERGE Fix JNI global references leak in AudioEffect <Lucas Gomez Jimenez> 5 weeks ago
+07effce : Revert "libaudioeffect_jni GREF leak fix" <fusionjack> 7 days ago
+f223951 : [1/2] enable advance reboot by default <ZION959> 25 hours ago
+404806a : Screen pinning improvements <Alex Cruz> 3 weeks ago
+b34829e : [Base]: recents panel clear all button tweaks <cristianomatos> 8 months ago
+27042a4 : Align recents clear button to screen edge instead of tasks if close <Veeti Paananen> 9 weeks ago
+cc91e19 : systemui: animate clear recents button on exit animation <Jorge Ruesga> 5 months ago
+6a57366 : systemui: adjust position of clear recents button <Jorge Ruesga> 5 months ago
+6178db4 : systemui: animate clear recents exit <Jorge Ruesga> 5 months ago
+2d45179 : Revert "systemui: animate clear recents button on exit animation" <fusionjack> 7 weeks ago
+f792ef5 : base: Battery saver enhancements <Alex Cruz> 4 weeks ago
+55e27a0 : fix statusbar greeting for msim <srisurya95> 27 hours ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+89246c5 : revert: revert: Dtsi: realign voltages with userspace values [@Twistesumbrella & @Ktoonsez] <ZION959> 16 minutes ago
+63f98e6 : [squash] revert: Added Hardlimit for Note4 <ZION959> 2 hours ago
+21afd8c : msm: limiter: Export tunables to header file <ZION959> 3 hours ago
+864fd9a : revert: revert: msm: Add MSM limiter driver (Pranav Vashi) <ZION959> 4 hours ago
+f4aa8b2 : revert: Dtsi: realign voltages with userspace values [@Twistesumbrella & @Ktoonsez] <ZION959> 4 hours ago
+018129d : msm: Fix high load average from uninterruptible waits <Steve Kondik> 1 year, 6 months ago
+3316058 : qcom: mpm-of: fix bug in finding the pending interrupts <Murali Nalajala> 1 year, 5 months ago
+219427c : Bcmdhd4358: optimize Wifi <javilonas> 3 months ago
+873301a : bcmdhd4358: Enable wifi mac address changing <javilonas> 3 months ago
+7c40bbe : mhi: core: Remove useless atomic variables <Andrei Danaila> 10 months ago
+1df7c31 : mhi: core: Fix double increment on event counter <Andrei Danaila> 6 months ago
+d2c3159 : input: keyboard: qpnp-keypad: register private data in SPMI dev <Alex Sarraf> 9 weeks ago
+4239d6a : wireless: dhd: Enable standby ARP and multicast packet filters <Andrei F> 8 weeks ago
+97ef80f : opp: De-obscurify OPP structs and disclose find_device_opp <Andrei F> 8 weeks ago
+9cdb667 : pinctrl: msm: Enabled irqs on resume <placiano> 7 weeks ago
+5eb7132 : futex: Add another early deadlock detection check <Thomas Gleixner> 1 year, 2 months ago
+0f99669 : msm: mdss: Clear PP pipe resources before copying new userspace config <Benet Clark> 6 months ago
+9f47b1f : msm: mdss: fix MDP color format offsets <Eugene Yasman> 1 year, 9 months ago
+b9bdadc : msm: mdss: Return ESHUTDOWN error when driver is shutting down <Gopikrishnaiah Anandan> 5 months ago
+5178547 : msm: mdss: update max fence wait timeout for all acquire fence <Jeevan Shriram> 6 months ago
+94cf8aa : mdss: fb: wait for idle only on last fb release <Adrian Salido-Moreno> 3 months ago
+777342f : msm: mdss: align frame buffer size to PAGE_SIZE <Jeevan Shriram> 11 months ago
+d818c96 : frandom: Dynamically allocate the char device numbers and clear up checkpatch conflicts <savoca> 7 weeks ago
+e2d8b44 : binder: Quiet Binder <ZION959> 4 days ago
+c9b63ec : bluesleep: add parenthesis to TX_TIMER_INTERVAL * HZ <placiano> 5 weeks ago
+662f13f : Hardlimit 2.2 Emotion Edition for Note 4 *Deleted Wake kick and Touch… …boost option for best performance. <ZION959> 4 days ago
+8cf8134 : mm: vmstat: make vmstat_work cpu bound during requeue <Vignesh Radhakrishnan> 3 months ago
+2e518fe : memcg: add permission check <Rom Lemarchand> 9 months ago
+6051d21 : readahead: make context readahead more conservative <Fengguang Wu> 1 year, 10 months ago
+48de7cf : mm/zswap: avoid unnecessary page scanning <Weijie Yang> 1 year, 8 months ago
+172bb57 : mm/zswap.c: get swapper address_space by using macro <Sunghan Suh> 1 year, 10 months ago
+096e04f : msm_hsic_host: reduce wakelock <flar2> 4 months ago
+60dec93 : Power: pmqos: Add emc freq pmqos constraint <Puneet Saxena> 1 year, 6 months ago
+bad4446 : power: Fix coverity error <Sai Gurrappadi> 1 year, 6 months ago
+d158383 : power: Prefer min over max for online cpus <Sai Gurrappadi> 1 year, 9 months ago
+a5e570f : PM / QoS: Add notifier for flags <Terje Bergstrom> 1 year, 9 months ago
+e8d6df9 : power: PM QoS support for bounded constraints <Sai Gurrappadi> 1 year, 10 months ago
+da0888b : pmqos: Replace spinlock with mutex for pm_qos_lock <Sai Gurrappadi> 1 year, 10 months ago
+5874da4 : PM QoS: Add GPU frequency limits to PM QoS <Alex Frid> 2 years ago
+95f3710 : PM / QoS: export pm_qos_update_request_timeout() <Li Li> 2 years, 6 months ago
+07e1a54 : PM QoS: Add disable parameter <Antti P Miettinen> 2 years, 11 months ago
+46a35be : PM Qos: Add min online cpus as PM QoS parameter <Gaurav Sarode> 3 years, 5 months ago
+6e3af07 : PM QoS: Add CPU frequency min/max as PM QoS params <Antti P Miettinen> 3 years, 7 months ago
+34bce69 : PM QoS: Add max online cpus as PM QoS parameter <Alex Frid> 3 years, 7 months ago
+e93f522 : trlte kernel: fix stuck CPU frequencies <gekkehenkie11> 5 days ago
+fab7e3b : udp: fix behavior of wrong checksums <Eric Dumazet> 8 weeks ago
+20f2d5c : fixed oc table <ZION959> 4 days ago
+6cc0d37 : revert: msm: Add MSM limiter driver (Pranav Vashi) <ZION959> 5 days ago
+8f808ed : removed dt2w, s2w, sls <ZION959> 5 days ago
+611580d : cmremix ultimate kernel v1.0 <ZION959> 2 weeks ago
+ 
+**** sr:packages_apps_Settings ****
+6be9c76 : RecentSettings: Move screen pinning from security settings to recents settings <ZION959> 2 hours ago
+b6f7dda : RecentSettings: Update stock recent settings according to SlimRecents switch <fusionjack> 3 weeks ago
+b6f474c : Settings: Add option to disable search bar in recents (1/2) <Yashar Ahmedizadeh> 8 months ago
+540788d : [Settings]: recents panel clear all button tweaks <fusionjack> 3 hours ago
+3abec0a : RecentSettings: Reorganization <fusionjack> 3 weeks ago
+74805cc : Treat MobileNetworks as a first class citizen <fusionjack> 4 months ago
+1dc6a96 : revert SecuritySettings: Lockscreen wallpaper <ZION959> 22 hours ago
+5349931 : Settings:Second Clock (2/2) <martinusbe> 7 days ago
+1fb8b68 : revert SecuritySettings: Lockscreen wallpaper <ZION959> 24 hours ago
+9224b28 : [2/2] enable advance reboot by default <srisurya95> 27 hours ago
+ 
+**** sr:android_vendor_SlimRemix ****
+8d5d47b : revert: set zion ultimate kernel as default (reverted from commit 0c6d245366d8a686faeaf03207905251851df4a0) <ZION959> 24 hours ago
+ 

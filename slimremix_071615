@@ -1,0 +1,133 @@
+
+**** github:SlimRemix/android_device_samsung_trltespr ****
+c216e37 : Switch partial dependencies to SlimRemix and removed hw dependencies <ZION959> 48 minutes ago
+c55828c : Kill init with fire/move to system.prop <ZION959> 53 minutes ago
+1f9e00d : Update and rename cm.mk to slim.mk <nicklovell23> 6 months ago
+5a7ce45 : Update and rename cm.dependencies to slim.dependencies <nicklovell23> 6 months ago
+8a5c064 : cm-12.1 bringup of trltespr <Michael Wawrzyniak> 9 days ago
+da227bb : trltespr: Update RIL to resolve dialEmergency issue The phone would lock up after appending the / to the dial address. This RIL was sourced from hlte, but trlte does not respond to the / in the dial address as hlte does, causing the phone to not dial. <Michael Wilkinson> 5 months ago
+67cf8c1 : trltespr: Fix RIL definition elements <Michael Wilkinson> 6 months ago
+ef70727 : Update README <Mike Wilkinson> 6 months ago
+c30f15d : Update BoardConfig.mk <Mike Wilkinson> 6 months ago
+5d41feb : Update README <Mike Wilkinson> 6 months ago
+209ada6 : Update BoardConfig.mk <Mike Wilkinson> 6 months ago
+8f2c4ea : Update common dependencies <Mike Wilkinson> 6 months ago
+77b429c : Update trlteRIL.java <Mike Wilkinson> 6 months ago
+727f7ad : Update documentation <Mike Wilkinson> 6 months ago
+66d3215 : Update trlteRIL.java <Mike Wilkinson> 6 months ago
+2ceb1cf : Update trlteRIL.java <Mike Wilkinson> 6 months ago
+50c133d : newril for RIL change with new binaries <Mike Wilkinson> 6 months ago
+a805dc4 : Remove imsi, it doesnt fix it <Mike Wilkinson> 6 months ago
+7b8f080 : New RIL <Mike Wilkinson> 6 months ago
+876234b : those should be in common <Mike Wilkinson> 6 months ago
+98565b6 : Add missing deps <Mike Wilkinson> 6 months ago
+786db31 : Remove Keymaster <Mike Wilkinson> 6 months ago
+cacadf4 : Revert devault_network <Mike Wilkinson> 6 months ago
+34bf4b5 : cleanup ril / network mode to LTE/CDMA by default <Michael Wilkinson> 6 months ago
+445d216 : fix no sim - sprint <Mike Wilkinson> 6 months ago
+107947d : one more try fixing derp <Michael Wilkinson> 6 months ago
+19dd59a : Unbreak my last commit from CM12 <Michael Wilkinson> 6 months ago
+6db71ed : Expose the APN settings menu <Michael Wilkinson> 6 months ago
+cf75778 : Update and rename slim.mk to cm.mk <Keith Lynch> 6 months ago
+d24b0f5 : Update and rename slim.dependencies to cm.dependencies <Keith Lynch> 6 months ago
+ef82fb6 : Update vendorsetup.sh <Keith Lynch> 6 months ago
+37098c1 : Update and rename delete-me to vendorsetup.sh <Keith Lynch> 6 months ago
+17e728c : Update and rename vendorsetup.sh to delete-me <Keith Lynch> 6 months ago
+a7d4268 : Update and rename cm.mk to slim.mk <Keith Lynch> 6 months ago
+832ab71 : Update and rename cm.dependencies to slim.dependencies <Keith Lynch> 6 months ago
+fce8837 : add keymaster blobs <Michael Wilkinson> 7 months ago
+db3e1e4 : Create eri.xml <Keith Lynch> 7 months ago
+8e375a4 : Preperation for proper RIL <Michael Wilkinson> 7 months ago
+228dad9 : Update proprietary-files.txt <Keith Lynch> 7 months ago
+facc26c : Update trlteRIL.java <Keith Lynch> 7 months ago
+f83ca88 : Update init_trlte.c <Keith Lynch> 7 months ago
+6c22e29 : Update trlteRIL.java <Keith Lynch> 7 months ago
+fec7977 : Update BoardConfig.mk <Keith Lynch> 7 months ago
+a4e8276 : Update trlteRIL.java <Keith Lynch> 7 months ago
+a154e17 : Update init_trlte.c <Keith Lynch> 7 months ago
+b2d1279 : Update system.prop <Keith Lynch> 7 months ago
+d97d524 : Update BoardConfig.mk <Keith Lynch> 7 months ago
+9490a0a : Update system.prop <Keith Lynch> 7 months ago
+52c9940 : Update trlteRIL.java <Keith Lynch> 7 months ago
+37c2d05 : Update init_trlte.c <Keith Lynch> 7 months ago
+ 
+**** sr:frameworks_base ****
+286023c : Avoid NPE in ArraysAdapter on null item <tobitege> 7 weeks ago
+d741563 : Make MediaPlayer fail fast on UnknownServiceException. <Alex Klyubin> 3 months ago
+e316f6d : Should reset mDismissKeyguard on keyguard secure change <tingna_sung> 9 weeks ago
+a54c8e5 : Fix null pointer dereference when security exception occurs <Christopher Desjardins> 8 weeks ago
+cc0f2b9 : Don't prevent notification updates in DOS protection. <Vladimir Marko> 1 year, 10 months ago
+8fd753d : core: Update GPS Icons to be more Material <Chet Kener> 8 weeks ago
+f0bc07a : ActivityManager: Listen for controller's death <Vairavan Srinivasan> 4 months ago
+c9fa3bf : Avoid unregistering client while stopping LE Scan <jbelloua> 4 months ago
+289aba7 : [Framework] fix integer overflow while large number of text operator in SpannableStringBuilder <wilson_shih> 10 months ago
+c870744 : fix WRITE_SETTINGS to be "dangerous" <Nicolai Ehemann> 1 year, 3 months ago
+df66d69 :  MTU should be 1358 as per 3GPP standards, especially for LTE radio interfaces. <Stacy Devino> 9 months ago
+7429856 : Fix a NPE when putting a null-Bundle in an Intent <Flamefire> 1 year, 3 months ago
+6929752 : Avoid duplicate call to onLoadFinished() <Romain Vimont (®om)> 1 year, 7 months ago
+9e318e1 : [PDF] fix for crash when PDF printing in Chrome <arthur_hung> 3 months ago
+a604929 : Avoid NPE in printspooler when changing language <Masaaki Iwaguchi> 4 months ago
+e9ecf54 : Fix duplicate removal of same pointer in PathCache. <chaochen> 11 months ago
+271fd25 : Pass charset to XmlPullParser.setInput instead of null <Wojciech Staszkiewicz> 2 months ago
+dfb6a73 : Avoid NPE when sendMessage is called after disconnect. <Paul Jensen> 2 months ago
+4996818 : Avoid AsyncTask ThreadPool leak in RecentTaskLoaser <jshe32X> 1 year, 11 months ago
+4920014 : [ActivityManager] handle dumpHeap() but no free space case. <Mark Lu> 7 months ago
+729a195 : Fix an overflow found by ASAN. <Dan Albert> 9 months ago
+1ba1bd6 : aapt: suppress string resources build warnings <JBirdVegas> 1 year, 6 months ago
+6416734 : Fix array exception in createAutoBrightnessSpline <tobitege> 3 months ago
+62f17ac : Remove fall through for KEYCODE_VOICE_ASSIST <Henrik Baard> 5 months ago
+bf33cb5 : Fix NPE causing a hot reboot when pressing power button <David96> 1 year, 6 months ago
+7c8ef84 : Fix ListView is not scrolled properly with arrows <Jaewan Kim> 2 years, 5 months ago
+5382918 : Fix DataInputStream leaks <PrimeDirective> 1 year, 11 months ago
+10d152b : libaudioeffect_jni GREF leak fix <PrimeDirective> 2 years, 7 months ago
+fff09ef : Revert core app related changes <fusionjack> 6 weeks ago
+7aa4521 : Add handling SQLiteDatabaseCorruptException. <muzbit.kim> 1 year, 2 months ago
+6abcb75 : InputWrapper: opt out early if session == null <Lars Greiss> 12 months ago
+3847a6d : Fix incorrect usage of bool <Bernhard Rosenkränzer> 8 months ago
+be68c27 : Prevent resource leak in YuvToJpegEncoder <Martin Wallgren> 11 months ago
+aeb6721 : Frameworks/base: Fix AssetManager JNI <Andreas Gampe> 8 months ago
+50c7c6e : Early return in RemoteViewsAdapter is too late <Henrik Baard> 2 years ago
+11f7c68 : fw: media: Handle NPE due to threading race <Tom Marshall> 1 year, 1 month ago
+85e0e3c : fix NPE in TextUtils <Ralph Bergmann> 3 months ago
+2978c08 : Fixes rapid calls to restartLoader delivering old results <Justin Breitfeller> 1 year, 5 months ago
+0982859 : Remove some useless debug spam. <Danny Baumann> 2 months ago
+8fabba4 : IBinder can be leaked in FingerPrintService <You Kim> 5 months ago
+10815b9 : Prevent erroneous calls to OnCheckedChangedListener <Scott Weber> 1 year, 4 months ago
+d19ba08 : Frameworks/base: Compile-time optimize SQLiteConnection <Andreas Gampe> 3 months ago
+76c3dfed9 : Frameworks/base: Change String == to equals in Preference <Andreas Gampe> 4 months ago
+874f83b : Frameworks/base: Fix request removal in VoiceInteractionSession <Andreas Gampe> 4 months ago
+98a7bc4 : Frameworks/base: Fix potential NPE in InputMethod <Andreas Gampe> 4 months ago
+06c7230 : Frameworks/base: Remove duplicate check in Mesh <Andreas Gampe> 4 months ago
+3b17121 : Frameworks/base: Fix visibility flag in Editor <Andreas Gampe> 4 months ago
+773fe1e : Frameworks/base: Fix format string in Geofence <Andreas Gampe> 4 months ago
+ec9e966 : Frameworks/base: Make IDENTITY_MATRIX final <Andreas Gampe> 4 months ago
+faa6cbc : Frameworks/base: Fix format string in Camera <Andreas Gampe> 4 months ago
+ 
+**** sr:android_libcore ****
+41b18c9 : Remove forced alignment code. <Christopher Ferris> 4 months ago
+81e5e6e : Remove unnecessary code from InputStreamReader/OutputStreamWriter.init. <Narayan Kamath> 3 months ago
+9735928 : java/io/RandomAccessFile: do not nullify FileChannel when closing the RAF <Sergio Giro> 3 months ago
+d87c0e2 : Date.toString must always use Locale.US. <Narayan Kamath> 3 months ago
+217b3a1 : Refactor security classes for static initialization <Kenny Root> 5 months ago
+84e9471 : Libcore: Refactor TimeZone for compile-time initialization <Andreas Gampe> 3 months ago
+a6c3acd : Libcore: Make Date compile-time initializable <Andreas Gampe> 3 months ago
+1448b64 : Stop sleeping in waitUntilAllThreadsStopped spin instead. <Piotr Jastrzebski> 4 months ago
+bf54d09 : GZIPInputStream: Correctly handle extras in gzip headers. <Narayan Kamath> 4 months ago
+a8c323c : GZIPInputStream: Fix handling of header CRCs. <Narayan Kamath> 4 months ago
+a068234 : More FileDescriptor.isSocket cleanup. <Elliott Hughes> 6 months ago
+f346b22 : Extend ArrayList fastpath to Collections.sort(List<T>, Comparator<T>). <Narayan Kamath> 7 months ago
+c5ddb86 : Fix CharsetEncoder.canEncode for empty CharSequences <Narayan Kamath> 7 months ago
+10f6c79 : Fix CharsetEncoder.canEncode for ignorable code points. <Narayan Kamath> 8 months ago
+f410a79 : Add a zero-copy path for Collections.sort() on ArrayList. <Narayan Kamath> 7 months ago
+6c1a302 : MimeUtils: add ODF presentation (template) <Miklos Vajna> 7 months ago
+42160ae : When connecting to a SOCKS proxy, use the resolved IP <Neil Fuller> 7 months ago
+5fc9cbe : Fix InetSocketAddress.getHostString(): return the name if available <Neil Fuller> 8 months ago
+41dd7dc : Use EMPTY_ITERATOR for EmptyList <Calin Juravle> 7 months ago
+ 
+**** sr:packages_apps_Settings ****
+fcce700 : Fix NPE. <Danny Baumann> 8 months ago
+92d9d1b : Add back increasing ring feature (2/3). <maniac103> 20 hours ago
+ 
+**** github:SlimRoms/packages_services_Telecomm ****
+2d7678a : Add back increasing ring feature (3/3). <Danny Baumann> 8 months ago
+ 

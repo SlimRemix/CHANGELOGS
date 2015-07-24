@@ -1,0 +1,188 @@
+
+**** sr:android_build ****
+c35cb6a : add CSCII art for slimremix <ZION959> 2 hours ago
+b20ed32 : Fix ALL... "Failed to mount /dev/block/.../system at /system: Device or resource is busy" errors which I've been dealing with for a week now!!! <ZION959> 3 hours ago
+e680a0a : Make sure that /system is appropriately mounted before starting installation <nuclearmistake> 8 months ago
+9a893d7 : edify_generator: Mount: Only mount if a partition is not already mounted <nuclearmistake> 8 months ago
+3a15ce6 : Use Qualcomm Snapdragon LLVM Compiler 3.6 (https://developer.qualcomm.com/mobile-development/increase-app-performance/snapdragon-llvm-compiler-android) for Android Lollipop 5.x for devices with Qualcomm CPU <ZION959> 25 hours ago
+ 
+**** github:SlimRemix/android_device_samsung_trlte-common ****
+5e21674 : diabled performance profile <ZION959> 3 hours ago
+a278aee : trlte-common: Update config for performance profiles <ZION959> 22 hours ago
+ 
+**** sr:frameworks_base ****
+f2a299d : Call recording encoder/format choice 3/3 <Kryten2k35> 10 months ago
+01e3333 : ActivityManagerNative: Prevent possible soft-reboot <fusionjack> 4 weeks ago
+907e1e4 : SystemUI: long press lock screen lock icon to sleep (1/2) <Altaf-Mahdi> 25 hours ago
+6ae2f07 : Fix keyguard wallpaper issues <Roman Birg> 25 hours ago
+ec79c24 : Rewrite Keyguard Visualizer <Roman Birg> 25 hours ago
+202fec6 : improve lock screen wallpaper behavior <Roman Birg> 4 months ago
+6c5bc80 : frameworks: add keyguard wallpaper functionality to WallpaperManager <Roman Birg> 26 hours ago
+1c71303 : SystemUI: don't launch visualizer before we are attached <Roman Birg> 2 weeks ago
+a24fc3e : SystemUI: be more event driven in keyguard visualizer <Roman Birg> 3 weeks ago
+9e7af69 : VisualizerTile: Launch music player on long press <Utkarsh Gupta> 3 weeks ago
+5a15be9 : SystemUI: workaround for visualizer flash on track change <Roman Birg> 3 weeks ago
+a3c0062 : SystemUI: dynamically generate visualizer color <Roman Birg> 3 weeks ago
+f96df78 : SystemUI: visualizer state improvements <Roman Birg> 3 weeks ago
+6219514 : SystemUI: improve visualier tile state management <Roman Birg> 3 months ago
+86a5eaf : VisualizerTile: Fix compile error <fusionjack> 3 weeks ago
+c4ac744 : SystemUI: fix visualizer tile initial state <Roman Birg> 3 weeks ago
+e117428 : SystemUI: move keyguard visualizer behind notifications <Roman Birg> 26 hours ago
+5b3cf04 : systemui: don't start-stop visualizer directly after a power save event <Jorge Ruesga> 4 months ago
+2c79dbb : Lockscreen visualizer: Disable out animation <Utkarsh Gupta> 4 months ago
+11c45ed : SystemUI: disable visualizers during power save mode <Roman Birg> 26 hours ago
+ceb5eac : keyguard: don't use eq visualized in LowEndGfx devices <Jorge Ruesga> 4 months ago
+e7ff637 : SystemUI: allow lock screen visualizer to be disabled <Roman Birg> 26 hours ago
+6975251 : SystemUI: add visualizer to lock screen <Roman Birg> 26 hours ago
+c569088 : SlimGlobalMenu: Use slim default color (1/2) <fusionjack> 5 weeks ago
+ 
+**** sr:android_frameworks_rs ****
+d6dc20f : Use Qualcomm Snapdragon LLVM Compiler 3.5 to compile driver runtime <Your Name> 34 hours ago
+2c97870 : Revert: fixed build for Qclang 3.6 <ZION959> 34 hours ago
+ 
+**** github:SlimRoms/hardware_qcom_display ****
+4d795ed : hwc: Handle DOZE_SUSPEND properly <Naseer Ahmed> 9 months ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+849fdf9 : bump ultimate to 1.1 <ZION959> 3 hours ago
+611580d : cmremix ultimate kernel v1.0 <ZION959> 9 days ago
+98f7385 : Add faux'es IntelliThermal <gekkehenkie11> 9 days ago
+f56609b : revert: msm: thermal: Limit the emergency mitigation messages <ZION959> 9 days ago
+d169dc4 : revert: intelli_thermal v3.0: initial coding for Linux 3.10 Qualcomm kernels <ZION959> 9 days ago
+0af4bf3 : revert: sweep2wake: enable s2w from left to right <ZION959> 11 days ago
+5ae2641 : usb: gadget: mass_storage: make 3 LUNs: removable, cdrom and nonremovable <FrozenCow> 9 weeks ago
+62cfcd8 : usb: gadget: mass_storage: added sysfs entry for cdrom to LUNs This patch adds a cdrom sysfs entry for each mass_storage LUN, just like ro sysfs entry. This allows switching between USB and CD-ROM emulation without reinserting the module or recompiling the kernel. <FrozenCow> 9 weeks ago
+44bb199 : build ultimate beta9 <ZION959> 11 days ago
+2f01a81 : add savoca's patch for color control MDSS 8084 to kernel <gekkehenkie11> 9 weeks ago
+2f41d3f : revert: msm: mdss: savoca's KCAL pp control adapted for shamu (via imoseyon) <ZION959> 11 days ago
+cacaa9b : sweep2wake: enable s2w from left to right <ZION959> 11 days ago
+d292bbf : msm: thermal: Limit the emergency mitigation messages <ZION959> 13 days ago
+714b7d6 : msm: thermal: Store temperature of tsens on kernel panic notification <Anji Jonnala> 10 months ago
+b94fca9 : thermal: msm: Remove early init from board file <ZION959> 13 days ago
+48afdee : msm: thermal: Prevent mitigation if not required ( neobuddy89) <ZION959> 13 days ago
+9b8560e : Revert "msm: thermal: Keep core_control_mask coincident with boot_cpu_mask" <Ram Chandrasekar> 9 months ago
+c28a05a : thermal-core: Fix to send correct trip type to get trip temperature <Ram Chandrasekar> 13 days ago
+fcaadbd : revert: cpufreq/thermal: frequency mitigation preventer V2 <ZION959> 13 days ago
+7a1e646 : revert: thermal: fix limited_max_freq being undefined or out of range <ZION959> 13 days ago
+1798bb6 : devfreq: adreno_idler: Use state notifier helper <ZION959> 13 days ago
+a8c5e7b : drivers: state_notifier: Export suspend status <ZION959> 13 days ago
+d51f5b5 : remove: msm: mdss: Adding lcd notifier <ZION959> 13 days ago
+ccba5c3 : add DT2W again <ZION959> 13 days ago
+3a2f747 : revert: add DT2W again <ZION959> 2 weeks ago
+63497b0 : Revert "powersuspend: add power_suspended boolean for global access" <ZION959> 2 weeks ago
+57cd0fa : Hardlimit: moderate boost to frequency defaults <placiano> 4 weeks ago
+2e709e5 : Added Hardlimit for Note4 <placiano> 4 weeks ago
+258c0f0 : Dtsi: realign voltages with userspace values [@Twistesumbrella & @Ktoonsez] <ZION959> 2 weeks ago
+079476b8 : trlte CPU Overclocking, add steps to 3.09GHz & uc 268 mhz <ZION959> 2 weeks ago
+951918d : Voltage Control: generic voltage control for DTS based kernels [@faux123] <ZION959> 4 weeks ago
+5ae23fc : [squash] revert: OC and voltage control (ktoonsez) <ZION959> 2 weeks ago
+9f9c163 : update defconfig <ZION959> 2 weeks ago
+5a831d0 : msm: limiter: The necessary evil <Pranav Vashi> 3 months ago
+8d4a6cb : cpufreq: Fix limiter interfaces <Pranav Vashi> 5 months ago
+1896e6f : revert back to apq8084_sec_defconfig for easy manage <ZION959> 2 weeks ago
+ce6ced9 : msm: Add MSM limiter driver (Pranav Vashi) <ZION959> 2 weeks ago
+3fa81e5 : s2w derp fixed <ZION959> 2 weeks ago
+7cbe890 : dts: test <ZION959> 2 weeks ago
+b3bab42 : arm: add Krait optimized strcmp <arter97> 4 weeks ago
+33c51b9 : arm: add arm optimized memcmp <arter97> 4 weeks ago
+b0c6810 : gpio_keys: force sync on KEY_POWER, KEY_HOME press This should help in situations when the device or the OS is stalled but the kernel is alive and running. <arter97> 3 weeks ago
+a165925 : sweep2wake: make it work <Pafcholini> 4 weeks ago
+1d0ee76 : msm: zen_decision: Don't set default settings in zd_probe <Brandon Berhent> 9 weeks ago
+68a6feb : msm: zen_decision: I'm a dummy - Correctly allow bat_threshold_ignore to be changed in the userspace... <Brandon Berhent> 2 months ago
+f491ffe : msm: zen_decision: Missed f(x) name change <Brandon Berhent> 2 months ago
+1afbf08 : msm: zen_decision: Only call INIT_DELAYED_WORK once - Only call it once, not every time we want to run a thread - Rename some functions for clarity <Brandon Berhent> 2 months ago
+5a149a8 : msm: zen_decision: change queue_delayed_work_on to queue_delayed_work - Not necessary to explicitly queue work on CPU0 anymore <Brandon Berhent> 2 months ago
+e9014bf : msm: zen_decision: Use WQ_UNBOUND and max_active = 1 when allocating WQ - Set WQ_UNBOUND flag on alloc_workqueue which gives the CPU scheduler freedom to move it to other CPUs - Pass 1 as max_active, ensure only 1 task is running at a time from the WQ <Brandon Berhent> 2 months ago
+5feabbe : msm_zen_decision: disable by default - What this does now with screen off/on doesn't really have a point. I thought MPDec was messing with this before. - Leaving for future expansion <Brandon Berhent> 3 months ago
+ 
+**** sr:packages_apps_Dialer ****
+f6cd558 : Call recording encoder/format choice 1/3 <Kryten2k35> 10 months ago
+8c6738c : Use "unknown" in filename if call recording phone number undefined <emancebo> 3 months ago
+7254065 : Call recording service implementation and playback <emancebo> 25 minutes ago
+ 
+**** sr:android_packages_apps_KernelAdiutor ****
+222112d : Bump version to 0.9.6 <fusionjack> 2 days ago
+0e5eed1 : Fix compile error <fusionjack> 3 days ago
+12a75f1 : Fix formatting <777jon> 3 days ago
+fea4da2 : Add support for LG G3 <777jon> 3 days ago
+d612221 : Add transition animation in downloads <Willi Ye> 5 days ago
+040872a : Don't online CPU to read out cpufreq <Willi Ye> 5 days ago
+a555544 : NPE rekt me <Willi Ye> 5 days ago
+ea45792 : version 0.9.6 <Willi Ye> 5 days ago
+7939a66 : Add Entropy settings <Willi Ye> 5 days ago
+c444d3c : Add per core support for cpu boost input freq <Willi Ye> 5 days ago
+afa5429 : version 0.9.5.1.1 beta <Willi Ye> 6 days ago
+d042a49 : Fix background when dark theme is used <Willi Ye> 6 days ago
+64e86f1 : Import Translations from crowdin <Willi Ye> 6 days ago
+0919253 : Init.d: Add edit, delete and new options also new icons <Willi Ye> 6 days ago
+8e4946a : Use HttpURLConnection to read websites <Willi Ye> 7 days ago
+933c15e : Some FC fixes <Willi Ye> 7 days ago
+fee9acf : FrequencyTable: Fix additional card and set permission for init.d <Willi Ye> 7 days ago
+184a5cf : Fix derp on non big.LITTLE devices <Willi Ye> 7 days ago
+3036ae5 : Fix derp <Willi Ye> 7 days ago
+683206e : version 0.9.5.1 beta <Willi Ye> 7 days ago
+25b1ed4 : Import translations from crowdin <Willi Ye> 7 days ago
+8d7374b : Add big.LITTLE support <Willi Ye> 7 days ago
+86bb95c : Some clean up <Willi Ye> 7 days ago
+edc08d6 : Boot/Recovery path of HMP exynos devices <Willi Ye> 7 days ago
+efd8353 : Add some copyright notes in CpuSpy <Willi Ye> 7 days ago
+09a7563 : Fix formating in JSON files <Willi Ye> 7 days ago
+9b9ada4 : Add big.LITTLE support in frequency table <Willi Ye> 7 days ago
+1d6295c : Fix governor tunables on HMP exynos devices <Willi Ye> 7 days ago
+a76df45 : Make sure we read the right cpu temp file <Willi Ye> 7 days ago
+9436279 : fix derp <Akhil Narang> 8 days ago
+64f17e3 : add support for android one and oneplus one <Akhil Narang> 9 days ago
+182552c : Create sprout.json <Akhil Narang> 9 days ago
+d869a02 : Create oneplusone.json <Akhil Narang> 9 days ago
+f7c625d : Create nexus5.json <Yusuf Mostafa> 9 days ago
+ef9f1bf : Add support for nexus 5 <Yusuf Mostafa> 9 days ago
+27196b8 : Import translations from crowdin Add a link to download wiki in README <Willi Ye> 9 days ago
+c62b2ed : version 0.9.5 <Willi Ye> 9 days ago
+d6b1b83 : Add extra_free_kbytes <Willi Ye> 9 days ago
+22aba0e : DT2W for Nexus 9 <Willi Ye> 9 days ago
+21615df : Format celsius properly <Willi Ye> 9 days ago
+f7697ec : Add custom downloads.json support and minor bug fixes <Willi Ye> 10 days ago
+65ca6e5 : Introducing Kernel downloader An option to download third party kernels from developers. This works with JSON files. Kernel developers have to maintain their JSON database and keep them up to date. I will write up a documentation, so people can easily add support for their kernel. <Willi Ye> 12 days ago
+ 
+**** github:SlimRoms/packages_apps_PackageInstaller ****
+f089fac : Merge tag 'android-5.1.0_r1' into HEAD <Ricardo Cerqueira> 4 months ago
+f27e1ce : PackageInstaller: add hook to manage packages via PRE_BOOT_COMPLETED event <emancebo> 7 days ago
+c9db01a : PackageInstaller: Show current & new version <ZION959> 3 hours ago
+ 
+**** sr:packages_apps_Settings ****
+26b08ba : batterybar: checkbox to switch <ZION959> 22 hours ago
+481d051 : usbsettings: checkbox to switch <ZION959> 22 hours ago
+17d236b : SlimGlobalMenu: Use slim default color (2/2) <fusionjack> 5 weeks ago
+5caa8a7 : derp fixed for stylus gesture <ZION959> 24 hours ago
+6d90362 : Settings: allow lock screen visualizer to be disabled <Roman Birg> 4 months ago
+9a79af0 : Settings: long press lock screen lock icon to sleep (2/2) <Altaf-Mahdi> 25 hours ago
+753e495 : Settings: Lets remove Performance tab tile if no overlays are set <Josue Rivera> 35 hours ago
+ 
+**** github:SlimRoms/packages_services_Telephony ****
+634e29c : Call recording encoder/format choice 2/3 <Matt Booth> 35 minutes ago
+ 
+**** sr:platform_manifest ****
+815140e : derp <ZION959> 23 hours ago
+ef2408c : track clang qcom 3.6 <ZION959> 25 hours ago
+78f577c : track SlimRemixUpdater <ZION959> 3 days ago
+fd08e7f : [3/4] Screen Recorder by 0xD34D <ZION959> 3 days ago
+ 
+**** bb:arm-eabi-4.9 ****
+49b0b4f : update 07-04-2015 <ZION959> 21 hours ago
+ 
+**** bb:arm-linux-androideabi-4.9 ****
+d2fb877 : update 07-04-2015 <ZION959> 21 hours ago
+ 
+**** github:SlimRoms/android_system_extras_su ****
+f854815 : su: allow init to automatically restart daemon <Pawit Pornkitprasan> 3 weeks ago
+ 
+**** github:SlimRoms/vendor_slim ****
+29a49df : Add titan <Thecrazyskull> 3 weeks ago
+ 
+**** sr:android_vendor_SlimRemix ****
+096da45 : change to carbon default wallpaper <ZION959> 22 hours ago
+0c6d245 : set zion ultimate kernel as default <ZION959> 24 hours ago
+ 
+**** sr:android_vendor_SaberMod ****
+13d83cf : new update flag for qcom-clang <ZION959> 25 hours ago
+ 

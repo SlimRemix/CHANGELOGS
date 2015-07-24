@@ -1,0 +1,7 @@
+
+**** sr:frameworks_base ****
+681c091 : revert: use 24dip height of statusbar - M style (reverted from commit 6c090f5186e15911127af467b37a224d5b8ab7eb) <ZION959> 79 minutes ago
+ 
+**** sr:packages_apps_Settings ****
+5eb706a : revert: revert SecuritySettings: Lockscreen wallpaper <ZION959> 41 minutes ago
+ 
