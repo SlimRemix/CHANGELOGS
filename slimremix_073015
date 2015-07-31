@@ -1,0 +1,1036 @@
+
+**** sr:frameworks_base ****
+e79f5dd : revert: Dialer lookup <ZION959> 81 minutes ago
+6bfccaf : WifiTile: Fix wifi toggle state in detail view <fusionjack> 2 weeks ago
+36f73ec : Fix mounting of non-FAT formatted SD cards (1/2) <Michael Bestas> 2 weeks ago
+ce17f6b : Fix build break introduced in 83b589ec9c743174ac473622adb3f759e9d598af <Howard M. Harte> 3 weeks ago
+29a0f7a : Update indonesia country code in PhoneNumberUtils <ed.mancebo> 3 months ago
+03b6981 : When calling indonesia using +62 prefix while already in indonesia, replace +62 prefix with 0 (CDMA only) <emancebo> 4 months ago
+c145a92 : msim: Fix saving default sim from select SIM dialog (1/2) <LuK1337> 3 weeks ago
+f60d00d : Miss USB device Interface from UsbManager.getDeviceList(). <wang.zhenyu> 4 weeks ago
+bacaeaa : Wait until the Keyguard is drawn to dismiss the boot dialog. <Matt Garnes> 4 weeks ago
+eba4200 : SystemUI: recalculate clock position on removing empty shade views <Roman Birg> 4 weeks ago
+5416c85 : Optimize GPS property reloading. <Danny Baumann> 6 weeks ago
+246780a : Add sms short codes for Indonesia <ed.mancebo> 3 months ago
+e7320ab : Remove some useless code in KeyguardUpdateMonitor. <Danny Baumann> 7 weeks ago
+9dfcfd9 : Keyguard: only tint the sim card drawable when multisim is enabled <Alexander Martinz> 3 months ago
+c4ea194 : Revert "Revert "Improve layout of MSIM SIM PIN/PUK keyguard views."" <Danny Baumann> 4 months ago
+f597a33 : perf: Boost during animations <Steve Kondik> 7 months ago
+b324864 : Revert QC performance manager, we have our own. <Steve Kondik> 4 months ago
+4b2730e : Revert "SystemUI: Support for shutter animation boost" <fusionjack> 6 weeks ago
+a0ed31a : Revert "Framework/Base: PerfLock for browser drag/fling" <fusionjack> 6 weeks ago
+6b322d7 : Revert "ActivityStack: support for open/close animation boost" <fusionjack> 6 weeks ago
+d74ef38 : Avoid scanning unneeded items in Bundle#hasFileDescriptors() <Taiju Tsuiki> 3 months ago
+d4f7e92 : appops: Reduce lock contention in service <Steve Kondik> 6 weeks ago
+2cb32a3 : wifi: Allow Settings to retrieve country code (2/3) <Andrew Dodd> 2 years, 11 months ago
+cfa1dad : base: wifi priorities <Jorge Ruesga> 7 weeks ago
+cfe42d8 : AudioService: don't launch music player while in call <Roman Birg> 6 weeks ago
+fa871d25c : AlarmManager: Reschedule the date changed event if time changed. <yingying> 7 months ago
+74560cb : systemui: don't use SIM display name if there isn't available info <Jorge Ruesga> 4 months ago
+5ef8677 : Turn off "Mobile data" and "Data roaming" by default. <Alexey Rodionov> 8 weeks ago
+d30c75f : systemui: Fix compilation issues <Steve Kondik> 4 months ago
+c3a54fd : Msim: Use SIM display name <Shaleen Jain> 6 months ago
+d247481 : Dialer lookup <Xiao-Long Chen> 9 months ago
+87bde92 : Phone: Sprint MWI Quirk: Phantom message wait indicator workaround (1/2) <nullghost> 8 months ago
+c870e8a : Add system setting for t9 search input locale <emancebo> 1 year ago
+c5d369f : Add ACTION_NEW_OUTGOING_SMS <Adnan Begovic> 8 months ago
+89b8d31 : Ignore certain overlaid sms-sending packages [1/2] <ZION959> 3 hours ago
+d48361a : protected SMS [1/4] <Marcos Marado> 5 days ago
+ef35faf : Add SMS Middleware layer. <Koushik Dutta> 2 years, 1 month ago
+64dbcb1 : Add a method to query the voicemail number. <Danny Baumann> 8 weeks ago
+fcdf897 : Telephony: Convert subscription ID to int from long <Ethan Chen> 3 months ago
+210c12a : Telecomm: Fix doc-comment-check for linking of hidden API. <Adnan Begovic> 3 months ago
+7c148f1 : fix checkapi <Scott Mertz> 4 months ago
+de0c6ba : telecom: Fix supplementary service notifications patch <Steve Kondik> 4 months ago
+b8a4772 : Expose call creation time to link call recordings with recent call log (1/2) <emancebo> 6 months ago
+2a4c06e : telecomm: Re-add original ParcelableConnection constructor <Steve Kondik> 7 months ago
+20dcaa1 : aidl: Support for duplicate methods having different arguments <Steve Kondik> 4 months ago
+efebf10 : Fix for empty RSSI triangle after boot <xinhe> 11 months ago
+36c1b14 : IMS: add the api to get IMS registration information <Libin.Tang@motorola.com> 8 months ago
+f548c7c : Telephony: Modify RILConstants in accordance with LMR1 RIL.h <Yashdev Singh> 5 months ago
+6a8fe28 : ims: Bring in line with current release <Steve Kondik> 4 months ago
+e0dc0c2 : ims: More backwards-compatibility stuff <Steve Kondik> 4 months ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_chips ****
+bb65ca5 : More Chip: use pendingcount instead of counting again <Stephen Bird> 9 days ago
+ca3c8d1 : Apply anti-aliasing when drawing chips. <Matt Garnes> 5 weeks ago
+2c0ca18 : Chips: Add a view attribute for maximum number of chips parsed <Raj Yengisetty> 4 months ago
+d9ebf23 : Chips: Add a view attribute for maximum number of chips parsed <Raj Yengisetty> 4 months ago
+9f53ad1 : Chips: Add a view attribute for maximum number of chips parsed <Raj Yengisetty> 4 months ago
+16ccce7 : chips: fix NPE errors <Jorge Ruesga> 5 months ago
+f532ce8 : chips: suggested contacts <Jorge Ruesga> 5 months ago
+28283b3 : Chips: Fix some crashes and missing default icon scenario <linus_lee> 6 months ago
+ca3324e : Chips: Add more logic to dismiss selection dialog <linus_lee> 6 months ago
+d1eab42 : Chips: Add more logic to dismiss selection dialog <linus_lee> 6 months ago
+4af0de5 : Chips: Fix some crashes and missing default icon scenario <linus_lee> 6 months ago
+9677961 : Chips: Add more logic to dismiss selection dialog <linus_lee> 6 months ago
+49d58be : Chips: Fix some crashes and missing default icon scenario <linus_lee> 6 months ago
+b4d4751 : Chips: Google Pinyin input method <Uday Kiran jandhyala> 9 months ago
+d4ff2c2 : Always trim destination. <Danny Baumann> 8 months ago
+2c3ea85 : Chips : Fix recipient list picked contact <Danesh M> 7 months ago
+ae51509 : Chips : Fix recipient list picked contact <Danesh M> 7 months ago
+16191fa : Mms: Fix FC when tapping recipient chip in mms. <kaiyiz> 7 months ago
+8654f01 : Always trim destination. <Danny Baumann> 8 months ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_datetimepicker ****
+5a56441 : Datetimepicker : Fix 'Done' text clipping in DatePickerDialog <Rohit Yengisetty> 6 months ago
+37381bd : [1/2] DateTimePicker: Add ability to set Month Title layout offset. <Rohit Yengisetty> 7 months ago
+16c5cf2 : Datetimepicker : Account for RTL locales when formulating Day labels <Rohit Yengisetty> 7 months ago
+553e5e6 : DateTimePicker : Add facilities to customize MonthView's appearance. <Rohit Yengisetty> 8 months ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_mms ****
+d666022 : Fix warnings <Steve Kondik> 8 months ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_net_ims ****
+a9a3735 : Add interface to determine whether the IMS service is available <Etan Cohen> 5 months ago
+a2bec20 : ims: Reflection is only needed for get/setVideoQuality now <dhacker29> 4 months ago
+ca6cd18 : ims: Bring in line with current release <Steve Kondik> 4 months ago
+1663924 : ims: Use reflection to support different IImsConfigs <Steve Kondik> 4 months ago
+bc68b84 : Don't blindly return true for getVolteProvisioned <dhacker29> 4 months ago
+c849026 : ims: Add backwards compatibility for registrationDisconnected <Steve Kondik> 4 months ago
+ 
+**** github:SlimRemix/frameworks_opt_net_wifi ****
+febed49 : Fix memory leak in WifiNative <Henrik Baard> 4 weeks ago
+5b2dd7d : wifi: Allow Settings to retrieve country code (1/3) <Jorge Ruesga> 8 weeks ago
+c6b3659 : wifi: wifi priorities <Jorge Ruesga> 7 weeks ago
+10c17ae : Silence verbose Wifi logging <jumoog> 2 months ago
+1f85805 : Revert "aggressively blacklist WifiConfiguration for the purpose of switching network" <Michael Gernoth> 3 months ago
+f798334 : Wifi: Do not enable saved networks in ConnectedState <Nalla Kartheek> 5 months ago
+2caaed6 : Wifi: Filter the scan results based on the configured band <Nalla Kartheek> 5 months ago
+1e45f2f : wifi: Handle the NULL check for the STATUS command <c_rrajiv> 4 months ago
+3fbc07d : Wifi: Exit the monitor thread when killSupplicant is issued. <Hu Wang> 4 months ago
+071d79b : wifi: Kill logspam <Steve Kondik> 4 months ago
+6e6e35f : wifi: Handle error cases when EAP-SIM info is NULL/Unsupported <Sravanthi Palakonda> 5 months ago
+e2614ba : export API to disable autojoin scan initial implementation <Pierre Vandwalle> 5 months ago
+5327698 : WifiStateMachine: Tone down logging <Michael Bestas> 5 months ago
+84be361 : Wifi: Add IBSS supported method <Bruno Randolf> 7 months ago
+bf1c31f : Fixed logging format <Marcos Marado> 8 months ago
+c608a6f : WifiController: fix high perf lock sometimes not respected <Pawit Pornkitprasan> 1 year, 7 months ago
+2748784 : wifi: Set the mode at native layer <Ricardo Cerqueira> 1 year, 9 months ago
+0e7d62b : wifi: Fix halutil build <Steve Kondik> 9 months ago
+6cf462d : send network state changed broadcast when BSSID change <Pierre Vandwalle> 6 months ago
+ 
+**** github:SlimRemix/frameworks_opt_telephony ****
+37c0385 : telephony: read IMSI from CSIM if available in CDMALTEPhone <emancebo> 3 months ago
+8fcb97d : Telephony: Apply SPN override for cdma SIM (RUIM) <Deepak Kundra> 7 days ago
+d6668ed : SIMRecords: Treat empty SPN fields as null and proceed with the fallbacks <Ricardo Cerqueira> 2 weeks ago
+4cc27a5 : telephony: use IMEI as device ID when LteOnCdma mode is enabled <emancebo> 3 months ago
+ea86493 : msim: fix parse error when roaming with slot 2 only <emancebo> 4 weeks ago
+53aa218 : Send out a new SPN_STRINGS_UPDATED broadcast if the sub ID changes. <Danny Baumann> 6 weeks ago
+40b8610 : Revert "SystemUI can not receive intent" <Danny Baumann> 6 weeks ago
+84fa6d2 : Telephony : Ensure private numbers are blocked if block unknown numbers is enabled <Danesh M> 6 weeks ago
+c709ee2 : SystemUI can not receive intent <jie.liu> 7 weeks ago
+8845aae : Telephony: DDS switch oemhook message sent twice <Beena More> 10 weeks ago
+0992fd0 : Fix duplicate events received in DcTracker. <Muhammed Siju> 3 months ago
+6922749 : Check for DDS validity <Sukanya Rajkhowa> 4 months ago
+e3318fa : Reject network request when DDS is invalid <Sukanya Rajkhowa> 3 months ago
+8052bef : Telephony: On demand DDS switch uses preferred sub <Susheel nyamala> 4 months ago
+cc2b578 : Ignore DdsRequest for non DDS network factory <Sukanya Rajkhowa> 4 months ago
+7b039cf : Fix DDS switch issue from GSM to CDMA. <Muhammed Siju> 4 months ago
+37a36c4 : Fix issue that DDS can not get back to primary sub and network mode shows incorrect in settings. <Hu Chunming> 6 months ago
+2043011 : Fix the build <Lokesh Chamane> 7 weeks ago
+efddb3b : msim: order getSubInfo list by slot ID <emancebo> 9 weeks ago
+29048d5 : Revert "SubscriptionController: getPhoneId() should never return negative values" <Ricardo Cerqueira> 7 weeks ago
+b7c44b3 : MSIM: Change default fallback subId value <Sandeep Gutta> 5 months ago
+303c9cd : Fix ACTION_DEFAULT_SUBSCRIPTION_CHANGED is not sent after power on <Mengjun Leng> 4 months ago
+f1d2b82 : Telephony: Actually abort flex mapping if subs are null. <Adnan> 4 months ago
+61cf25a : Revert "Set default SMS outgoing check interval to 15 minutes" <Michael Bestas> 9 weeks ago
+18ba6a1 : RIL: Fix datacall parcel reading <Ricardo Cerqueira> 9 weeks ago
+811c351 : Revert "SMSUsageMonitor: read limit values from Settings.Secure" <Michael Bestas> 9 weeks ago
+3f96311 : telephony: extend the user notification toggle for restricted mobile access <Varun Chitre> 2 months ago
+5c05255 : Make mImsPhone static. DO NOT MERGE ANYWHERE <Pavel Zhamaitsiak> 4 months ago
+2d1f7da : Don't needlessly disable data. <Danny Baumann> 3 months ago
+fe85370 : Don't clear invalid defaults before SIM info of all SIMs is populated. <Danny Baumann> 3 months ago
+2d7101c : telephony: Release pending network requests when releasing a request <Christopher R. Palmer> 3 months ago
+e4a56f5 : RIL : allow RILReceiver to be overridden <Varun Chitre> 3 months ago
+2b50344 : Remove useless debug spam. <Danny Baumann> 3 months ago
+395eea5 : Change SubId from long to int type. <Sridhar Dubbaka> 4 months ago
+5f3f5f4 : MMS: Update apnProfileID for MMS only apn. <Patrick Lower> 3 months ago
+a65109f : Revert "Telephony: add CDMA SPN display rule" <Howard Harte> 3 months ago
+44e3b07 : RIL: Make some methods protected <JustArchi> 3 months ago
+b9bf02b : Telephony: add CDMA SPN display rule <Erica Chang> 4 months ago
+d61a188 : CdmaLteServiceStateTracker: allow forcing reading eri from xml <Dan Pasanen> 7 months ago
+ed68de0 : Don't use invalid phone IDs as index. <Danny Baumann> 3 months ago
+2e374b8 : SubscriptionController: getPhoneId() should never return negative values <Ricardo Cerqueira> 3 months ago
+1d86be6 : IMS phone instantiation: add polling on base phone creation <Etan Cohen> 5 months ago
+9c4dcf9 : Re-apply commit d340bf588e89ffe12f314733a53bfe977a3e752e. <Danny Baumann> 3 months ago
+76e8804 : Revert "Telephony: DcTracker: Fix CDMA APN Data issues." <Adnan Begovic> 4 months ago
+1d7b3cf : Start populating sub_id again. <Danny Baumann> 4 months ago
+0f0c72e : telephony: Convert long subId to int in SMS intercept code <Steve Kondik> 4 months ago
+62f8fa4 : MSIM: Enable data+mms. <Sandeep Gutta> 5 months ago
+932009d : telephony: Bring IMS in line with current relese <Steve Kondik> 4 months ago
+95ca098 : Lightweight fix for incorrect locale changes - DO NOT MERGE <Neil Fuller> 5 months ago
+f6d3d2b : Notify subscriptionInfoChanged in setPlmnSpn even without sim. <Sanket Padawe> 5 months ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+fd8aaf2 : trlte kernel: fix stuck CPU frequencies <gekkehenkie11> 12 days ago
+cf17e0f : trlte: CPU overclocking to 3.03ghz <ZION959> 11 days ago
+4d82ba1 : revert: trlte: CPU overclocking 2.9ghz <ZION959> 11 days ago
+6c6e2c0 : trlte: CPU overclocking 2.9ghz <ZION959> 3 weeks ago
+5da7c86 : revert : trlte: CPU overclocking 2.9ghz <ZION959> 3 weeks ago
+982eba9 : Add faux'es IntelliThermal <gekkehenkie11> 3 weeks ago
+54aaf52 : revert: msm: thermal: Limit the emergency mitigation messages <ZION959> 3 weeks ago
+102634d : revert: sweep2wake: enable s2w from left to right <ZION959> 4 weeks ago
+100ebe3 : add savoca's patch for color control MDSS 8084 to kernel <gekkehenkie11> 3 months ago
+1c62345 : revert: msm: mdss: savoca's KCAL pp control adapted for shamu (via imoseyon) <ZION959> 4 weeks ago
+abdeb11 : sweep2wake: enable s2w from left to right <ZION959> 4 weeks ago
+7966a78 : trlte: CPU overclocking 2.9ghz <ZION959> 4 weeks ago
+5383e8e : msm: limiter: Export tunables to header file <Pranav Vashi> 4 months ago
+e808c0f : msm: thermal: Limit the emergency mitigation messages <ZION959> 4 weeks ago
+a325f49 : msm: thermal: Store temperature of tsens on kernel panic notification <Anji Jonnala> 10 months ago
+2d53365 : thermal: msm: Remove early init from board file <ZION959> 4 weeks ago
+5b052f3 : msm: thermal: Prevent mitigation if not required ( neobuddy89) <ZION959> 4 weeks ago
+2baa774 : Revert "msm: thermal: Keep core_control_mask coincident with boot_cpu_mask" <Ram Chandrasekar> 9 months ago
+d4b186d : thermal-core: Fix to send correct trip type to get trip temperature <Ram Chandrasekar> 4 weeks ago
+bae0a39 : revert: cpufreq/thermal: frequency mitigation preventer V2 <ZION959> 4 weeks ago
+0032b2e : revert: thermal: fix limited_max_freq being undefined or out of range <ZION959> 4 weeks ago
+6ffa560 : devfreq: adreno_idler: Use state notifier helper <ZION959> 4 weeks ago
+8efb0f1 : drivers: state_notifier: Export suspend status <ZION959> 4 weeks ago
+fafc8da : remove: msm: mdss: Adding lcd notifier <ZION959> 4 weeks ago
+2cf237a : add DT2W again <ZION959> 4 weeks ago
+ae70e31 : Voltage Control: generic voltage control for DTS based kernels [@faux123] <ZION959> 7 weeks ago
+915027b : revert: trlte: user voltage control (flar2) <ZION959> 4 weeks ago
+78b20eb : Hardlimit: moderate boost to frequency defaults (placiano) <ZION959> 4 weeks ago
+bd6e45d : Revert "powersuspend: add power_suspended boolean for global access" <ZION959> 4 weeks ago
+58455f8 : Added Hardlimit for Note4 ( placiano ) <ZION959> 4 weeks ago
+af27425 : Revert : cpufreq: CPU max. hardlimit v2.1 (Yank555.lu) <ZION959> 4 weeks ago
+dcff4f0 : revert: add DT2W again <ZION959> 4 weeks ago
+8955e57 : trlte: user voltage control (flar2) <ZION959> 4 weeks ago
+5623d09 : msm: limiter: The necessary evil <Pranav Vashi> 4 months ago
+fffdf9e : cpufreq: Fix limiter interfaces <Pranav Vashi> 5 months ago
+5d8b872 : drivers: Add state notifier driver (neobuddy89) <ZION959> 7 weeks ago
+9d48e5d : msm: mdss: Adding lcd notifier <ZION959> 3 months ago
+fbc7ab0 : add DT2W again <ZION959> 4 weeks ago
+bbabd0d : s2w derp fixed <ZION959> 4 weeks ago
+5ee5c2c : arm: add Krait optimized strcmp <arter97> 6 weeks ago
+9aff829 : arm: add arm optimized memcmp <arter97> 6 weeks ago
+d90dc77 : arm: lib: Fix makefile bug <Hong-Mei Li> 1 year, 3 months ago
+89dff56 : gpio_keys: force sync on KEY_POWER, KEY_HOME press This should help in situations when the device or the OS is stalled but the kernel is alive and running. <arter97> 5 weeks ago
+1ea9cc2 : sweep2wake: make it work <Pafcholini> 6 weeks ago
+d2301d4 : add Sweep2wake <Pavel> 7 months ago
+4f5d1bd : msm: zen_decision: Don't set default settings in zd_probe <Brandon Berhent> 3 months ago
+306f442 : msm: zen_decision: I'm a dummy - Correctly allow bat_threshold_ignore to be changed in the userspace... <Brandon Berhent> 3 months ago
+4a061e9 : msm: zen_decision: Missed f(x) name change <Brandon Berhent> 3 months ago
+9688277 : msm: zen_decision: Only call INIT_DELAYED_WORK once - Only call it once, not every time we want to run a thread - Rename some functions for clarity <Brandon Berhent> 3 months ago
+20a8cff : msm: zen_decision: change queue_delayed_work_on to queue_delayed_work - Not necessary to explicitly queue work on CPU0 anymore <Brandon Berhent> 3 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_Calendar ****
+5158d76 : Automatic translation import <Michael Bestas> 4 days ago
+ab02bbd : prepareForSave: Dont set time in allday events <Stephen Bird> 2 weeks ago
+a2a65e2 : Automatic translation import <Michael Bestas> 3 weeks ago
+25f247c : Automatic translation import <Michael Bestas> 4 weeks ago
+0ddae60 : Automatic translation import <Michael Bestas> 5 weeks ago
+3b41700 : Automatic translation import <Michael Bestas> 7 weeks ago
+8d868e0 : Calendar: when sharing calendar events use File.createTempFile <Raj Yengisetty> 7 weeks ago
+5888bc2 : Automatic translation import <Michael Bestas> 7 weeks ago
+90e7fbe : Automatic translation import <Michael Bestas> 9 weeks ago
+241a809 : Calendar: fix recurrence picker switch <dankoman> 7 months ago
+65bbc72 : Automatic translation import <Michael Bestas> 10 weeks ago
+80a93a5 : Check date string size before trimming it <Stephen Bird> 3 months ago
+b25c6c5 : Fix for days that are expected to be 3chars end up being longer. <Stephen Bird> 3 months ago
+5b8aac9 : Automatic translation import <Michael Bestas> 3 months ago
+44d9d0c : Calendar:"ADD ACCOUNT" has no function when long tapping date to creat new event in month view. <michael.yang> 3 months ago
+113041a : Automatic translation import <Michael Bestas> 3 months ago
+b653503 : Automatic translation import <Michael Bestas> 3 months ago
+18fd6fc : Automatic translation import <Michael Bestas> 3 months ago
+c1a1be6 : Calendar: support ACTION_VIEW instead of ACTION_SEND <Raj Yengisetty> 5 months ago
+ff25d81 : Calendar: add feature to select/deselect all events in delete view <Raj Yengisetty> 5 months ago
+ff31c0c : Automatic translation import <Michael Bestas> 4 months ago
+ac3e7b8 : Automatic translation import <Michael Bestas> 4 months ago
+9217f73 : Automatic translation import <Michael Bestas> 5 months ago
+ebccbe9 : Calendar: do not auto save events when importing <Raj Yengisetty> 4 months ago
+329d8a6 : Calendar: add RTL support <Raj Yengisetty> 4 months ago
+0b00a7e : Automatic translation import <Michael Bestas> 5 months ago
+82f0c0d : Automatic translation import <Michael Bestas> 5 months ago
+797c203 : Automatic translation import <Michael Bestas> 5 months ago
+2128f1f : Calendar: Set untranslatable <Tamás Tóth> 6 months ago
+dd98f51 : Remove mistakenly added DE strings <Michael Bestas> 6 months ago
+43774bf : Automatic translation import <Michael Bestas> 6 months ago
+dee6049 : New Material icon <Michael Bestas> 6 months ago
+e1b2003 : Calendar: Add some simplified chinese translations <linus_lee> 6 months ago
+651f0ce : Calendar - Fix the title in Year View on tablets. <Rohit Yengisetty> 7 months ago
+629086e : Calendar - Bug fixes in DeleteEvents activity <Rohit Yengisetty> 6 months ago
+836ee44 : Calendar : Respond to calendar events share intent <Rohit Yengisetty> 6 months ago
+b044a3a : Calendar: toggle on delete events overlay to delete multiple events <Raj Yengisetty> 7 months ago
+a517fd2 : Calendar - Added provisions to show/hide Floating Action Button. <Rohit Yengisetty> 7 months ago
+7cb3bea : Fix a string for crowdin <Michael Bestas> 7 months ago
+a441d88 : Calendar : Temporarily add localizations for YearView in Chinese languages. <Rohit Yengisetty> 7 months ago
+d2d7603 : Calendar: move CM strings to cm_strings <Vladislav Koldobskiy> 7 months ago
+0916375 : Add action_import menu item to all all_in_one_title_bar menus <Raj Yengisetty> 7 months ago
+ce5b4a4 : Calendar : Add ability to import/export from sdcard <Danesh M> 8 months ago
+19c77e7 : Calendar : Add lollipop ux <Danesh M> 8 months ago
+6f6b887 : Support sharing calendar events as .vcs files to MMS. <Matt Garnes> 8 months ago
+7b8ac44 : Calendar : Adding Year View <Rohit Yengisetty> 8 months ago
+dd9e1fe : Calendar - Add the ability to share calendar events through an ics file. <Rohit Yengisetty> 8 months ago
+88cda7d : Calendar: Display the lunar and festival if the language is Chinese. <yingying> 1 year ago
+c451253 : Revert "Calendar: Support display the lunar info." <Matt Garnes> 9 months ago
+47851ab : Revert "Calendar: To display the complex lunar info." <Matt Garnes> 9 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+3f54d7c : Automatic translation import <Michael Bestas> 4 days ago
+c1d075e : Remove per-SIM CB configuration. <Danny Baumann> 9 weeks ago
+e594881 : Automatic translation import <Michael Bestas> 7 weeks ago
+0fe1787 : Automatic translation import <Michael Bestas> 7 weeks ago
+975a26c : Automatic translation import <Michael Bestas> 10 weeks ago
+03b30b5 : Automatic translation import <Michael Bestas> 3 months ago
+fac61c4 : Expose hardcoded styles from manifest for theming <Nicholas Chum> 3 months ago
+0bcdeed : Automatic translation import <Michael Bestas> 3 months ago
+b5dd1e5 : CellBroadcastReceiver : Show alerts in FIFO order <Danesh M> 4 months ago
+ca08c5c : Automatic translation import <Michael Bestas> 4 months ago
+298f2a3 : Automatic translation import <Michael Bestas> 5 months ago
+0485a5d : cbr: Fix usage of multisim APIs <Steve Kondik> 4 months ago
+bb88ad8 : Automatic translation import <Michael Bestas> 5 months ago
+8d2dd7b : Automatic translation import <Michael Bestas> 5 months ago
+d9f89d2 : Automatic translation import <Michael Bestas> 5 months ago
+d99988f : Automatic translation import <Michael Bestas> 6 months ago
+cd69819 : CellBroadcastReceiver: Add missing up navigation <Michael Bestas> 1 year, 1 month ago
+f6c4a86 : Update SIM labels in cell broadcast settings tab view <emancebo> 7 months ago
+03b9e37 : The Cellboradcast remind sound is too soft <xinhe> 9 months ago
+158c20c : Telephony: Fix compilation for subId long to int conversion. <Yashdev Singh> 5 months ago
+ad8bb47 : CMAS opt-out setting does not work when switching from Secondary user to Device owner <xinhe> 9 months ago
+5a88077 : Update enabe/disableCellBroadcast with RAN argument <xinhe> 9 months ago
+f7e226d : Make Severe alerts dependent on Extreme alerts <Sreevidya> 9 months ago
+897ef05 : Setting: "Show channel 60 broadcast" show English in Chinese mode <kaiyiz> 1 year, 5 months ago
+7be8b17 : Add changes to use Phonekey to get PhoneId in CellbroadcastReceiver. <Sridhar Dubbaka> 9 months ago
+9be1edd : Add changes to CellBroadcastReceiver for new SmsManager design <Sridhar Dubbaka> 10 months ago
+05f240e : MSIM: Add multisim support for CellBroadcast Receiver App . <Sridhar Dubbaka> 12 months ago
+ed2df10 : CellBroadcastReceiver:Update received CB message with correct SubId <Sridhar Dubbaka> 10 months ago
+bc58dfb : CellBroadcastReceiver: Reginal requirement for RTL <kaiyiz> 11 months ago
+cf1bc90 : Fix for CellBroadcast app crash on changing font size. <Sridhar Dubbaka> 1 year ago
+2c4e33c : CB: Add system property to enable/disable dup detection <Rika Brooks> 2 years, 10 months ago
+b294639 : Revert "Register both SMS-B and CB channels to support LTE" <xin He> 9 months ago
+65bb574 : Use correct theme for the cell broadcast list. <Dan Sandler> 10 months ago
+ac0744c : Fix for CMAS is not turned on <xinhe> 10 months ago
+ 
+**** github:SlimRemix/packages_apps_Contacts ****
+a7fb9a1 : Automatic translation import <Michael Bestas> 3 weeks ago
+9b1897a : Automatic translation import <Michael Bestas> 4 weeks ago
+9423042 : Automatic translation import <Michael Bestas> 5 weeks ago
+a2a4562 : Contacts: Fixed "%s" appearing in contact options in some languages <Elike24> 4 weeks ago
+4720748 : Automatic translation import <Michael Bestas> 7 weeks ago
+66fe6e0 : Contacts : Change 'up' actionbar indicator to a check mark in add/edit contacts <Rohit Yengisetty> 6 weeks ago
+8bdc353 : Remove arbitrary set visibility call <Martin Brabham> 6 weeks ago
+c41654f : Keep a local instance of mContactData when copying to SIM card. <Matt Garnes> 7 weeks ago
+ffae6fc : Layers 2.1 (backwards compatible) <camcory> 4 months ago
+a32d3fb : Automatic translation import <Michael Bestas> 7 weeks ago
+2751aca : Contacts:remove memory status from overflow in search mode <naman14> 2 months ago
+ddbe222 : Automatic translation import <Michael Bestas> 9 weeks ago
+f34ba1c : Automatic translation import <Michael Bestas> 10 weeks ago
+a91eaf7 : fix crash in QuickContact on sending contact via sms <naman14> 3 months ago
+a8f6bff : Contacts : Remove silent option from ringtone <Danesh M> 3 months ago
+4c91781 : Automatic translation import <Michael Bestas> 3 months ago
+6e26e34 : Summarize local phone storage in MemoryStatusActivity. <Matt Garnes> 4 months ago
+9032693 : Automatic translation import <Michael Bestas> 3 months ago
+54348d9 : Automatic translation import <Michael Bestas> 3 months ago
+daa7f84 : Automatic translation import <Michael Bestas> 3 months ago
+2f2ce95 : Automatic translation import <Michael Bestas> 4 months ago
+cfab287 : Automatic translation import <Michael Bestas> 4 months ago
+07ef4b7 : QuickContacts: Fix null pointer exception when clicking a contact <Patrick Lower> 4 months ago
+71dba27 : Don't show default and favorites groups in group overview. <Danny Baumann> 4 months ago
+7fff99a : Display group memberships in a meaningful way. <Danny Baumann> 4 months ago
+0d4dea3 : Remove SIM icon tinting. <Danny Baumann> 4 months ago
+6f680e5 : Fix merge relicts. <Danny Baumann> 4 months ago
+de1dd3e : Re-merge upstream features <blong> 11 months ago
+9f3cdb6 : Automatic translation import <Michael Bestas> 4 months ago
+39ba7d4 : Contacts: Add checkableimageview to sim import picker <Raj Yengisetty> 4 months ago
+e4c716c : Automatic translation import <Michael Bestas> 5 months ago
+d4c3923 : Revert "Fix the event name" <Ethan Chen> 5 months ago
+5846ba5 : Fix the event name <Marcos Marado> 5 months ago
+5014ddb : Expose the editor account header background & contact list text colors. <93Akkord> 5 months ago
+82683f6 : Automatic translation import <Michael Bestas> 5 months ago
+7f7daa4 : Automatic translation import <Michael Bestas> 5 months ago
+e7fbff9 : Automatic translation import <Michael Bestas> 5 months ago
+a5f7a3a : Automatic translation import <Michael Bestas> 6 months ago
+61537e8 : Contacts: Update dialog with the correct selected count <Raj Yengisetty> 6 months ago
+59d8b86 : Contacts: Improve contact share popup <Michael Bestas> 6 months ago
+09c0339 : Contacts: Impove CAF strings <Michael Bestas> 7 months ago
+a96d49f : Contacts: fix exporting SIM contacts the first time <Matt Garnes> 6 months ago
+4fb0e13 : Contacts: move CAF strings to cm_strings <Vladislav Koldobskiy> 7 months ago
+725c3c7 : Clean up multi picker activity. <Danny Baumann> 11 months ago
+ce7e80e : Import feature - auto prompt for importing SIM contacts <Raj Yengisetty> 8 months ago
+be847c7 : contacts: Add support for import contacts to local phone storage <Jorge Ruesga> 1 year, 6 months ago
+7cea127 : Fix group detail activity action bar theme. <Danny Baumann> 8 months ago
+c88230b : Fix up group fragment padding. <Danny Baumann> 9 months ago
+f16bdcd : Disable CMCC feature by default. <Danny Baumann> 9 months ago
+b093b3b : ContactsCommon: Add direct call from contact list feature (2/2) <Adnan> 9 months ago
+ 
+**** github:SlimRemix/packages_apps_ContactsCommon ****
+6a0deed : string validation: check if the string is empty <Marcos Marado> 7 days ago
+f99115e : Add generic hooks for contact info lookup based on phone number <Rohit Yengisetty> 6 weeks ago
+c54f657 : Automatic translation import <Michael Bestas> 3 weeks ago
+dcac43e : Automatic translation import <Michael Bestas> 4 weeks ago
+14d8fec : Automatic translation import <Michael Bestas> 5 weeks ago
+6390c10 : ContactPhotoManager - Add ability to fetch contact bitmap based on photo id <Rohit Yengisetty> 3 weeks ago
+19ddf3f : CheckableFlipDrawable : Add getter for front drawable <Rohit Yengisetty> 2 weeks ago
+5a227bd : Automatic translation import <Michael Bestas> 7 weeks ago
+7556af3 : Layers 2.1 (backwards compatible) <camcory> 4 months ago
+0767c1f : Revert "Store all local contacts in only one account." <fusionjack> 7 weeks ago
+8adcbe9 : Automatic translation import <Michael Bestas> 7 weeks ago
+16790cc : Automatic translation import <Michael Bestas> 10 weeks ago
+3285787 : Automatic translation import <Michael Bestas> 3 months ago
+fc1a70a : Store all local contacts in only one account. <Matt Garnes> 4 months ago
+f5bf44d : contactscommon: ensure preferences are loaded before reload data <Jorge Ruesga> 4 months ago
+44759f5 : ContactsCommon : Remove pending request for get contact bitmaps <Danesh M> 3 months ago
+a942c97 : Automatic translation import <Michael Bestas> 3 months ago
+ec58d21 : Automatic translation import <Michael Bestas> 3 months ago
+5df27c0 : ContactsCommon : Only use default requests if one is not provided <Danesh M> 3 months ago
+f233757 : ContactsCommon : Modify ContactPhotoManager to fetch contacts' bitmaps <Rohit Yengisetty> 4 months ago
+5dd21a4 : [3/3] ContactsCommon: Smart Dialer <linuxxxxx> 4 months ago
+0e55686 : Automatic translation import <Michael Bestas> 3 months ago
+38c39f9 : ContactsCommon: fix NPE on importing contact with multiple accounts <Pawit Pornkitprasan> 4 months ago
+579a7f0 : Expose colors from array <Bryan Owens> 4 months ago
+3dcbbb1 : Fix dialer name ordering options not being respected on first load. <Danny Baumann> 4 months ago
+f0ac950 : contacts: Fix import/export <Steve Kondik> 4 months ago
+cc75f02 : Propagate group default and favorites state into GroupMembershipDataItem. <Danny Baumann> 4 months ago
+40f86ac : Populate group title. <Danny Baumann> 4 months ago
+516b8b5 : contacts-common: Update for multisim APIs <Steve Kondik> 4 months ago
+54dc3c5 : Automatic translation import <Michael Bestas> 4 months ago
+1e45c66 : Automatic translation import <Michael Bestas> 5 months ago
+c8fd37f : ContactsCommon: fix FC when deleting SIM contacts after SIM is removed <Raj Yengisetty> 5 months ago
+204848f : Only reload contacts if relevant SharedPreferences change. <Matt Garnes> 5 months ago
+0c4b0db : Exposed hard coded text colors for starred/group tiles. <93Akkord> 5 months ago
+ee7383d : Automatic translation import <Michael Bestas> 5 months ago
+5e0c3d8 : ContactsCommon: Add PHOTO_ID to contact tile loader projection <emancebo> 5 months ago
+0acb09c : Automatic translation import <Michael Bestas> 5 months ago
+6b4a839 : Automatic translation import <Michael Bestas> 5 months ago
+caf749c : Automatic translation import <Michael Bestas> 6 months ago
+e60c21c : ContactsCommon: Improve CAF strings <Michael Bestas> 6 months ago
+7aa1e20 : Quick Call: do not show quick call next to profile contact <Raj Yengisetty> 6 months ago
+3ee531c : Add overloads to scaleIn() and scaleOut() to receive an AnimationCallback <George Hilliard> 6 months ago
+c43df94 : ContactsCommon: fix exporting SIM contacts the first time <Roman Birg> 9 months ago
+4c81b10 : ContactsCommon: move CAF strings to cm_strings <Vladislav Koldobskiy> 7 months ago
+fa301e8 : Fix checkmarks being displayed stretched for contact pictures. <Danny Baumann> 8 months ago
+55f7698 : Add a checkable QuickContactBadge. <Danny Baumann> 8 months ago
+ce44311 : Import feature - auto prompt for importing SIM contacts <Raj Yengisetty> 8 months ago
+5e3b9a5 : contacts: don't assume the device has an sdcard <Jorge Ruesga> 11 months ago
+412c5eb : contacts: return the first sdcard entry found <Jorge Ruesga> 11 months ago
+b4fa926 : contacts-common: Add support for import contacts to local phone storage <Jorge Ruesga> 1 year, 6 months ago
+ 
+**** github:SlimRemix/packages_apps_Dialer ****
+c463515 : Automatic translation import <Michael Bestas> 12 days ago
+e299226 : Automatic translation import <Michael Bestas> 3 weeks ago
+ec72527 : Automatic translation import <Michael Bestas> 4 weeks ago
+2d96dcb : Automatic translation import <Michael Bestas> 5 weeks ago
+646cd57 : Dialer: AIRPLANE_MODE_ON moved to Global <Lars Greiss> 8 months ago
+c4a646b : Dialer: Enable Call Recording for Romania <NBruderman> 5 weeks ago
+a750b34 : Fix Dialer FC on guest user with phone calls allowed <LuK1337> 4 weeks ago
+6e9bfed : KIO - Call Log Phone Tint 1 <kantjer> 5 weeks ago
+08bfcc6 : Automatic translation import <Michael Bestas> 7 weeks ago
+08afd86 : dialer: better smart call string <jrizzoli> 6 weeks ago
+8a51af4 : Ensure the smart dial name matcher is initialized in onStart(). <Danny Baumann> 8 weeks ago
+53bcee3 : Call recording encoder/format choice 1/3 <Kryten2k35> 11 months ago
+3b8b51f : Checkboxes to switches <RobbieL811> 9 weeks ago
+d5b7b5c : Layers 2.1 (backwards compatible) <camcory> 4 months ago
+a3a0c77 : Fix up call log search UX. <Danny Baumann> 9 weeks ago
+b9bbfc4 : Improve performance of call log. <Danny Baumann> 8 weeks ago
+f66a0fb : Automatic translation import <Michael Bestas> 7 weeks ago
+02a8e10 : Improve SmartDialer <BadDaemon> 9 weeks ago
+2d42fc2 : Dialer: Enable Call Recording for France <NBruderman> 8 weeks ago
+d7e581a : Enable Call Recording for the United Kingdom <Kryten2k35> 10 weeks ago
+b675a6a : Remove some dead code. <Danny Baumann> 8 weeks ago
+22335cd : [2/2] Dialer: SmartMute <linuxxxxx> 3 months ago
+c9b91d0 : Dialer: Ensure device ids not null <Danesh M> 8 weeks ago
+452508c : Automatic translation import <Michael Bestas> 9 weeks ago
+34d3535 : Update blacklist strings <Michael Bestas> 9 weeks ago
+5cb64f4 : Automatic translation import <Michael Bestas> 10 weeks ago
+f863f8a : Dialer: remove contact importing from Dialer <emancebo> 3 months ago
+d3d5cc7 : Automatic translation import <Michael Bestas> 3 months ago
+c2a0cde : Automatic translation import <Michael Bestas> 3 months ago
+c2b9149 : Dialer: Whitelist few EU countries for call recording <NBruderman> 5 months ago
+8d9ceaf : Automatic translation import <Michael Bestas> 3 months ago
+d29361f : Use "unknown" in filename if call recording phone number undefined <emancebo> 3 months ago
+1cd8b6b : [2/3] Dialer: Smart Dialer <Yanuar Harry> 4 months ago
+04ec9ba : Automatic translation import <Michael Bestas> 3 months ago
+35baf2c : Automatic translation import <Michael Bestas> 4 months ago
+b085e7a : Automatic translation import <Michael Bestas> 4 months ago
+32e9729 : Automatic translation import <Michael Bestas> 4 months ago
+9c45e51 : Revert "Dialer: truncate hint text for search box" <Pawit Pornkitprasan> 4 months ago
+d992054 : Fix string resolution problem. <Danny Baumann> 4 months ago
+7287dc1 : Revert "Dialer app changes for IMS" <Steve Kondik> 4 months ago
+414c556 : Give SIM spinner a little more width. <Danny Baumann> 4 months ago
+49b9b24 : Fix merge relicts. <Danny Baumann> 4 months ago
+c569a95 : Fix parameter naming. <Danny Baumann> 4 months ago
+bee9691 : Build fix. <Danny Baumann> 4 months ago
+3906836 : Added Reverse Lookup Gebeld (NL) <Sven Dubbeld> 5 months ago
+a7bbaf0 : Move smart dialer initialization to onStart(). <Danny Baumann> 5 months ago
+99f5689 : Automatic translation import <Michael Bestas> 5 months ago
+b4f1f7b : Dialer: Add call waiting vibrate option <cretin45> 5 months ago
+22757ca : Do not reload smart dial database twice in DialtactsActivity. <Matt Garnes> 5 months ago
+95894c3 : Call Vibration Settings: Fix preference key name <Martin Brabham> 5 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_Email ****
+544e7ce : Automatic translation import <Michael Bestas> 4 days ago
+1e53a30 : Automatic translation import <Michael Bestas> 12 days ago
+b294161 : Automatic translation import <Michael Bestas> 3 weeks ago
+aa11058 : Automatic translation import <Michael Bestas> 4 weeks ago
+84e293f : Allow saving attachments even if there's no intent handling them. <Danny Baumann> 5 weeks ago
+3afa9da : Allow download of compressed attachments. <Danny Baumann> 5 weeks ago
+eeea1e1 : Automatic translation import <Michael Bestas> 5 weeks ago
+2f399ed : Don't cancel PendingIntents used for AlarmManager. <Danny Baumann> 6 weeks ago
+b12754d : Optimize connection loss and re-gain behaviour. <Danny Baumann> 6 weeks ago
+8fc4de4 : Refine thread handling. <Danny Baumann> 6 weeks ago
+a2383f8 : Properly unregister alarm manager callbacks. <Danny Baumann> 6 weeks ago
+e2edd7c : Use AlarmManager to schedule an IDLE connection restart. <Danny Baumann> 6 weeks ago
+0ddd7f3 : Don't auto-register IDLE when gaining connection. <Danny Baumann> 6 weeks ago
+aa3af2e : Do less work on IDLE refresh. <Danny Baumann> 7 weeks ago
+37466e2 : Improve debug logging. <Danny Baumann> 6 weeks ago
+094f8e3 : Automatic translation import <Michael Bestas> 7 weeks ago
+ebf12f6 : Use an inexact timer for the IDLE refresh. <Danny Baumann> 7 weeks ago
+9a652f8 : Don't throw a NPE when operating on a destroyed list. <Danny Baumann> 7 weeks ago
+c0df55c : Fix some more argument order issues. <Danny Baumann> 7 weeks ago
+e7c9a85 : Simplify logic. <Danny Baumann> 7 weeks ago
+c9a9148 : Fix some typos. <Danny Baumann> 7 weeks ago
+f901689 : Don't solely rely on the presence of RECENT for checking for new mail. <Danny Baumann> 7 weeks ago
+381a2c2 : Don't re-sync when refreshing the IDLE connection. <Danny Baumann> 7 weeks ago
+6a98534 : Fix crash when attempting to view EML files. <Danny Baumann> 7 weeks ago
+9cec127 : Reset idling flag when cancelling early due to being cancelled. <Danny Baumann> 7 weeks ago
+b14e762 : Add some debug statements. <Danny Baumann> 7 weeks ago
+ff4fe40 : Assign debug tags to IMAP communication output. <Danny Baumann> 7 weeks ago
+74e72ce : Fix argument order. <Danny Baumann> 7 weeks ago
+1a52879 : Simplify code. <Danny Baumann> 7 weeks ago
+664eb34 : Automatic translation import <Michael Bestas> 7 weeks ago
+32419c5 : email: catch the correct exception while closing the buffers <Jorge Ruesga> 7 weeks ago
+681988f : Fix ArrayIndexOutOfBoundsException. <Danny Baumann> 8 weeks ago
+b80c3bd : email: fix NPE <Jorge Ruesga> 8 weeks ago
+7632c13 : Automatic translation import <Michael Bestas> 9 weeks ago
+dd81d6d : EmailTests: fix api change <Scott Mertz> 9 weeks ago
+2c32ba7 : email: fix tests <Jorge Ruesga> 9 weeks ago
+3a75a69 : email: fix Exchange sync frequency account setup <Jorge Ruesga> 9 weeks ago
+7074819 : Automatic translation import <Michael Bestas> 10 weeks ago
+3bd9a83 : email: imap push <Jorge Ruesga> 3 months ago
+5779a29 : Automatic translation import <Michael Bestas> 3 months ago
+8ca2f36 : Automatic translation import <Michael Bestas> 3 months ago
+0f4610b : email: fix Account table creation <Jorge Ruesga> 3 months ago
+a348e9a : email: custom notification lights <Jorge Ruesga> 3 months ago
+f325778 : Automatic translation import <Michael Bestas> 3 months ago
+ce6d98e : email: fix eas autodiscover <Jorge Ruesga> 3 months ago
+7451d26 : Fix NPE in getHierarchicalFolder <tobitege> 3 months ago
+8dcea56 : email: finish the settings activity after delete its account <Jorge Ruesga> 3 months ago
+cb099d4 : Automatic translation import <Michael Bestas> 3 months ago
+4493eef : Automatic translation import <Michael Bestas> 4 months ago
+c0f648d : Automatic translation import <Michael Bestas> 4 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_Exchange ****
+5144625 : exchange: imap push <Jorge Ruesga> 3 months ago
+b3f3790 : Automatic translation import <Michael Bestas> 3 months ago
+8d5fbea : exchange: fix eas autodiscover <Jorge Ruesga> 3 months ago
+98f7ac8 : exchange: fix typo in switch case flow <Jorge Ruesga> 4 months ago
+94dcbef : Display model name on exchange server and exclude illegal characters <Jonas Knutsson> 1 year, 9 months ago
+d08d855 : exchange: serialize the account parcelable before using with AlarmManager <Jorge Ruesga> 4 months ago
+66567e7 : exchange: increase ping command reschedule time on http server error <Jorge Ruesga> 4 months ago
+ae4efdc : Automatic translation import <Michael Bestas> 6 months ago
+465752c : Exchange: Update icon to Material <Michael Bestas> 7 months ago
+36a8df0 : exchange: use the port returned by autodiscover response <Jorge Ruesga> 8 months ago
+aa13861 : Exchange: fix call wrong service when reschedule an eas ping <Jorge Ruesga> 8 months ago
+ 
+**** github:SlimRemix/packages_apps_InCallUI ****
+ac1ffdb : Automatic translation import <Michael Bestas> 12 days ago
+3e649cf : Automatic translation import <Michael Bestas> 3 weeks ago
+114b95c : Automatic translation import <Michael Bestas> 4 weeks ago
+49ea1bb : Automatic translation import <Michael Bestas> 5 weeks ago
+6330c60 : Remove dependencies on FloatMath <Neil Fuller> 10 months ago
+abc4d41 : InCallUI: Unbreak heads-up disabled incoming call. <Adnan Begovic> 4 weeks ago
+af7ee99 : Automatic translation import <Michael Bestas> 7 weeks ago
+18fc4ef : Show waiting state in call title also for MSIM. <Danny Baumann> 6 weeks ago
+e8cc674 : InCallUi: Mitigate redial/recent call double tap state loss. <Adnan Begovic> 6 weeks ago
+cf18db9 : Fix compile error <fusionjack> 7 weeks ago
+43d21a1 : Proximity speaker: Fix issue with routing to speaker when connected to bluetooth <Jean-Pierre Rasquin> 3 months ago
+70af2fb : [2/2] InCallUI: let InCallUI handle proximity sensor for incoming calls <dankoman> 6 months ago
+89841ee : InCallUI: clean up prox speaker code and improve usability <dankoman> 6 months ago
+d25a509 : [3/3] InCallUI: Proximity speaker <dankoman> 7 months ago
+d171d50 : Revert "[2/2] InCallUI: let InCallUI handle proximity sensor for incoming calls" <fusionjack> 7 weeks ago
+d70953c : Layers 2.1 (backwards compatible) <camcory> 4 months ago
+8526631 : Automatic translation import <Michael Bestas> 7 weeks ago
+faf5a34 : [1/2] InCallUI: SmartMute <Danny Baumann> 3 months ago
+9cd8afb : Fix: The EndCallButton overlaps the digital key 0 after switch system language during an active call <Chengzhi.Hou> 10 weeks ago
+affe211 : Automatic translation import <Michael Bestas> 9 weeks ago
+394a948 : Automatic translation import <Michael Bestas> 10 weeks ago
+64bc81c : Automatic translation import <Michael Bestas> 3 months ago
+04b7efe : InCallUI: Update another blacklist string <Michael Bestas> 3 months ago
+4184f9d : InCallUI: Update blacklist strings <Michael Bestas> 3 months ago
+ef64fd0 : Allow hiding volume boost feature with overlay. <Matt Garnes> 4 months ago
+c3362b5 : Automatic translation import <Michael Bestas> 3 months ago
+54cc6d4 : Automatic translation import <Michael Bestas> 3 months ago
+c7f4101 : InCallUI: show legal warning on first call record <Roman Birg> 4 months ago
+198dd36 : Fix call recorder exception on unknown number / conference call <emancebo> 3 months ago
+bf5bae2 : Automatic translation import <Michael Bestas> 3 months ago
+2443a99 : Automatic translation import <Michael Bestas> 4 months ago
+cebba3d : Automatic translation import <Michael Bestas> 4 months ago
+0625f13 : Automatic translation import <Michael Bestas> 4 months ago
+b772e5c : Clean up volume boost button logic. <Danny Baumann> 4 months ago
+a42ce06 : Clean up call button handling. <Danny Baumann> 4 months ago
+e01b345 : Fix memory leak: remove a listener <Wei Huang> 4 months ago
+3e5d3f0 : Properly unregister supp service failure receiver. <Danny Baumann> 4 months ago
+a441cea : Fix broken string reference usage. <Danny Baumann> 4 months ago
+1cf98f0 : Assign background ID to overflow button. <Danny Baumann> 4 months ago
+5569081 : Fix mismerge. <Danny Baumann> 4 months ago
+11f663c : Build fix. <Danny Baumann> 4 months ago
+4bf4488 : InCallUI: Adjust dimens for hdpi <Linus Lee> 5 months ago
+d9457f5 : Automatic translation import <Michael Bestas> 5 months ago
+3285b0d : InCallUI: Bring back vibrate on call waiting <cretin45> 5 months ago
+71e3f1f : Fix MSIM incoming call notification handling. <Danny Baumann> 5 months ago
+4ae787a : Automatic translation import <Michael Bestas> 5 months ago
+1e24b4c : Automatic translation import <Michael Bestas> 5 months ago
+deaeaa1 : Automatic translation import <Michael Bestas> 5 months ago
+37341b9 : Add an option in the InCall UI to perform call recording <emancebo> 12 months ago
+ac53d74 : InCallUI: Fix string typo <NBruderman> 6 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_Mms-caf ****
+96ef304 : Drafts: Fix instance where body of the message is lost. <Stephen Bird> 32 hours ago
+b2f84fd : Delete vcard mms on error <d34d> 33 hours ago
+7ee29ed : Add Subject: Fix subject crash <Stephen Bird> 2 days ago
+f844bc6 : ComposeMessage: Improve performance with large groups <Stephen Bird> 10 days ago
+f3c52af : Fixed KeyGuard not being disabled on second quickmessage <herriojr> 7 days ago
+95fb3a4 : Automatic translation import <Michael Bestas> 4 days ago
+c050969 : Mms :  Don't load slideshow details for draft <Danesh M> 10 days ago
+de3c306 : Fix detection of RTL language in 'from' field <Shlomy Reinstein> 8 days ago
+d0fe151 : Calendar Attachment: decode URI for file name <Danesh Mondegarian> 9 days ago
+837db87 : Automatic translation import <Michael Bestas> 12 days ago
+d655920 : Mms : Ensure text mode supports multiple content-types <Danesh M> 2 weeks ago
+e63abd6 : Drafts: Prevent duplicate drafts from being added <Stephen Bird> 2 weeks ago
+651cbbd : Compose:  Hiding the "To" label when editing the subject <Stephen Bird> 2 weeks ago
+0e5e3aa : Show Calendar Event attachment only if an activity can respond to the intent <Rohit Yengisetty> 5 weeks ago
+e0d4d06 : QuickMessage: Add shortMessage to inputType <Brandon McAnsh> 4 weeks ago
+86408dd : Automatic translation import <Michael Bestas> 3 weeks ago
+f5164b3 : Quick Message: Fix dual sim picker <Stephen Bird> 3 weeks ago
+9fc3f93 : Enable heads-up style notifications on Mms app <razorloves> 3 weeks ago
+c67b355 : Contact vCard: Dont crash if contact that is sent no longer exits. <Stephen Bird> 4 weeks ago
+da1502d : Automatic translation import <Michael Bestas> 4 weeks ago
+ac26093 : Automatic translation import <Michael Bestas> 5 weeks ago
+f901e38 : Expose message link text color <Nicholas Chum> 9 weeks ago
+4bded0c : Automatic translation import <Michael Bestas> 7 weeks ago
+dbea1dc : Don't filter share intent <d34d> 7 weeks ago
+eaf701c : Automatic translation import <Michael Bestas> 7 weeks ago
+152607b : Compose Message: Fix visual glitch. <Stephen Bird> 8 weeks ago
+5db195d : Add UAProf URL to carrier-specific configs <Sultanxda> 9 weeks ago
+f8cb438 : Create the contact photo manager as service. <Danny Baumann> 9 weeks ago
+f6f583d : Automatic translation import <Michael Bestas> 9 weeks ago
+eee8961 : Carrier-specific MMS limits <Ricardo Cerqueira> 4 months ago
+567413e : Mms : Add users permission to prevent crash <Danesh Mondegarian> 10 weeks ago
+ce5681f : Automatic translation import <Michael Bestas> 10 weeks ago
+f3a2464 : Mms : Change 'Add to People' to 'Add to Contacts' <Rohit Yengisetty> 3 months ago
+6d7c762 : Mms : Don't close single helper db instances <Danesh M> 3 months ago
+f6b0db8 : Automatic translation import <Michael Bestas> 3 months ago
+c25966c : Mms: fix recipients getting lost when toggling "Mobile numbers only" <Joe> 3 months ago
+a64160e : Mms: Fix copying "null" for Mms without text <Joe> 3 months ago
+0a8f504 : Mms: Update blacklist strings <Michael Bestas> 3 months ago
+3d7ba45 : Mms: In action mode, click sim spinner will meet crash. <Joe> 3 months ago
+183af12 : Automatic translation import <Michael Bestas> 3 months ago
+09bb735 : Automatic translation import <Michael Bestas> 3 months ago
+a479ce2 : Hide "Insert smiley" if emoticons are disabled <Vladislav Koldobskiy> 1 year, 2 months ago
+c52d75c : Revert "Remove smiley support" <Matthieu Baerts> 1 year, 4 months ago
+995532d : Mms : Add missing show() on Toast for unsupported Calendar app <Rohit Yengisetty> 3 months ago
+a5a3bf6 : Mms: add vcalendar as a saveable content type <Raj Yengisetty> 4 months ago
+0053cc1 : Mms: The Slideshow time display incomplete on Edit Slideshow <kaiyiz> 9 months ago
+210d155 : Mms: Recipients field is cleared when returning from SelectRecipients <Joe Zhong> 4 months ago
+e784620 : Backup: close cursor <Alexander Martinz> 4 months ago
+aeff122 : Mms : Only exit after deleting last message <Danesh M> 4 months ago
+06be6ec : Mms-add Calendar event type of loading Calendar draft <xiao.hu> 4 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_PhoneCommon ****
+82b70cd : Automatic translation import <Michael Bestas> 4 days ago
+813e946 : Automatic translation import <Michael Bestas> 3 weeks ago
+95d5378 : AnimUtils : clear listeners when animation completes or is terminated <Rohit Yengisetty> 4 weeks ago
+d8b2750 : Automatic translation import <Michael Bestas> 5 weeks ago
+0076ca8 : Automatic translation import <Michael Bestas> 7 weeks ago
+5032ee9 : PhoneCommon : Add layouts to support hdpi devices <Rohit Yengisetty> 9 weeks ago
+a7081fa : Automatic translation import <Michael Bestas> 10 weeks ago
+b9c601b : Automatic translation import <Michael Bestas> 3 months ago
+c703c7c : Automatic translation import <Michael Bestas> 3 months ago
+1c225a1 : PhoneCommon: Adjust dimens for hdpi <Linus Lee> 5 months ago
+d69a3c2 : Automatic translation import <Michael Bestas> 3 months ago
+1d4b66f : Automatic translation import <Michael Bestas> 4 months ago
+40bdf1c : Automatic translation import <Michael Bestas> 5 months ago
+74d8842 : Adapt signature of MSIM updateRingtoneName() method to non-MSIM case. <Danny Baumann> 4 months ago
+c0f3f08 : Automatic translation import <Michael Bestas> 5 months ago
+8332621 : Themes: Make dialpad seperator line theme-able <Thyrus11> 5 months ago
+b9fe198 : Automatic translation import <Michael Bestas> 5 months ago
+b412d67 : Automatic translation import <Michael Bestas> 5 months ago
+de2a817 : Automatic translation import <Michael Bestas> 6 months ago
+e2ba617 : Add AnimationCallback parameter to scaleIn() and scaleOut() <George Hilliard> 6 months ago
+b70a4c9 : PhoneCommon: Set untranslatable <Michael Bestas> 7 months ago
+f215ec4 : Refactor dialpad layout to support t9 search in multiple languages <emancebo> 7 months ago
+be36208 : Fix up cm_strings structure <Vladislav Koldobskiy> 7 months ago
+f1c4ce3 : PhoneCommon: move CAF strings to cm_strings <Vladislav Koldobskiy> 7 months ago
+3837b27 : Make dialpad dimension values resizeable. <Nancy Chen> 8 months ago
+895849b : Return default notification uri if none found. <Andrew Lee> 6 months ago
+690b2c6 : Enable text-to-speech in dialer edit field (1/2) <Ihab Awad> 8 months ago
+ff0faf8 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+f566284 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+0a39f81 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+aca062f : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+c11bd1b : Use string SharedPreferences key for update ringtone. <Andrew Lee> 8 months ago
+0ec03af : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+7c2619b : Make dialpad dimension values resizeable. <Nancy Chen> 8 months ago
+0830cf6 : Update ILD rate to match redlines <Evan Charlton> 8 months ago
+b8544c3 : Import translations. DO NOT MERGE <Geoff Mendal> 9 months ago
+908d753 : String resource edits for PhoneCommon <Nancy Chen> 9 months ago
+972e873 : Show ILD rate information if present <Evan Charlton> 9 months ago
+3accf86 : Reduce size of dialpad digits by 4 dp <Yorke Lee> 9 months ago
+29be669 : Import translations. DO NOT MERGE <Geoff Mendal> 10 months ago
+9c3c4a4 : Import translations. DO NOT MERGE <Geoff Mendal> 10 months ago
+afecc57 : Use 8dp for fab elevation <Brian Attwell> 10 months ago
+b3ee861 : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+7b906e4 : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+db330a3 : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+da05623 : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+fa810ab : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+6409817 : Import translations. DO NOT MERGE <Baligh Uddin> 10 months ago
+7d45c70 : Import translations. DO NOT MERGE <Baligh Uddin> 11 months ago
+ 
+**** sr:packages_apps_Settings ****
+febfda9 : fixed build <ZION959> 12 minutes ago
+a997a14 : Settings: Long Term Orbits (LTO) <Jorge Ruesga> 87 minutes ago
+c5b90ae : Lockscreen Wallpaper: Fix FC on None security <fusionjack> 6 days ago
+b2e0d42 : SecuritySettings: Lockscreen wallpaper <fusionjack> 12 days ago
+ccd5cce : settings: Fix livedisplay settings <Steve Kondik> 2 weeks ago
+ed1552c : Settings: add wifi ap dialog 'show password' default overlay <Roman Birg> 5 days ago
+0d852fd : Kill off a few MSIM tab hosts. <maniac103> 5 days ago
+b88fd98 : Settings: Add missing up navigation in menus (Michael Bestas) <ZION959> 5 days ago
+32f77fe : Add toggle for captive portal check <ZION959> 5 days ago
+2ee9a2a : LayersBackup: Update URL <fusionjack> 6 weeks ago
+422816e : Avoid SElinux denial accessing SIM card lock <Hemanth kumar B> 6 months ago
+89cb852 : wifi: Allow configuration of country code for wifi (3/3) <ZION959> 5 days ago
+1e4fb5c : settings: wifi priorities <ZION959> 5 days ago
+8171c6a : Logcat: Add timestamp for easier debugging <fusionjack> 6 weeks ago
+4464569 : Settings: Disable mobile network settings if sub is invalid/unusable. <Adnan Begovic> 6 weeks ago
+adc6893 : Integrate mobile network settings into SIM settings for MSIM. <Danny Baumann> 3 months ago
+c786fc3 : Settings: hide mobile networks for devices with no telephony <Roman Birg> 5 months ago
+acdfdad : Cleanup. <Danny Baumann> 3 months ago
+824581c : Settings: Ensure fragment is visible before updating footer <cretin45> 6 weeks ago
+62e4ab8 : Update settings_main_background_exposed.xml <kantjer> 6 weeks ago
+54dd4eb : Update dashboard_background_exposed.xml <kantjer> 6 weeks ago
+f86c040 : Don't clear cache on null UiDetailProvider <d34d> 6 weeks ago
+89873a4 : Update settings_qs_tiles.xml ** Exposing Quick Settings Tile background from "#ddd" to "@color/exposed_bg_dark" due to it not being themed with layers <kantjer> 6 weeks ago
+b5e82af : Fix compile error <fusionjack> 7 weeks ago
+9df5ce6 : Settings: fix custom SIM name lost on reboot <Pawit Pornkitprasan> 7 months ago
+26e5da1 : Settings: Restore proper ringtone for msim <cretin45> 4 months ago
+60f675e : MSIM : Show a proper text if no number is set <ZION959> 5 days ago
+406d98f : Sim: fix null pointer exception if no sim is inserted <Alexander Martinz> 4 months ago
+a2eda06 : Port over MSIM UX improvements from cm-12.0. <Danny Baumann> 6 months ago
+9212fec : Settings: msim - update dialogs <Shaleen Jain> 6 months ago
+c4625cd : Re-add SIM color settings. <Danny Baumann> 4 months ago
+e9e10c4 : Fix data usage tab titles for MSIM. <Danny Baumann> 4 months ago
+debbcb7 : settings: Fix MR1 compilation issues <Steve Kondik> 4 months ago
+3c311f3 : Settings: theme mobile network settings from data usage screen <Roman Birg> 5 months ago
+10604b9 : Settings: fix "Mobile Networks" menu option in DataUsageSummary. <Matt Garnes> 5 months ago
+a94a32a : Fix mobile network settings for multi sim (2/2) <emancebo> 6 months ago
+5e57e85 : Do not show phone-related stuff if there's no subs <Marcos Marado> 7 months ago
+abc2b4d : MSIM: behave as single SIM when appropriate <Marcos Marado> 7 months ago
+0083d78 : MSIM: use index as tab key <Marcos Marado> 7 months ago
+ab20050 : MSIM - SIM card status: name "SUB x" now "SIM x" <Marcos Marado> 7 months ago
+2f0e854 : MSIM: Data Usage: data connection switch visibility <Marcos Marado> 7 months ago
+9d6f215 : MSIM: Data Usage: use the SIM name if available <Marcos Marado> 7 months ago
+06f5d78 : Settings: fix MSim package names <Pawit Pornkitprasan> 8 months ago
+c80c327 : Settings: Show Baseband version on MSIM devices <Willi Ye> 9 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_Stk ****
+7a6bd77 : Automatic translation import <Michael Bestas> 4 days ago
+55c1a04 : Fix the SIM1 launcher <Chirayu Desai> 9 days ago
+b9b184f : Automatic translation import <Michael Bestas> 12 days ago
+73dd243 : Revert "STK: use single icon as per latest AOSP 5.1" <Ricardo Cerqueira> 3 weeks ago
+f7df6b5 : Automatic translation import <Michael Bestas> 3 weeks ago
+2f91312 : Automatic translation import <Michael Bestas> 4 weeks ago
+4f4b502 : Automatic translation import <Michael Bestas> 7 weeks ago
+ba6c178 : Automatic translation import <Michael Bestas> 7 weeks ago
+ea15282 : Automatic translation import <Michael Bestas> 10 weeks ago
+3d46a7f : Automatic translation import <Michael Bestas> 3 months ago
+656cd27 : Automatic translation import <Michael Bestas> 3 months ago
+21fa071 : STK: use single icon as per latest AOSP 5.1 <Pawit Pornkitprasan> 3 months ago
+605e08f : Automatic translation import <Michael Bestas> 3 months ago
+9039043 : stk: Remove duplicate resources <Michael Bestas> 4 months ago
+86b38f5 : Revert "stk: Remove duplicate resources" <Michael Bestas> 4 months ago
+e0d37d6 : Automatic translation import <Michael Bestas> 4 months ago
+2f97d8e : Automatic translation import <Michael Bestas> 5 months ago
+72dd6fc : stk: App icon is a mipmap now <Steve Kondik> 4 months ago
+756400a : stk: Remove duplicate resources <Steve Kondik> 4 months ago
+199cb6a : Automatic translation import <Michael Bestas> 5 months ago
+d1d8569 : Automatic translation import <Michael Bestas> 5 months ago
+49f9566 : Automatic translation import <Michael Bestas> 5 months ago
+b42cdbb : Remove CAF Chinese translations <Michael Bestas> 6 months ago
+04a77df : Automatic translation import <Michael Bestas> 6 months ago
+8f86843 : STK: Check that main menu exists before retrieval <w30234> 6 months ago
+4bed236 : Update app icon again <Michael Bestas> 6 months ago
+02c3414 : Update app icon <Michael Bestas> 6 months ago
+c32560e : [DS] SIM Toolkit icon should not be shown if SIM don't support SIM Toolkit <Legler Wu> 7 months ago
+7cf0cc0 : Stop the StkAppService in multi sim scenario correctly. <Preeti Ahuja> 8 months ago
+8bf95af : STK: Accurate Terminal Response timer for StkDialog <w30234> 7 months ago
+005c8de : Stk: EL AOSP translation modification <Michael Bestas> 1 year, 4 months ago
+e0fb404 : Import translations. DO NOT MERGE <Geoff Mendal> 7 months ago
+98e8dbc : Import translations. DO NOT MERGE <Baligh Uddin> 7 months ago
+e486013 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+aeefef5 : Stk App bug fix and code refine. <Legler Wu> 9 months ago
+d1f5ba1 : Stk: Make the text a little smaller <Diogo Ferreira> 8 months ago
+5d7fdd9 : Stk: Move CAF strings <Michael Bestas> 1 year, 5 months ago
+b2eec4f : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+1c3556b : Crash in Phone observed while launching SIM Toolkit app <xinhe> 8 months ago
+4123181 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+2a0d2d4 : Import translations. DO NOT MERGE <Geoff Mendal> 8 months ago
+5ad585e : Restore main menu after handling SETUP_CALL cmd <w30234> 9 months ago
+560be36 : Add support for idle screen notification <Preeti Ahuja> 8 months ago
+dd24010 : Stk: Handle Null Alpha Identifer for Setup Call <Preeti Ahuja> 1 year, 11 months ago
+a0b36d1 : Stk: New launcher icon <Michael Bestas> 8 months ago
+d6c9081 : Stk: Materialize message dialog <Michael Bestas> 8 months ago
+b3d0e61 : STK: Remove dependency on idle screen notification <Preeti Ahuja> 8 months ago
+414bc41 : Stk: These changes are related to DISPLAY Text pro cmd <Preeti Ahuja> 2 years, 1 month ago
+03be667 : Stk: Timer Related Fixes <Preeti Ahuja> 2 years, 11 months ago
+9591934 : Stk: Usat Phase 2 feature support <Preeti Ahuja> 1 year, 10 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_UnifiedEmail ****
+86a1325 : Don't assume that a string isn't empty <Marcos Marado> 10 days ago
+24fd565 : Automatic translation import <Michael Bestas> 4 days ago
+247e1e6 : Automatic translation import <Michael Bestas> 12 days ago
+e8e14aa : Automatic translation import <Michael Bestas> 3 weeks ago
+1bb85d9 : Automatic translation import <Michael Bestas> 4 weeks ago
+0068c4a : Automatic translation import <Michael Bestas> 5 weeks ago
+435ff6a : Automatic translation import <Michael Bestas> 7 weeks ago
+946b1e4 : Remove obsolete theme. <Danny Baumann> 7 weeks ago
+787e618 : Automatic translation import <Michael Bestas> 7 weeks ago
+0a11aaa : Automatic translation import <Michael Bestas> 9 weeks ago
+7707e35 : email: linkify phone numbers <Jorge Ruesga> 9 weeks ago
+1e353df : Automatic translation import <Michael Bestas> 10 weeks ago
+1c2391e : email: do not close the input attachment buffer in Conversion#parseBodyFields <Jorge Ruesga> 2 months ago
+917885f : Automatic translation import <Michael Bestas> 3 months ago
+3cdd22d : Automatic translation import <Michael Bestas> 3 months ago
+97762e5 : unified-email: custom notification lights <Jorge Ruesga> 3 months ago
+8110c12 : Automatic translation import <Michael Bestas> 3 months ago
+85f5d28 : email: linkify urls in plain text emails <Jorge Ruesga> 3 months ago
+7a1081d : Automatic translation import <Michael Bestas> 3 months ago
+23eb366 : Automatic translation import <Michael Bestas> 4 months ago
+5ab9abe : unified-email: respect swipe user setting <Jorge Ruesga> 4 months ago
+ef570af : unified-email: check notification support prior to create notification objects <Jorge Ruesga> 4 months ago
+ff5b614 : Revert "email: don't assume that onDrawerClose will be called" <Michael Bestas> 4 months ago
+9a8de2e : email: fix recents's suggested contacts query <Jorge Ruesga> 4 months ago
+225fb22 : email: fix back button <Jorge Ruesga> 4 months ago
+4238eba : Automatic translation import <Michael Bestas> 4 months ago
+1011e62 : Improve strings <Michael Bestas> 4 months ago
+70b5f3d : UnifiedEmail: Increase max attachment size to 25MB <LorDClockaN> 4 months ago
+ff335f9 : email: don't assume that onDrawerClose will be called <Jorge Ruesga> 4 months ago
+55e9bb9 : UnifiedEmail: Fix build <Kenshin> 5 months ago
+c6af340 : unified email: prefer account display name to sender name <Jorge Ruesga> 5 months ago
+cd6ab96 : unified email: suggested contacts <Jorge Ruesga> 5 months ago
+0812ca4 : Automatic translation import <Michael Bestas> 5 months ago
+244c1b2 : Automatic translation import <Michael Bestas> 5 months ago
+45eae36 : Automatic translation import <Michael Bestas> 6 months ago
+2a50ddb : UnifiedEmail : Set subject before setFolders <Danesh M> 6 months ago
+a050c51 : email: prevent stock email app to unset firstSnippet on mark/unmark as read <Jorge Ruesga> 1 year, 1 month ago
+a38c1f7 : Theming fixes. <Danny Baumann> 8 months ago
+35f853b : Fix the color of the Compose FAB <blunden> 8 months ago
+6a9275b : Change the Email widget to orange <blunden> 8 months ago
+0da9157 : Update the notification icons for Lollipop <blunden> 8 months ago
+ 
+**** github:CyanogenMod/android_packages_providers_CalendarProvider ****
+51fc3fa : Automatic translation import <Michael Bestas> 6 months ago
+5cba895 : New Material icon <Michael Bestas> 6 months ago
+ 
+**** github:SlimRemix/packages_providers_ContactsProvider ****
+5c8d6bd : Fix upgrade path for phone_lookup table <emancebo> 4 months ago
+67ba5ef : Fix duplicate entries issue for duration_type <Chaitanya Saggurthi> 9 months ago
+70ae39b : Revert "DBHelper: Add upgrade path from CM11" <fusionjack> 7 weeks ago
+2a7fdc4 : Don't use queryContentProviders to avoid "transaction too large" exception <Makoto Onuki> 5 months ago
+3bb16cc : Automatic translation import <Michael Bestas> 6 months ago
+ec22e21 : Additional change to IS_SUPER_PRIMARY <Brian Attwell> 6 months ago
+5aa8d8a : Contacts: Fix CTS failure in testGroupsTable/testAddToGroup <kaiyiz> 1 year, 4 months ago
+abaa423 : Fix cross profile caller id to use manager profiles userid. <Kenny Guy> 6 months ago
+166832e : ContactsProvider: Create add default contact as an overlay-able option <Raj Yengisetty> 9 months ago
+085a747 : Skip aggregation if candidate contact contains too many raw contacts <Zheng Fu> 8 months ago
+eb10c52 : Fix package manager TransactionTooLargeException <Jay Shrauner> 8 months ago
+88e417b : ContactsProvider: Fix FC when deleting selected call log <blong> 1 year, 8 months ago
+0982155 : Modify the contact split logic to avoid over-split issue. <Zheng Fu> 9 months ago
+df1e589 : Make the email comparison case-insensitive for contact aggregation. <Zheng Fu> 9 months ago
+8025b83 : DBHelper: Add upgrade path from CM11 <Ricardo Cerqueira> 9 months ago
+77e675b : Fix broken test in ContactsProvider2Test.java <Zheng Fu> 9 months ago
+3a219cc : Sync call log entries to secondary user on background thread <Yorke Lee> 9 months ago
+240d10d : synchronize photo storage creation for race conditions. <Zheng Fu> 11 months ago
+84e66f5 : DO NOT MERGE Remove default settings during contacts aggregation. <Zheng Fu> 11 months ago
+ 
+**** sr:packages_providers_MediaProvider ****
+aef51f7 : Fix mounting of non-FAT formatted SD cards (2/2) <Michael Bestas> 2 weeks ago
+25f64de : MediaProvider: don't delete entries of secondary storage on shutdown <wjiang> 11 months ago
+61fdfb6 : MediaProvider: Avoid null pointer exceptions inside getCompressedAlbumArt <Cristoforo Cataldo> 7 months ago
+38ca5b0 : New Material icon <Michael Bestas> 6 months ago
+6f32d54 : MediaProvider: Avoid issue of android.process.media stop <wjiang> 1 year, 7 months ago
+ 
+**** github:CyanogenMod/android_packages_providers_TelephonyProvider ****
+fbf5822 : Automatic translation import <Michael Bestas> 3 weeks ago
+aa98e82 : MmsProvider : Add ability to get thread information in search <Danesh M> 4 weeks ago
+d8da02b : TelephonyProvider : Add sub_id to ICC columns <Rohit Yengisetty> 6 weeks ago
+81e3036 : Add another db upgrade <Dave Daynard> 3 months ago
+4fa5ded : TelephonyProvider: change default IDD for Indonesia <emancebo> 3 months ago
+d8f349b : TelephonyProvider: Handle upgrade from 11 -> 12.1. <Adnan Begovic> 3 months ago
+553933c : Add proper DB upgrade path. <Danny Baumann> 4 months ago
+0fae3ae : APNs: Add statement to update carriers table to include read_only column <Patrick Lower> 4 months ago
+bc79696 : Properly upgrade DB <Danny Baumann> 4 months ago
+adc1fe3 : Revert QC features we aren't using. <Steve Kondik> 4 months ago
+34d8542 : Automatic translation import <Michael Bestas> 6 months ago
+ce17045 : TelephonyProvider: allow specifying a protocol for preferred apn <Dan Pasanen> 7 months ago
+197268d : TelephonyProvider: Update icon to Material <Michael Bestas> 7 months ago
+19a97a6 : TelephonyProvider: compile files under src <Roman Birg> 8 months ago
+bb39dde : MmsProvider : Add ability to query types in a conversation thread <Danesh M> 8 months ago
+6ee517b : MmsProvider : Add ability to delete mms given a thread id <Danesh M> 8 months ago
+6aefb42 : telephony: Add support for choosing a default APN <Steve Kondik> 3 years, 2 months ago
+dc21d9b : Bump the DB version from QC's changes <Ricardo Cerqueira> 9 months ago
+caf6072 : SUB_ID to PHONE_ID conversion <Sandeep Gutta> 5 months ago
+fba75ae : Compilation error fixes <Sandeep Gutta> 5 months ago
+e680327 : Make CREATOR columns read-only and auto set them in provider <Ye Wen> 8 months ago
+66c31dc : Additional changes to SubscriptionManager API as per API council. <Wink Saville> 9 months ago
+6bba36a : Make TelephonyProvider a singleton across users <Amith Yamasani> 9 months ago
+7ffdf6d : API changes to add carrier name to subinforecord <Sanket Padawe> 9 months ago
+6ede22f : The sub_id column in the carriers should be an INTEGER instead of a LONG <Tom Taylor> 9 months ago
+21f5886 : Change subId to int from long <Wink Saville> 9 months ago
+b4dcb50 : Use INVALID_SUB_ID as default value for sub_id columns <Shri Borde> 11 months ago
+194ff11 : Unhide android.provider.Telephony.Sms.SUB_ID. <Shri Borde> 11 months ago
+0d554bb : TelephonyProvider: Enhance RCS messages performance. <xmao> 6 months ago
+3a0c712 : TelephonyProvider:Fix Messaging crash after upgrading from KK <kaiyiz> 6 months ago
+05f356e : TelephonyProvider: Improve the performance of deleting Mms. <kaiyiz> 6 months ago
+aeead21 : TelephonyProvider: Implement inserting SMS into ICC card by provider <yanglv> 6 months ago
+9b7de1d : TelephonyProvider: add RCS message clomn in telephonyProvider <xmao> 7 months ago
+ea8aad9 : TelephonyProvider: Add CDMA call forwarding/waiting function <kaiyiz> 7 months ago
+619607f : Add filtering by SIM for mms conversations (1/2) <emancebo> 8 months ago
+71aa462 : blacklist: relax phone normalization <Jorge Ruesga> 9 months ago
+d333fb1 : Enforce convertability to a valid E164 number on insert or update. <Danny Baumann> 9 months ago
+22a73aa : blacklist: normalize phone numbers to E164 standard <Jorge Ruesga> 9 months ago
+6cc1d7d : telephonyprovider: Add blacklist provider permission <Jorge Ruesga> 9 months ago
+4e36417 : Properly handle alphanumeric 'numbers'. <Danny Baumann> 9 months ago
+bf3aa2e : Drop blacklist number uniqueness constraint. <Danny Baumann> 9 months ago
+ed0c875 : Improve delete handling code. <Danny Baumann> 9 months ago
+eeede6d : Store phone blacklist in content provider (2/4) <Danny Baumann> 9 months ago
+12630d7 : Mms: Fix conversation number of message thread can't be updated <kaiyiz> 8 months ago
+36fc216 : MSIM: Use default data subId for all APN operations. <Sandeep Gutta> 9 months ago
+3aacbbe : TelephonyProvider: Fix crash when delete more 1000 messages. <kaiyiz> 9 months ago
+3e1deb0 : Mms: Fix can not search message via subject <kaiyiz> 9 months ago
+02970d7 : TelephonyProvider: Add resource config for IP protocol <kaiyiz> 9 months ago
+191de55 : Mms: Fix go to previewed screen when long press MMS and select detail. <kaiyiz> 10 months ago
+d9fa688 : TelephonyProvider: Add visit_area column in DB <jianzhou> 10 months ago
+ 
+**** github:CyanogenMod/android_packages_services_Mms ****
+3e462bf : Automatic translation import <Michael Bestas> 4 days ago
+f9c331a : Automatic translation import <Michael Bestas> 12 days ago
+bcfd519 : Automatic translation import <Michael Bestas> 3 weeks ago
+9193b7e : Automatic translation import <Michael Bestas> 5 weeks ago
+ad83633 : Automatic translation import <Michael Bestas> 7 weeks ago
+56d3c6a : Automatic translation import <Michael Bestas> 3 months ago
+c02c415 : Automatic translation import <Michael Bestas> 3 months ago
+0852a23 : Automatic translation import <Michael Bestas> 3 months ago
+c207f12 : Automatic translation import <Michael Bestas> 4 months ago
+0cf7222 : Automatic translation import <Michael Bestas> 5 months ago
+c14d250 : Automatic translation import <Michael Bestas> 5 months ago
+2a75882 : Automatic translation import <Michael Bestas> 5 months ago
+e81eba6 : Automatic translation import <Michael Bestas> 5 months ago
+99b24b2 : Automatic translation import <Michael Bestas> 6 months ago
+e22fdab : Add Material icon & app label <Michael Bestas> 6 months ago
+1e14602 : Redact MMS message URL logging <Ye Wen> 5 months ago
+fcb751a : Mms: convert SUB_ID to PHONE_ID <Chiou-Hao Hsu> 11 months ago
+1488d78 : Disable Content-Disposition header for 53005 <Ye Wen> 9 months ago
+c171a76 : disable multipart sms support for USC <Mao Bing> 10 months ago
+88b49d9 : PT:VZW:CV MMS not able to be sent with messenger app <Tom Taylor> 11 months ago
+ 
+**** github:SlimRemix/packages_services_Telecomm ****
+e8da707 : Telecomm: Support Samsung Dual Sims Phone phone_type switch <ljzyal> 11 days ago
+32ff8a1 : Automatic translation import <Michael Bestas> 12 days ago
+ed2fcf6 : Automatic translation import <Michael Bestas> 3 weeks ago
+182d98e : Automatic translation import <Michael Bestas> 4 weeks ago
+98e49a9 : Automatic translation import <Michael Bestas> 5 weeks ago
+f5fe86c : Update to latest api level <Chris Sarbora> 3 weeks ago
+0c89c68 : msim: Fix saving default sim from select SIM dialog (2/2) <LuK1337> 3 weeks ago
+4ddb061 : Telecom : Add callInfo provider abstraction <Danesh M> 3 months ago
+0caea76 : Automatic translation import <Michael Bestas> 7 weeks ago
+e0e4907 : Telecom : Remove null check for blacklist <Danesh M> 6 weeks ago
+7218b53 : Telecom: don't set incall state when call was disconnected <Roman Birg> 6 weeks ago
+353f49f : Automatic translation import <Michael Bestas> 7 weeks ago
+2d77a33 : Allow system apps to query the voicemail number. <Danny Baumann> 8 weeks ago
+df433bc : Automatic translation import <Michael Bestas> 9 weeks ago
+e9f0ec6 : Show multi-line notification if there's more than 1 missed call. <Danny Baumann> 9 weeks ago
+3710790 : Automatic translation import <Michael Bestas> 10 weeks ago
+3319fcd : Automatic translation import <Michael Bestas> 3 months ago
+0e97d44 : Telecomm: Update blacklist strings <Michael Bestas> 3 months ago
+43f7bf2 : Change subid from long to int type <Sridhar Dubbaka> 4 months ago
+ccf6031 : Automatic translation import <Michael Bestas> 3 months ago
+ef6be14 : Automatic translation import <Michael Bestas> 3 months ago
+c1f0ec2 : Telecomm : Add ability to block calls if spam <Danesh Mondegarian> 5 months ago
+b14ff4d : Automatic translation import <Michael Bestas> 4 months ago
+c7b91d4 : Automatic translation import <Michael Bestas> 4 months ago
+085ea01 : Automatic translation import <Michael Bestas> 5 months ago
+d5cd6ed : Create new empty Bundles when creating new Call <Torbjorn Eklund> 4 months ago
+283b4ce : Fix merge failures. <Danny Baumann> 4 months ago
+b8fcaec : Revert "Subscription selection when dialing USSD" <Pawit Pornkitprasan> 4 months ago
+e611ca7 : CallsManager: fix starting call from Contacts app with MSim <Pawit Pornkitprasan> 5 months ago
+3508a4e : telecom: Fix compilation issues <Steve Kondik> 4 months ago
+8df78b6 : Automatic translation import <Michael Bestas> 5 months ago
+17399c9 : Telecomm: Move to CmHardwareService <Scott Mertz> 5 months ago
+9cf72a5 : Restore old tap-to-wake state after call <proDOOMman> 5 months ago
+3092004 : Automatic translation import <Michael Bestas> 5 months ago
+6247b4c : Automatic translation import <Michael Bestas> 5 months ago
+2713705 : Expose call creation time to link call recordings with recent call log (2/2) <emancebo> 6 months ago
+f7b0c79 : Automatic translation import <Michael Bestas> 6 months ago
+f7b2dd4 : Add back phone notification LED settings backend (1/2) <Danny Baumann> 7 months ago
+c56db77 : ProximitySensorManager: disable TapToWake while we have a prox wakelock <Dan Pasanen> 7 months ago
+f99b8a0 : Telecomm: Improve CAF strings <Michael Bestas> 7 months ago
+37ff01c : Telecomm: Update icon to Material <Michael Bestas> 7 months ago
+4d9e0d2 : Telecomm: move CAF strings to cm_strings <Vladislav Koldobskiy> 7 months ago
+e1335e0 : telecomm: Remove dead code, fix build. <Steve Kondik> 7 months ago
+0a04953 : Telecomm: update blacklist activity name <Roman Birg> 8 months ago
+b270a6c : Telecom: mark the Call as blacklisted <Roman Birg> 8 months ago
+ce17110 : telecom: fix ringtone NPE when profile is set to silent <emancebo> 8 months ago
+93b46dc : Blacklist: fix NPE <Pawit Pornkitprasan> 8 months ago
+3f6095f : Telecom: fix Blacklist support for L (1/3) <Roman Birg> 8 months ago
+3a0e088 : Add back increasing ring feature (3/3). <Danny Baumann> 9 months ago
+fa0f881 : Proper supplementary service notification handling (3/5) <Danny Baumann> 9 months ago
+ 
+**** github:SlimRemix/packages_services_Telephony ****
+1c29ccb : Display the correct strings for network type summary <jlask> 7 days ago
+c6a6091 : telephony: fix APN msim issue where both sims show the same APNs <emancebo> 9 days ago
+5f9fb8c : Automatic translation import <Michael Bestas> 12 days ago
+1df10bd : Automatic translation import <Michael Bestas> 3 weeks ago
+275f50e : Automatic translation import <Michael Bestas> 4 weeks ago
+88e2219 : Automatic translation import <Michael Bestas> 5 weeks ago
+0419a8e : Checkbox -> Switches <RobbieL811> 9 weeks ago
+78438c6 : Telephony: : AIRPLANE_MODE_ON moved to Global <Lars Greiss> 8 months ago
+24120f0 : Rewrite network type summary handling <Chirayu Desai> 5 weeks ago
+751c0f7 : Telephony : Add support for config_hardcodeDefaultMobileNetworks <Danesh M> 6 weeks ago
+27aa9f2 : Telephony: do not override preference text colors <dankoman> 7 months ago
+648d9dd : Automatic translation import <Michael Bestas> 7 weeks ago
+5c00d3e : Telephony: Add roaming mode options to mobile network settings <Lin Ma> 3 months ago
+c3e44e0 : Call recording encoder/format choice 2/3 <Kryten2k35> 11 months ago
+2463935 : [2/3] Telephony: Proximity speaker <dankoman> 7 months ago
+986ce14 : Fix phone not initialized exception <mengsun> 6 months ago
+4993c78 : Style non-interactive dialog in the same way as interactive one. <Danny Baumann> 8 weeks ago
+216aad0 : Automatic translation import <Michael Bestas> 7 weeks ago
+05600e6 : TeleService: pass sub ID to APN setting <Lin Ma> 4 months ago
+109a0bf : Telephony: Bye bye Holo USSD dialog <AragaoAnderson> 3 months ago
+c84a7ba : Restyle USSD AlertDialog. <Andrew Lee> 6 months ago
+7c15f71 : Update activity title if called in MSIM case. <Danny Baumann> 3 months ago
+b587068 : Automatic translation import <Michael Bestas> 9 weeks ago
+ba719a2 : msim: Fix up activity for Call settings <Chirayu Desai> 9 weeks ago
+2ec51a9 : Automatic translation import <Michael Bestas> 10 weeks ago
+ec8c8a8 : Fix CDMA vs. WCDMA typo in cs translations <nadlabak> 2 months ago
+be6d6ee : Telephony: Further improve network selection <BadDaemon> 2 months ago
+2b48acf : Automatic translation import <Michael Bestas> 3 months ago
+f8ec9e0 : Telecom : Rename blacklist <Danesh M> 3 months ago
+8de0502 : Telephony: Improve NetworkSelection <BadDaemon> 3 months ago
+a6e104d : Automatic translation import <Michael Bestas> 3 months ago
+c3c5585 : msim: Fix FC on opening "calling accounts" in Dialer settings <LuK1337> 3 months ago
+d57df97 : Automatic translation import <Michael Bestas> 3 months ago
+632bedf : Set the capability to speed up audio setup for IMS MT call <Dong Zhou> 5 months ago
+1ea3057 : Telephony : Dismiss if up button is pressed <Danesh M> 3 months ago
+f39838e : Telephony: make call waiting option a switch preference <Altaf-Mahdi> 4 months ago
+354092e : TeleService: Don't show video calling switch if not supported <cretin45> 4 months ago
+5177d69 : Set untranslatables <Michael Bestas> 4 months ago
+1ba1f5a : Telephony: Allow customizing display name for different phone technology <Lin Ma> 4 months ago
+7acd2cc :  Telephony: check equality when verifying enabled state <Raj Yengisetty> 4 months ago
+75f7122 : Telephony: KK upgrade path to re-enable components for MSim <Raj Yengisetty> 4 months ago
+34c3133 : TelephonyService: Don't change preferred network type on multi RAT capable devices. <Adnan Begovic> 4 months ago
+d63de10 : TeleService: Set mode to 2g on other sim(DSDS) prior to change <Lin Ma> 4 months ago
+982add7 : Automatic translation import <Michael Bestas> 3 months ago
+509e3e9 : Automatic translation import <Michael Bestas> 4 months ago
+18c68f9 : Automatic translation import <Michael Bestas> 4 months ago
+a6c4d57 : Automatic translation import <Michael Bestas> 4 months ago
+85ca7b7 : Fix CAF merge issue. <Danny Baumann> 4 months ago
+fd9091d : msim: Fix FC on Settings->Mobile networks" <LuK1337> 4 months ago
+0e16314 : telephony: Remove top-level IMS settings <Steve Kondik> 4 months ago
+ 
+**** sr:platform_manifest ****
+189128f : reorganized slimremix <ZION959> 2 hours ago
+dec63f8 : track Email, Calendar, Contact, MMS CM repo <ZION959> 3 hours ago
+af57a66 : track cm phone repos <ZION959> 3 hours ago
+ 

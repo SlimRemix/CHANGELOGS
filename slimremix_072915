@@ -1,0 +1,524 @@
+
+**** github:SlimRoms/android_art ****
+6944b3a : AArch64: Fix incorrect use of preceding LIR. <Ningsheng Jian> 8 months ago
+d519fb3 : AArch64: Addressing Cortex-A53 erratum 835769. <Matteo Franchin> 9 months ago
+e1a48e9 : Improve dalvik cache pruning <Chirayu Desai> 3 weeks ago
+786d70b : dex2oat: Add a --compile-pic option <Igor Murashkin> 10 months ago
+ 
+**** github:SlimRoms/bootable_recovery ****
+c79373a : 2.8.7.0 <Ethan Yonker> 6 weeks ago
+a1b4b27 : Cleanup device_id retrieval <Matt Mower> 5 months ago
+bef5112 : [WIP] gui: software drawn keyboard (code only) <that> 10 weeks ago
+2e7d71e : Fix mass storage in recovery <ramsudharsan> 4 months ago
+382fa72 : fix settingsstorage mark <Xuefer> 4 months ago
+b690755 : Allow ORS set command to work with spaces in the value <Ethan Yonker> 6 weeks ago
+94d729f : Make sure that adbd restarts after sideload <Dees Troy> 3 months ago
+477aa0e : framebuffer: s6 edge takes a little lomger to initialize fb0 <jenkins> 3 months ago
+cad6d8c : add magic property.* value for accessing system property variables <Xuefer> 4 months ago
+421c371 : minuitwrp: fix crash when taking a screenshot. <xiaolu> 10 weeks ago
+bbbf618 : partition: recreate tw_internal_path(/data/media/0), after wipe media from data or format /data. <xiaolu> 8 weeks ago
+27fd159 : Fix ORS scripts displaying an error after completing <Ethan Yonker> 7 weeks ago
+4285a9f : Fix system read only behavior during boot <Ethan Yonker> 8 weeks ago
+f9b81cb : avoid possible dead loop for invalid utf8 <Xuefer> 4 months ago
+d47fa10 : gui: set tw_file to the currently flashed file name without path <that> 8 weeks ago
+afae6f1 : Fix double free crash during encrypted backups <Ethan Yonker> 8 weeks ago
+36cb127 : gui: move retainaspect handling to the resource ctors <that> 3 months ago
+364019e : Don't try to read temparature file if TW_NO_CPU_TEMP is set to true. Otherwise, recovery log gets filled up with "I:Cannot find file /sys/class/thermal/thermal_zone0/temp" <Agontuk> 3 months ago
+c4d895f : Fix unable to uncheck the mount read only check box <Ethan Yonker> 9 weeks ago
+43962f3 : remove useless memset and \n <Xuefer> 4 months ago
+e9a2f76 : minuitwrp: remove unused variable <ramsudharsan> 4 months ago
+d95ce0a : Add resize2fs and ability to run resize2fs via GUI <Ethan Yonker> 9 weeks ago
+336504c : Mount system as read-only by default <Ethan Yonker> 2 months ago
+26315aa : Only include uncrypt if not in system/core <Matt Mower> 3 months ago
+2dea5fe : partitionmanager: remove broken and unused progress calculation code <that> 3 months ago
+dde2149 : partition: support texfat module <that> 4 months ago
+e2a07a5 : Backup: fix 'out of memory' issue when backing up large partition as image Restore: improve image restoration speed <codelover> 4 months ago
+6ff000f : bootloader: align with AOSP code <that> 4 months ago
+483413b : GUI: Prevent duplicate page overlays <Matt Mower> 4 months ago
+86b5d14 : TZ: Update default time zone string <Matt Mower> 4 months ago
+101a932 : Support Qualcomm hardware decrypt <Dees Troy> 6 months ago
+ 
+**** sr:android_build ****
+a0e4320 : arm64: Enable Cortex A53 Errata 843419, 835769 ldflags <David Ng> 4 months ago
+d52ab42 : AArch64: Addressing Cortex-A53 erratum 835769 <Wei Wang> 4 months ago
+2ccfb22 : Revert "Disable -mcpu=cortex-a15 flag for krait" <Steve Kondik> 3 weeks ago
+ee6a70a : tools:releasetools:Use timestamp from build.prop while building system.img <Ameya Thakur> 4 months ago
+b0b580f : build: Fix device detection for a few of the envsetup commands <Steve Kondik> 3 weeks ago
+a71043b : build: Fix image creation for F2FS-only configuration <Steve Kondik> 3 weeks ago
+8ae765a : releasetools: Add support for LZMA in blockimgdiff <Steve Kondik> 7 weeks ago
+2182c4e : definitions.mk: look for definitions.mk in device/*/build also <Andrew Boie> 9 months ago
+eb9a86d : minnow_max: search for cm.mk in additional directories <Howard M. Harte> 10 weeks ago
+9a9efd3 : envsetup: repolastsync <Matt Mower> 1 year, 7 months ago
+edde190 : otasigcheck: Extract the key <Chirayu Desai> 7 weeks ago
+54049e4 : build: Add the factorypackage target <Diogo Ferreira> 4 months ago
+de0bba6 : build: avoid recovery patch if device setup can't do it correctly <Hashcode> 8 weeks ago
+40cac95 : build: Unset JAVA_TOOL_OPTIONS to read java version <Matt Mower> 3 months ago
+529ad69 : build: Add IGNORE_SUBDIR to clear vars. <Adnan Begovic> 3 months ago
+6ae4962 : build/core: Create means of ignoring subdir layer for packages. <Adnan Begovic> 3 months ago
+0b0fb24 : kernel: Fix kernelconfig build <Michael Bestas> 3 months ago
+ 
+**** github:SlimRoms/device_qcom_common ****
+75f0197 : power: Additional changes for 8994 <Steve Kondik> 8 days ago
+9998c89 : power: Send 8994 perf commands ourselves <Steve Kondik> 2 weeks ago
+66eaac8 : power: Add features to the 8994 PowerHAL <Steve Kondik> 5 weeks ago
+ 
+**** github:SlimRemix/android_device_samsung_qcom-common ****
+956bfff : Revert some things <RobbieL811> 8 weeks ago
+ddc4c25 : qcom-common: doze: Add back button to action bar <luca020400> 9 weeks ago
+3bbf2fb : qcom-common: doze: Consolidate doze settings <Christopher R. Palmer> 10 weeks ago
+dd404fa : qcom-common: doze: fix defaults <Dave Daynard> 10 weeks ago
+cdec74f : doze: Add service for using proximity sensor for wake-up <Patrick Lower> 3 months ago
+e556460 : doze: Set gesture to disabled by default <Arne Coucheron> 2 months ago
+1d40fc7 : qcom-common: skip secure discard in recovery <Dave Daynard> 3 months ago
+864a1e6 : qcom: remove TARGET_CPU_SMP flag <Brinly Taylor> 3 months ago
+899584c : qcom-common: Remove obsolete system properties <Arne Coucheron> 3 months ago
+39feddf : Revert "samsung_qcom-common: Remove feature overlays for now" <Dan Cartier> 3 months ago
+dcd0efd : qcom-common: remove e2fsck <Christer> 3 months ago
+3ce566c : overlay: fix config_tether_apndata defined type Conflicts: 	overlay/frameworks/base/core/res/res/values-mcc310-mnc260/config.xml Change-Id: Ic622f358b299fca59d3b7dd519382fb01115fadb <Patrick Lower> 4 months ago
+cddcc44 : mms: add overlay for Claro PR carrier <Matt Filetto> 8 months ago
+8d01658 : qcom-common: Remove non-existent enableSplitSMS config <Arne Coucheron> 6 months ago
+a898373 : qcom: Updates for offline charging <Dan Cartier> 4 months ago
+7871b25 : samsung_qcom-common: Remove overlay for tether apn data <Josue Rivera> 4 months ago
+baf3780 : qcom-common: Cleanup file permissions (755->644) <Arne Coucheron> 6 months ago
+f2d670c : qcom-common: Place files in correct location for real <Ethan Chen> 9 months ago
+943ffa8 : qcom-common: Copy recovery scripts to correct place <Tom Marshall> 10 months ago
+8dbcbd8 : qcom-common: Include healthd charging images <Arne Coucheron> 7 months ago
+718a702 : qcom-common: Do not build charger <Rox-> 7 months ago
+5914ff1 : qcom-common: Add msm8226 to build barrier <Rox-> 7 months ago
+35ce8c1 : qcom: enable qcom bionic optimizations <Dan Pasanen> 8 months ago
+0ca0c8d : Move tty_enabled from Telephony to Telecomm <Arne Coucheron> 8 months ago
+6c24626 : Remove redundant CFLAGS <Arne Coucheron> 8 months ago
+ac2d24c : Add apq8084 to build barrier <Tony Layher> 9 months ago
+4640b66 : samsung_qcom-common: Remove feature overlays for now <Josue Rivera> 9 months ago
+482deda : Samsung: qcom-common: Move telephony props to device repos <Tony Layher> 11 months ago
+797dbea : overlay: mms: add overlay for US Cellular <Matt Filetto> 10 months ago
+2f52b2b : Revert "Now that overlays are  back here: Correct call to overlays" <Nick Lovell> 9 months ago
+f854b66 : Now that overlays are  back here: Correct call to overlays <nicklovell23> 10 months ago
+4c599f9 : qcom-common: Clean up Samsung device inheritance <Ethan Chen> 1 year ago
+06b1c0a : qcom-common: Only include init.qcom.thermal_links.sh if needed <Christopher R. Palmer> 1 year ago
+92e9291 : qcom-common: Remove mpeg4/h263/h264 ffmpeg entries <Arne Coucheron> 1 year, 1 month ago
+3cb6697 : qcom-common: remove cpufreq permissions now set by uevent <Drew Davis> 1 year, 1 month ago
+78988bb : qcom-common: Remove duplicate overlay <Ethan Chen> 1 year, 2 months ago
+b8a3522 : Add ffmpeg codecs to 8974 <slayher> 1 year, 2 months ago
+93e6953 : qcom-common: Setup mk files to honor the 8974 devices. <slayher> 1 year, 2 months ago
+0077d33 : qcom-common: Enable use of FFMPEG codecs for extended formats <Steve Kondik> 1 year, 3 months ago
+5b92fa8 : Telephony: Add support for Sprint TW "System select" choices. <Mike Kasick> 3 years, 6 months ago
+a324f48 : Fix parameters for interactive governor <lbdroid> 1 year, 3 months ago
+3a8a7f1 : Mms: Fix multipart SMS on Sprint. <Mike Kasick> 1 year, 3 months ago
+7bf2bd1 : clean up thermald and some init <cordell> 1 year, 3 months ago
+533e674 : Add US Cellular Overlays <nicklovell23> 1 year, 5 months ago
+83a1134 : overlay: overlay the overlay with moar overlays <Dan Pasanen> 1 year, 5 months ago
+5660d3c : add missing permissions for interactive governor for msm8960 <Dave Daynard> 1 year, 5 months ago
+a07430b : qcom-common: 8064 updates from NA5 <dcd> 1 year, 5 months ago
+580af10 : qcom-common: Misc stuff for 8974 <Steve Kondik> 1 year, 6 months ago
+7d3f9cd : qcom-common: Update postboot for 8974 <Steve Kondik> 1 year, 6 months ago
+99d34cc : overlay: add r970-specific eri overlays <Dan Pasanen> 1 year, 4 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trlte-common ****
+875d420 : trlte-common: increase dozebrightness <gekkehenkie11> 3 days ago
+fdad171 : Set CPU max & min. frequency  hardlimit max screen on 3091200 ghz min 268800mhz enabled intelliplug and disabled mpdecision hotplug <ZION959> 4 days ago
+dce1f5b : trlte-common: increase video recording volume <gekkehenkie11> 4 days ago
+f648f3f : trlte-common: align tcp settings with touchwiz <gekkehenkie11> 6 days ago
+ecee793 : trlte-common: use CAF Power HAL instead of CM's <gekkehenkie11> 7 days ago
+eecce61 : trlte-common: change io scheduler to fiops <Michael Wawrzyniak> 10 days ago
+fe82df5 : trlte-common: change IO scheduler to cfq <gekkehenkie11> 10 days ago
+93452f0 : Revert "trlte-common: change io scheduler to fiops" <Allard addink> 11 days ago
+7f735bf : trlte-common: change io scheduler to fiops <Michael Wawrzyniak> 13 days ago
+de28c3f : trlte-common: Add SamsungDoze <Michael Wawrzyniak> 13 days ago
+ae7d5d3 : trlte-common: Cleanup trlte.mk <Michael Wawrzyniak> 13 days ago
+fc30886 : trlte-common: update proprietary files <gekkehenkie11> 3 weeks ago
+85fefd6 : enable intellithermal and use Samsung's CPU governor parameters <gekkehenkie11> 3 weeks ago
+7c89948 : trlte-common: Don't copy FFMPEG config anymore <Steve Kondik> 6 weeks ago
+d5970ef : fix parsing problem in gps.conf <gekkehenkie11> 6 weeks ago
+ea9edf1 : add izat.conf for gps <gekkehenkie11> 7 weeks ago
+7f20aea : Update gps config files <gekkehenkie11> 7 weeks ago
+36152a6 : bring GPS HAL up to 5.1.1 <gekkehenkie11> 7 weeks ago
+bf50521 : add HFR to media_profiles.xml <gekkehenkie11> 9 weeks ago
+85d74cc : Add HFR capabilities <gekkehenkie11> 9 weeks ago
+6088806 : use yuv420p for better compatability <gekkehenkie11> 9 weeks ago
+1f0be13 : more cam fixes <gekkehenkie11> 3 months ago
+c05fe07 : trlte: more camera fixups. <Tony Layher> 3 months ago
+51e0939 : trlte-common: Clean up camera code, fix up wrapper for multiple apps. <Tony Layher> 3 months ago
+acd21e9 : trlte: mediaserver doesn't actually need access to serial devices. <Tony Layher> 4 months ago
+04ae406 : trlte cam wrapper to use nv12-venus <gekkehenkie11> 3 months ago
+f26cc2e : increase mic volume <gekkehenkie11> 3 months ago
+56654b5 : trlte-common: Use low latency for primary <Tony Layher> 5 months ago
+1e86927 : trlte-common: address selinux denials. <Tony Layher> 5 months ago
+f41249a : trlte-common:  Add PCC calibration interface <Steve Kondik> 5 months ago
+3fb2f85 : trlte-common: reorder init script for encrpytion <Tony Layher> 5 months ago
+49d4ade : remove volte overly flags <gekkehenkie11> 5 months ago
+1abebf7 : trlte-common: Stop using MDP for everything. <Tony Layher> 5 months ago
+e2f6a83 : trlte-common: Ensure USB config is loaded. <Tony Layher> 5 months ago
+0335a67 : fix muted audio when rotated <gekkehenkie11> 5 months ago
+8c15947 : change trlteeur -> trltexx <gekkehenkie11> 5 months ago
+cefb537 : trlte-common: Remove MMAP hack, no longer required with new blobs. <Tony Layher> 5 months ago
+d0782f6 : trlte-common: 15 bucks and 15 minutes later, we have OTG. <Tony Layher> 5 months ago
+b5c23d5 : trlte-common: Add NFC property <Tony Layher> 6 months ago
+029b994 : trlte-common: Update service classes for encrpytion <Tony Layher> 6 months ago
+53310a9 : trlte-common: separate mixer_paths for 910F. <Tony Layher> 6 months ago
+a500f38 : Load Modem Host interface module for 910F <gekkehenkie11> 6 months ago
+4ed660e : trlte-common enable stylus gestures. <Tony Layher> 6 months ago
+77ef353 : add support TRLTEEUR <gekkehenkie11> 6 months ago
+d65f0ad : trlte-common: Setup selinux/perms for spen events. <Tony Layher> 6 months ago
+613b017 : trlte-common: Update nfc conf <Tony Layher> 6 months ago
+51f2de7 : trlte-common: add perfd dirs during init. <Tony Layher> 6 months ago
+06ba03a : trlte-common: Address denial for gyro_cal <Tony Layher> 6 months ago
+3a37481 : Clean up device names, remove mobisave, cleanup services <Michael Wilkinson> 6 months ago
+39f8d3d : trlte-common: Update perms and power hal for changes in input devices. <Tony Layher> 6 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trltespr ****
+1057a43 : Move proprietary files to common <nicklovell23> 11 days ago
+ 
+**** github:SlimRoms/android_external_bluetooth_bluedroid ****
+a27c14a : bluedroid: Fix uninitialized variable warning <Steve Kondik> 2 weeks ago
+ 
+**** github:SlimRoms/android_external_stagefright-plugins ****
+1478dba : stagefright-plugins: Restructure the code <Steve Kondik> 3 weeks ago
+ 
+**** github:SlimRoms/android_external_wpa_supplicant_8 ****
+9704e15 : eap_peer: Make the QMI EAP proxy a standalone lib <Ricardo Cerqueira> 3 weeks ago
+ 
+**** github:SlimRoms/frameworks_av ****
+facd7cc : libstagefright: Fix LPA default min duration <Michael Bestas> 7 days ago
+4709154 : audiopolicy: Fix DTS Eagle dependence on kernel <dianlujitao> 8 days ago
+7877472 : cameraservice: Resolve message vs start/stop preview races <Ricardo Cerqueira> 10 days ago
+028eef4 : camera: add ability for a device to specify MAX_CAMERAS <Dan Pasanen> 1 year, 3 months ago
+7e9335b : stagefright: Remove deprecated FFMPEG config <Ethan Chen> 2 weeks ago
+602cca2 : Prevent reading past the end of the buffer in 3GPP <Joshua J. Drake> 3 months ago
+61d6043 : Prevent integer underflow if size is below 6 <Joshua J. Drake> 3 months ago
+878116a : Fix integer overflow when handling MPEG4 tx3g atom <Joshua J. Drake> 3 months ago
+1d174c8 : Fix integer underflow in covr MPEG4 processing <Joshua J. Drake> 3 months ago
+73d191d : Prevent integer overflow when processing covr MPEG4 atoms <Joshua J. Drake> 3 months ago
+7a9ebb5 : stagefright: Move a bunch of FFMPEG stuff out of here <Steve Kondik> 3 weeks ago
+ad11fb4 : stagefright: Add support for loading a custom OMXPlugin <Steve Kondik> 3 weeks ago
+ 
+**** sr:frameworks_base ****
+cb33722 : revert: VolumePanel: volume bar disorderly jump when drag it. <ZION959> 2 hours ago
+301af10 : fixup volume stream linking <Roman Birg> 3 months ago
+6da236a : Improve SeekBarVolumizer behavior with unlinked streams <Roman Birg> 3 months ago
+e3ab425 : revert: PackageManager: copy allowViaWhitelist flag for perm trees <ZION959> 3 hours ago
+d12aa48 : Revert "base: zenmode: add 90 minutes downtime" <Kim Le> 5 weeks ago
+319bfff : VolumePanel: volume bar disorderly jump when drag it. <guotao.deng> 8 weeks ago
+64efc49 : VolumePanel: better handling of updating sliders in expanded view <William C. Garrison III> 9 weeks ago
+11b038c : VolumePanel: show hint for unlinked notification slider too <William C. Garrison III> 9 weeks ago
+d110c94 : ExpandedVolumePanel: Fix empty volume panel after timeout in Notification tile <fusionjack> 10 weeks ago
+095755d : ExpandedVolumePanel: Fix SystemUI FC when expands volume panel from Notifications tile <fusionjack> 6 months ago
+daaa8a0 : base: Fix notification sounds for wifi only devices <Christopher R. Palmer> 3 months ago
+750b0e8 : MediaScanner: Add support for default ringtones per sim <Danesh M> 9 months ago
+b534c5d : Revert CAF's default system sound settings <Chirayu Desai> 5 weeks ago
+8d64fc7 : MediaPlayer: Add multi SIM ringtone support <padarshr> 1 year, 2 months ago
+a91b97b : fix Notification volume slider linking <Roman Birg> 3 months ago
+d95dcf7 : frameworks: read VOLUME_LINK_NOTIFICATION from proper table <Roman Birg> 4 months ago
+6a9a5eb : Implement linked volumes and add upgrade path. <Adnan Begovic> 1 year, 9 months ago
+5124853 : VolumePanel: Properly update expanded volume panel sliders <William C. Garrison III> 2 months ago
+e2072bd : VolumePanel: Don't timeout quickly if expanded <William C. Garrison III> 2 months ago
+d8d53dc : Framework: Always show ZenPanel when showing expanded volume panel <AragaoAnderson> 4 months ago
+b9d04b7 : SystemUi: Nuke secondaryIcon. <Adnan Begovic> 4 months ago
+af307a3 : SystemUI: Hide secondary icon and divider on expanded panel. <Adnan Begovic> 4 months ago
+9b9fb6f : VolumePanel : Check if StreamControl is null <Danesh M> 6 months ago
+190bc1c : SystemUI: reset timeout when expanding volume panel <Altaf-Mahdi> 6 months ago
+e5c800f : SystemUI: Create expandable volume panel. <Adnan Begovic> 7 months ago
+8f3a378 : Volume: fix: Avoid making bad forceVolumeControlStream call. <Altaf-Mahdi> 4 months ago
+404a6b3 : PackageManager: copy allowViaWhitelist flag for perm trees <Roman Birg> 2 days ago
+7d1136a : qs: initialize day temperature in livedisplay tile <Jorge Ruesga> 3 days ago
+c27c85c : framework: add config_ledCanPulse overlay setting <Roman Birg> 6 hours ago
+6aa35ec : pm: remove stale permissions <Jorge Ruesga> 3 weeks ago
+c857d0b : SystemUI: Crash fix from bad camera values. <Mohammed Irfan> 6 hours ago
+7d87e4d : base: check nullability of ConnectivityManager#getNetworkCapabilities() <Jorge Ruesga> 11 days ago
+822451d : Guard in short-circuit evaluations for stringSplit methods. <Mohammed Irfan> 9 days ago
+ed75ac4 : SystemServer: Skip TorchService construction if no flash feature detected <dhacker29> 10 weeks ago
+b15d646 : Camera: Don't throw exceptions when value pairs have spaces in them <Ricardo Cerqueira> 9 months ago
+0c0bf9c : Revert: IBinder can be leaked in FingerPrintService <ZION959> 6 hours ago
+28f8a4e : camera: Unbreak the extended face detection code <Steve Kondik> 4 days ago
+5c67a01 : Allow sending vendor- or device-specific commands to the camera HAL. <Danny Baumann> 5 months ago
+98a04cb : ActivityManagerService: Don't export 'system' process in running app list <Pat Erley> 2 days ago
+b25b557 : Remove memory leak in PersistentDataBlockService jni <Henrik Baard> 5 weeks ago
+aedc946 : DO NOT MERGE Fix JNI global references leak in AudioEffect <Lucas Gomez Jimenez> 6 weeks ago
+5acccaf : Avoid AsyncTask ThreadPool leak in RecentTaskLoaser <jshe32X> 1 year, 11 months ago
+32c543a : backup: Fix a system server crash <Steve Kondik> 3 weeks ago
+ae05bf8 : Barrier only messages shouldn't prevent the idle handlers from running <Christian Poetzsch> 9 weeks ago
+c20f737 : Add Process IOWAIT info to ANR dump <Emmanuel Berthier> 1 year, 2 months ago
+ac0fea0 : Avoid ANR loop because of queued-up ANR runnables <Snild Dolkow> 9 weeks ago
+78e0cfd : Use isolated thread to perform onStart() <Charles Tsai> 2 months ago
+1259405 : Disable reboot confirmation dialog <Victor Lapin> 8 days ago
+377f826 : Use 24dip of height for statusbar - M style <LorDClockaN> 8 weeks ago
+93e9bd4 : SlimDim: Use semaphore to cancel ontouch callback <Jean-Pierre Rasquin> 11 days ago
+ 
+**** github:SlimRoms/frameworks_native ****
+909ed2c : Revert "Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS" <Robbie Lancaster> 3 weeks ago
+52f4e96 : Remove gamma correction from color correction shader <Alan Viverette> 3 months ago
+578b628 : Revert "Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS" <Steve Kondik> 3 weeks ago
+d4f9d9b : Tuning compiler thread count for optimal application install times <Chitti Babu Theegala> 8 weeks ago
+4057a38 : SF: Skip render-to-texture for color transforms <Dan Stoza> 9 months ago
+3c15549 : native: dock battery <Jorge Ruesga> 5 weeks ago
+af9de64 : Enable fingerprint option in Settings [2/3] <Andy Mast> 5 weeks ago
+df9aea2 : surfaceflinger: use Mutex timedLock instead of tryLock loop <Jesse Hall> 7 months ago
+b4748f5 : SF: Reduce resync samples without present <Dan Stoza> 9 weeks ago
+ef8264d : Add dalvik heap override for xxxhdpi phone <bmc08gt> 4 months ago
+461a414 : Add HWUI overrides for xxxhdpi phone <bmc08gt> 4 months ago
+025b7be : libgui: bail assertion if sensorservice cannot be found <Scott Mertz> 2 months ago
+a2c3d7a : Remove gamma correction from color correction shader <Alan Viverette> 3 months ago
+ 
+**** github:SlimRoms/frameworks_opt_telephony ****
+1dc01d5 : CdmaLteServiceStateTracker: allow forcing reading eri from xml <Dan Pasanen> 7 months ago
+60b6d00 : Update GSM/CDMA getState API to consider state of the IMS phone as well. <Etan Cohen> 7 months ago
+cabbe15 : Send SMS over 1x when on eHRPD/LTE and active voice call <Xia Ying> 11 months ago
+9ebedb8 : Generate transaction Ids for RetrieveConf - This is required to be able to backup and restore received MMS <Raj Yengisetty> 6 months ago
+ 
+**** sr:android_frameworks_webview ****
+6e630b1 : Updating WebView 44.0.2403.83 to 44.0.2403.90 (arm64) <Björn Hutmacher> 2 days ago
+97927d7 : Updating WebView 43.0.2357.121 to 44.0.2403.90 (x86) <Björn Hutmacher> 4 days ago
+5135889 : Updating WebView 44.0.2403.83 to 44.0.2403.90 (arm) <José Adolfo Galdámez> 4 days ago
+2d81ff3 : nochromium: restructure some things <José Adolfo Galdámez> 5 days ago
+740c351 : Update WebView for arm and arm64 to 44.0.2403.83 <Björn Hutmacher> 3 weeks ago
+5fd5949 : Update WebView for arm and arm64 to 44.0.2403.73 <Björn Hutmacher> 4 weeks ago
+08212e3 : Update WebView for arm and arm64 to 44.0.2403.64 <Björn Hutmacher> 4 weeks ago
+383b799 : Individual apk files per arch <Björn Hutmacher> 5 weeks ago
+2266e9a : Add x86 targets <Björn Hutmacher> 5 weeks ago
+ed1cbbd : Add WebView 43.0.2357.121 for x86 <Björn Hutmacher> 5 weeks ago
+ 
+**** github:SlimRoms/hardware_libhardware ****
+8b9ce44 : audio: Notify amplifier HAL of device enable/disable <Ethan Chen> 4 weeks ago
+5c03137 : Fingerprint: Add getNumEnrollmentSteps [2/2] <Andy Mast> 3 weeks ago
+5d00007 : Fingerprint [2/2]: Numerous Fingerprint Improvements <Andy Mast> 6 weeks ago
+f139259 : Fingerprint: add explicit authenticate actions <Scott Mertz> 8 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_audio ****
+826bd52 : audio: Clean up and update. <Dan Cartier> 3 weeks ago
+bc715b7 : audio: Remove unnecessary code. <Dan Cartier> 3 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_audio ****
+84adcc3 : audio: Notify amplifier of device enable/disable <Ethan Chen> 4 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_audio ****
+4d3422f : hal: Add support for Samsung dual-SIM implementation <ljzyal> 5 days ago
+d8219b7 : compress offload: use new sample rate representation. <Eric Laurent> 9 months ago
+ddebae9 : hal: Notify amplifier of device enable/disable <Ethan Chen> 4 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_display ****
+8751e83 : hwc: Handle DOZE_SUSPEND properly <Naseer Ahmed> 9 months ago
+f82a8c9 : hwc: Ensure pipe unset is called before wfd commit <Baldev Sahu> 8 weeks ago
+3616da7 : Revert "hwc: Skip load based composition for video playback." <Steve Kondik> 9 weeks ago
+9bf65fa : hwc: Avoid switching rotator session between secure and non secure <Baldev Kumar Sahu> 2 months ago
+7c71a24 : hwc: Avoid switching rotator session between secure and non secure <Baldev Kumar Sahu> 2 months ago
+aa26e2d : hwc: initialize viewFrame for primary display <Arun Kumar K.R> 1 year, 1 month ago
+a25137d : hwc: Add check for dirtyRect clear call. <Ramakant Singh> 8 months ago
+4d0417d : hwc: Avoid redoing GPU comp under certain conditions <Raj Kamal> 5 months ago
+8db4dfe : hwc: vds: isActive need to be set for wfd using vds solution <Baldev Kumar Sahu> 4 months ago
+b582a0e : hwc: Avoid partial frame update on secure display <Jeykumar Sankaran> 1 year, 1 month ago
+46dc44f : hwc: Avoid redoing GPU comp under certain conditions <Raj Kamal> 5 months ago
+26dfb57 : hwc: vds: isActive need to be set for wfd using vds solution <Baldev Kumar Sahu> 4 months ago
+99ea81f : hwc: Add check for dirtyRect clear call. <Ramakant Singh> 8 months ago
+5c1f3ab : hwcomposer: Kill some logspam <Steve Kondik> 4 months ago
+f486583 : hwc: Integerize in the outward direction of rectangle <Saurabh Shah> 5 months ago
+ca83f33 : hwc: Try MDP composition eventhough skip layer is present <Raj Kamal> 9 months ago
+ab89fcf : hwc: Set min panel refresh rate during idle timeout <Praveena Pachipulusu> 8 months ago
+0e049ea : h/q/d: Add binder-api support to change refresh-rate. <Raj Kamal> 8 months ago
+1d4bbd2 : display: Add support for dynamic refresh rate <Arun Kumar K.R> 11 months ago
+ 
+**** github:SlimRoms/hardware_qcom_fm ****
+352b2b2 : Automatic translation import <Michael Bestas> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_media ****
+eec4b1f : mm-video-v4l2: Remove useless build warning <Michael Bestas> 3 weeks ago
+ 
+**** github:SlimRoms/hardware_qcom_media ****
+fb60ff2 : mm-video-v4l2: vidc: venc: Pass correct input buffers for gralloc source <c_sisanj> 2 months ago
+22a20a7 : mm-video-v4l2: vidc: support hevc 720p Full-DSP up to 1280x768 <Balamurugan Alagarsamy> 4 months ago
+f1cb445 : mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder <Balamurugan Alagarsamy> 3 months ago
+2b8d662 : mm-video-v4l2: vidc: vdec: handle flush while codec config ETB for hevc decoder <Balamurugan Alagarsamy> 3 months ago
+6cafe55 : mm-video-v4l2: vdec: Exit if default set format failed for output port also <Balamurugan Alagarsamy> 4 months ago
+d808b5b : mm-video-v4l2: vdec: change preferred default color format order <Balamurugan Alagarsamy> 4 months ago
+894ea97 : mm-video: vdec: hevc: Avoid crash while handling extra data <Paras Nagda> 4 months ago
+f10149e : mm-video-v4l2: vdec: change preferred default color format order <Balamurugan Alagarsamy> 4 months ago
+3c6252d : mm-video: venc: handle zero-length invalid EOS buffers <Praveen Chavan> 1 year, 11 months ago
+691b555 : mm-video-v4l2: venc: update color format in port-def <Praveen Chavan> 8 months ago
+cac8640 : mm-video-v4l2: vdec: Disable switching to surface-mode-format <Praveen Chavan> 10 months ago
+09a82b7 : mm-video-v4l2: vdec: Add support for describing color format <Praveen Chavan> 10 months ago
+ 
+**** github:SlimRemix/android_hardware_samsung ****
+5cb809e : cmhw: Add touchscreen hovering support <Franco> 6 months ago
+15a4770 : AdaptiveBacklight: fix illegal value exception. <repo Shareef Ali> 7 months ago
+f9b9e2c : samsung: hardware: Add HighTouchSensitivity class <Xiao-Long Chen> 11 months ago
+797cf92 : samsung: hardware: Set correct file mode for Java files <Ethan Chen> 11 months ago
+bec31a4 : Hardware: Samsung: simplify CMHW isSupported check <Dave Daynard> 12 months ago
+f2b8096 : allow override of cabc file via property <sbrissen> 1 year, 9 months ago
+b6c18ad : vibrator intensity: disable tunable framework if not supported <David Daynard> 1 year, 11 months ago
+57956f3 : samsung: hardware: add support for adaptive backlight <Daniel Hillenbrand> 1 year, 11 months ago
+3939b53 : Samsung: Add common class for vibrator <Shareef Ali> 2 years ago
+4e84df2 : libril: Fix signal strength for xmm6260 too <Utkarsh Gupta> 3 months ago
+f24ea83 : libril: Add missing semicolon <Caio Schnepper> 4 months ago
+8d67d24 : libril: Avoid strncat which doesn't check if we overflow <Andreas Schneider> 4 months ago
+6053dd3 : libril: Make data a const pointer in RIL_onUnsolicitedResponse() <Andreas Schneider> 4 months ago
+2ece2cf : libril: Fix signal strength <Utkarsh Gupta> 4 months ago
+df34f3a : libril: rewrite preferred network type <Daniel Hillenbrand> 4 months ago
+d1375de : libril: move samsung specific into seperate table, update to v11 <Howard Su> 4 months ago
+f10a2da : libril: Readd support for MODEM_TYPE_XMM7260 <Andreas Schneider> 4 months ago
+1914517 : libril: Fix #elif for MODEM_TYPE_XMM6260 <Andreas Schneider> 4 months ago
+01e9520 : libril: Use consistent names for modem defines <Andreas Schneider> 4 months ago
+f96c2a0 : libril: The data variable should be const <Andreas Schneider> 4 months ago
+d6d11f7 : libril: Fix processRadioState prototype <Andreas Schneider> 4 months ago
+1c3dc68 : Fix the build error of some samsung devices which provides libril (e.g. ks01lte) <K Yasu> 4 months ago
+59a0fc5 : libril: Merge xmm6262 and xmm6260 to single lib. <Howard Su> 7 months ago
+2833e06 : librilsec-client: Add support for xmm7260 modem <Andreas Schneider> 6 months ago
+c22fc81 : libril: Add support for xmm7260 modem. <Andreas Schneider> 7 months ago
+747694b : libril: use ip address as gateway in ppp network. <Howard Su> 7 months ago
+9a1ca9d : XMM626x: fix Samsung RIL v9 update <bmork> 7 months ago
+cc010db : XMM626x: Update RIL to V9 [1/2] <Andrew Jiang> 1 year, 6 months ago
+73715ef : libcamera: fix camera. <Howard Su> 9 months ago
+1a4101d : hardware: samsung: get rid of "-lpthread" <Andreas Blaesius> 9 months ago
+aac72a6 : samsung: Correct macloader values <JustArchi> 10 months ago
+943df48 : omx_core: fix heap corruption when unregistering component <Dheeraj CVR> 12 months ago
+5fd5b7e : Exclude generic camera implementation if TARGET_PROVIDES_CAMERA_HAL <Ricardo Cerqueira> 1 year, 2 months ago
+6468ffc : Revert "xmm626x: Update libril to v9 [1/2]" <Xiao-Long Chen> 1 year, 4 months ago
+17861ee : xmm626x: Update libril to v9 [1/2] <Andrew Jiang> 1 year, 6 months ago
+ec97e79 : Fix crash on boot <Flamefire> 1 year, 6 months ago
+e5dd113 : mfcdec: Compensate race condition in video thumbnail generation <Ricardo Cerqueira> 1 year, 7 months ago
+5eafed8 : Added more MAC's for murata. <Liam Alford> 1 year, 8 months ago
+f2351e8 : exynos3: libs3cjpeg: read memory configuration from kernel <Pawit Pornkitprasan> 1 year, 7 months ago
+0dcc416 : macloader: Added another SEMCOSH mac <Dominik Marszk> 1 year, 7 months ago
+7e5086d : macloader: Add another murata MAC <Andrew Dodd> 1 year, 8 months ago
+8830f13 : Fix build for Aries  There is no need for a ifeq for herring here. It was necessary ifneq to exclude it, but now since it has  s5pc110 flag that is enough. <Josue Rivera> 1 year, 8 months ago
+f76df2c : Updates for s5pc110 hardware <tchaari> 1 year, 8 months ago
+9c9062d : Fixed Light Exynos 4 sensor not working <herna> 1 year, 8 months ago
+ca39dac : gralloc: Allow unmapping concurrent handles <Ricardo Cerqueira> 1 year, 9 months ago
+c1cd85e : gralloc: Allow any process to have multiple buffer handles <Ricardo Cerqueira> 1 year, 9 months ago
+638c898 : Samsung libril: Update for 4.4 <Jiangyi> 1 year, 9 months ago
+314dd5a : exynos4_gralloc: Fix getprop in framebuffer init <Dominik Marszk> 1 year, 9 months ago
+02d25de : macloader: add f0:27:65 as a murata mac <Dan Pasanen> 1 year, 9 months ago
+aa93524 : libril: handle samsungs unsol responses <Daniel Hillenbrand> 1 year, 11 months ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+a01b4ab : cpufreq: patch zzmoove to allow lcd notifiers alone and allow simultaneous powersuspend and zzmoove <placiano> 5 weeks ago
+3642d06 : security: SELinux: revert Samsung hard enforcing (AndreiLux ) <ZION959> 4 days ago
+9a904c5 : revert: cpufreq: Add a notifer chain that governors can use to report information <ZION959> 4 days ago
+e341f69 : random: add_hwgenerator_randomness() for feeding entropy from devices <Torsten Duwe> 1 year, 1 month ago
+50298e4 : Revert "arm: add arm optimized memcmp" <placiano> 7 days ago
+629add6 : Revert "arm: add Krait optimized strcmp" <placiano> 7 days ago
+e109e59 : exec: reserve full virtual stack space at execve() <Ray Essick> 5 months ago
+a075da6 : Speed up console framebuffer imageblit function <gustavo> 1 year, 7 months ago
+cc0b625 : defconfig: Update defconfig <ZION959> 4 days ago
+888702a : crypto: msm: Remove lock/unlock APIs used in shared CE HW scenario <AnilKumar Chimata> 9 months ago
+96c9d29 : crypto: msm: Add multi-core crypto support <William Clark> 2 weeks ago
+f9cbe12 : crypto: msm: Add ablkcipher fallback for aes ctr, ecb, and cbc mode <Zhen Kong> 1 year, 2 months ago
+e552197 : crypto: msm: Fix Crypto BAM issue for 64bit <AnilKumar Chimata> 1 year, 4 months ago
+94329f5 : crypto: msm: fix aes counter issue <Zhen Kong> 1 year, 2 months ago
+694cc1b : crypto: msm: Add aead hmac-sha256 support <Zhen Kong> 1 year, 3 months ago
+e2352a9 : crypto: msm: qcrypto: Close window during suspending for SMP <AnilKumar Chimata> 6 months ago
+eaf4f43 : crypto: msm: qcrypto: Update suspend resume code <AnilKumar Chimata> 7 months ago
+a6ab4ed : crypto: msm: Check the return value of cmdlistinfo <AnilKumar Chimata> 12 months ago
+10f06f0 : pft: check bio bi_vcnt before using bi_io_vec <Amir Samuelov> 9 months ago
+b6be9d6 : security: add PFT to the default security LSM list <Amir Samuelov> 10 months ago
+e64dffb : pft: avoid race closing encrypted files when key removed <Amir Samuelov> 10 months ago
+6e46711 : pft: fix pft_get_key_index() when PFT is the chosen lsm <Amir Samuelov> 11 months ago
+490c3c0 : pft: register PFT to security framework <Amir Samuelov> 2 weeks ago
+b2b04e6 : pft: fix pft_allow_merge_bio() to check if key is loaded <Amir Samuelov> 10 months ago
+24b19a5 : platform: msm: fix PFT for 64-bit <Amir Samuelov> 1 year, 1 month ago
+b52b027 : platform: msm: fix PFT when using direct-io <Amir Samuelov> 1 year, 1 month ago
+31f429d : msm: cleanup and minor fixes for PFT driver <Amir Samuelov> 1 year, 2 months ago
+a412489 : platform: msm: fix PFT char device major number <Amir Samuelov> 1 year, 2 months ago
+93eaa47 : platform: msm: pft: fix close all encrypted files <Amir Samuelov> 1 year, 2 months ago
+9b9e139 : platform: msm: add Per-File-Tagger (PFT) driver <Amir Samuelov> 1 year, 2 months ago
+4b30128 : md: dm-req-crypt: Initialize global variables in constructor <Dinesh K Garg> 9 months ago
+8041e76 : md: dm-req-crypt Recalculate nr_phys_segments <Dinesh K Garg> 9 months ago
+e5375ff : dm: dm-req-crypt: fix null pointer reference <Amir Samuelov> 10 months ago
+1d258c6 : md: dm-req-crypt does not release the device <Dinesh K Garg> 10 months ago
+088e712 : md: dm-req-crypt: add message when mapping completed <Amir Samuelov> 10 months ago
+e0aa63c : dm: dm-req-crypt: Add multi-core crypto support <ZION959> 4 days ago
+656d280 : dm: Adding support of AES 256 bits in dm-req-crypt <Dinesh K Garg> 1 year, 5 months ago
+b9931f5 : dm-req-crypt: Remove high priority flag from workqueue <Zhen Kong> 2 weeks ago
+97cebb0 : dm-req-crypt: check argc before access argv[5] <Amir Samuelov> 12 months ago
+912dbb7 : dm: dm-req-crypt: add support for Per-File-Encryption <Amir Samuelov> 1 year, 2 months ago
+5ac016d : crypto: msm: qce50 driver enhancement <AnilKumar Chimata> 3 months ago
+770de27 : crypto: clean up sps_iovec.addr debug sps_event_notify prints <Matt Wagantall> 5 months ago
+19fdb5f : crypto: msm: change dev_err messages to dev_warn for reaper worker <Zhen Kong> 7 months ago
+a76c49f : crypto: msm: remove wakeup lock in qcrypto driver <Zhen Kong> 8 weeks ago
+84c653c : crypto: msm: Add device wakeup initialization for qcrypto driver <Zhen Kong> 7 months ago
+60f1ba7 : list: introduce list_next_entry() and list_prev_entry() <Oleg Nesterov> 1 year, 9 months ago
+d419fed : Reduce the priority for qcrypto-sha256 to enable the NEON implementation. <Sami Tolvanen> 4 months ago
+776cad5 : crypto: msm: Make changes to the reaper timer <Mekala Natarajan> 8 months ago
+a5f1c73 : hpsa: fix memory leak in kdump hard reset <Tomas Henzl> 10 days ago
+570fe60 : lowmemorykiller: use for_each_thread instead of buggy while_each_thread <franciscofranco> 6 weeks ago
+ 
+**** sr:packages_apps_Contacts ****
+75dcae8 : Layers 2.1 (backwards compatible) <camcory> 4 months ago
+ 
+**** sr:packages_apps_ContactsCommon ****
+4fdcaf1 : Fix dialer name ordering options not being respected on first load. <Danny Baumann> 4 months ago
+ 
+**** sr:packages_apps_Dialer ****
+39a9cab : KIO - Call Log Phone Tint 3/3 <xWASABI> 4 weeks ago
+920eca4 : KIO - Call Log Phone Tint 2 <xWASABI> 5 weeks ago
+0ceb467 : KIO - Call Log Phone Tint 1 <xWASABI> 5 weeks ago
+b030753 : Automatic translation import <Andreas Blaesius> 12 days ago
+ 
+**** sr:packages_apps_InCallUI ****
+f2cabc6 : Automatic translation import <Andreas Blaesius> 12 days ago
+ 
+**** sr:android_packages_apps_KernelAdiutor ****
+c96789b : Bump version to 0.9.6.1.1 <fusionjack> 5 days ago
+c59d2f3 : version 0.9.6.1.1 <Willi Ye> 6 days ago
+ee294ac : Fix Screen on GNexus <Willi Ye> 6 days ago
+7b2c7ad : Import translations from crowdin <Willi Ye> 6 days ago
+356667c : Some string fixes <Willi Ye> 6 days ago
+114337b : Hide header if there are no sections <Willi Ye> 6 days ago
+d43a17a : Add back frequency table menu <Willi Ye> 6 days ago
+47de4a4 : Fix AJ's derp <Willi Ye> 7 days ago
+d19e5f4 : Fix wrong title <Willi Ye> 7 days ago
+b3c44d8 : version 0.9.6.1 <Willi Ye> 7 days ago
+b1b898d : Import translations from crowdin <Willi Ye> 7 days ago
+85dccd3 : Make app name translatable <Willi Ye> 7 days ago
+0e120a7 : Fix derps <Willi Ye> 7 days ago
+913c6da : Add option to disable sections Add support for Android TV (still bugged) <Willi Ye> 7 days ago
+bf9498c : Fix Formating <Dhinesh Ravi> 2 weeks ago
+daeb44f : Fix Power Suspend State for Powersuspend v1.5 <Dhinesh Ravi> 2 weeks ago
+ee59a8e : Add Glove Mode <Dhinesh Ravi> 2 weeks ago
+be0a1f6 : Logger: Adjust sysfs name with stock kernel <fusionjack> 10 days ago
+32ea51b : Hide app from launcher <fusionjack> 2 weeks ago
+ 
+**** sr:packages_apps_Settings ****
+56f247f : Development settings: Remove icon from root dialog <Michael Bestas> 8 months ago
+43d2a93 : Automatic translation import <Andreas Blaesius> 12 days ago
+ 
+**** sr:packages_services_Telecomm ****
+d6992e7 : Automatic translation import <Andreas Blaesius> 12 days ago
+ 
+**** sr:packages_services_Telephony ****
+b30c954 : Fix missed calls notifications not shown after you call someone <ezio84> 4 weeks ago
+ 
+**** sr:platform_manifest ****
+d8ebc8e : Manifest : Add qcom hardware repo's for 8994 <Nicholas Flintham> 3 days ago
+4944a35 : track du's apollo <srisurya95> 7 days ago
+a61cee8 : track MediaProvider <ZION959> 7 days ago
+2974611 : WallpaperPicker: Track new repo <ZION959> 7 days ago
+ 
+**** aosp:platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9 ****
+c0371ef : Update gold to build #2098274. <Dan Albert> 9 days ago
+ 
+**** github:SlimRoms/android_system_core ****
+3077c48 : healthd: Support QC2.0 type charger <Chao Chen> 2 weeks ago
+d4a8119 : Added umount to init <Tony Layher> 4 years, 7 months ago
+e65bcdf : libutils: Improve support for POSIX timers <Steve Kondik> 5 weeks ago
+7797843 : healthd: dock battery <Jorge Ruesga> 5 weeks ago
+5717816 : Charger: Add font to show real battery capacity in charger mode. <Chao Chen> 4 weeks ago
+ 
+**** github:SlimRoms/android_system_vold ****
+7d6e856 : Change lseek to lseek64 <Björn Landström> 6 months ago
+ 
+**** github:SlimRemix/proprietary_vendor_samsung ****
+a2b987b : fix flashlight shutdown timeout <gekkehenkie11> 5 days ago
+ 
+**** github:SlimRoms/vendor_slim ****
+f194ee6 : Bump to 0.3 <Josue Rivera> 13 hours ago
+ef6ca5e : cm: Update properties and libs for stagefright-plugins <Steve Kondik> 3 weeks ago
+7d2623f : slim: Add some app-specific performance settings <Steve Kondik> 1 year, 2 months ago
+ 
+**** sr:android_vendor_SlimRemix ****
+2a6e7f5 : fixed default wallpaper again. <ZION959> 3 hours ago
+3c7754b : add s6 wallpaper <ZION959> 4 hours ago
+faed98b : add layers manager 4.2 <srisurya95> 7 days ago
+8c3c24f : add apollo <srisurya95> 7 days ago
+ 
+**** sr:android_vendor_SaberMod ****
+d3d748f : add falcon <srisurya95> 8 days ago
+ 
