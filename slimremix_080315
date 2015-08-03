@@ -1,0 +1,156 @@
+
+**** github:CyanogenMod/android_device_qcom_sepolicy ****
+be230d5 : sepolicy: allow mm-pp-daemon to have access to sysfs_graphics <Krishna Chaitanya Parimi> 4 months ago
+c34169e : sepolicy: allow mm-pp-daemon to use binders in user variant <Krishna Chaitanya Parimi> 7 months ago
+b6d89a9 : sepolicy: Add SELinux policy rule for pp daemon socket calls <Sravan Kumar D.V.N> 5 months ago
+3555423 : sepolicy: Add sepolicy rules for display clients <Nitesh Gupta> 7 months ago
+116aacb : sepolicy: Add context label for '/persist/display/*' <Nitesh Gupta> 7 months ago
+ 
+**** github:SlimRemix/frameworks_av ****
+ddf8c05 : nuplayer: Fix incorrect state handling while shutting down a decoder <Haynes Mathew George> 3 months ago
+1c63c26 : libstagefright: Fix crash in convertMetaDataToMessage <Shivaprasad Hongal> 6 weeks ago
+c836ae9 : audiopolicy: Fix for isStateInCall() do not return proper status <kunleiz> 7 weeks ago
+5e605cd : httplive: Adjust seek time to last video IDR time <Apurupa Pattapu> 3 months ago
+aa16e7b : httplive: Check for NULL playlist in postPrepared <Apurupa Pattapu> 8 weeks ago
+36253bb : httplive: Check for bandwidth switch only for variant playlists <Apurupa Pattapu> 7 months ago
+ba0945d : libstagefright: use SW AAC encoder for HE-AAC format <Mingming Yin> 8 weeks ago
+87efb94 : libmedia: Enable TrackOffload for more usecases <Alexy Joseph> 3 weeks ago
+dbfe136 : libmedia: AudioTrack offload only for STREAM_MUSIC <Alexy Joseph> 3 months ago
+f268b22 : Detect allocation failures and bail gracefully <Joshua J. Drake> 4 months ago
+0a9a759 : MPEG4Extractor: still more NULL dereference fixes <Joshua J. Drake> 4 months ago
+2a37b62 : Fix null-pointer-dereferences accessing the SampleTable <Joshua J. Drake> 4 months ago
+58508e1 : Fix multiple division-by-zero conditions in MPEG4 parsing <Joshua J. Drake> 4 months ago
+ 
+**** sr:frameworks_base ****
+a67a6ca : clean up Statusbar header vibrator <ZION959> 3 hours ago
+60b3300 : clean up qs panel vibrator <ZION959> 4 hours ago
+39e88aa : Lock screen: Weather panel improvements, (1/2): <XXMrHyde> 4 hours ago
+5a6bc50 : Keyguard: Create lockscreen weather, move weatherimpl to utils. <Decad3nce> 6 hours ago
+977072c : QS: Longclick action [1/2] <ZION959> 6 hours ago
+7a78637 : SystemUI: status bar header long click actions <ZION959> 6 hours ago
+aa64a42 : Statusbar header: Add vibration to settings button <Altaf-Mahdi> 24 hours ago
+aa07c2e : Floating windows: Fix minimize/maximize buttons coloring. <BlackDragon> 4 weeks ago
+16fe9d4 : Floating windows: Fix when we close floating window also remove the task. <BlackDragon> 4 weeks ago
+114411b : Notifications: Launch in floating mode button. <rogersb11> 2 days ago
+6ab8c51 : Floating windows update: Fixes and Improvements. <BlackDragon> 2 days ago
+207ed1c : [1/2] Base: option to launch heads up in floating mode. <lion0738> 2 days ago
+13158ac : Slim recents: Fixup float mode string. <BlackDragon> 4 weeks ago
+386022b : Recents: Launch as Floating app. <BlackDragon> 2 days ago
+7bf2504 : Recents: Port "Development shortcut" (2/2) <Diogo Ferreira> 2 days ago
+46e56fb : Remove: "Recents: Launch as floating app." <BlackDragon> 2 days ago
+a8c58f3 : Chrome floating fix: <LorDClockaN> 5 weeks ago
+7b22192 : Keep app when opening floating window from recents panel <oreiche> 6 weeks ago
+354295d : Dismiss IME when floating window is dismissed <Evan Anderson> 1 year, 3 months ago
+d84b63a : SystemUI: Extend swipe helper (Part1) <oreiche> 1 year, 2 months ago
+6382e5b : Forward Port: Floating Window with Multitasking. <BigBrother1984> 2 days ago
+7f5ed82 : SystemUI: add RecentsView EventLogs <Roman Birg> 8 weeks ago
+31d522f : SystemUI: allow recent tasks to draw behind the status bar <Altaf-Mahdi> 29 hours ago
+9158e4f : systemui: animate clear recents button on exit animation <Jorge Ruesga> 29 hours ago
+6dcceca : Revert "Framework: Add Fade in and Fade out effect to Recents FAB" <ZION959> 29 hours ago
+fd357aa : Revert "SystemUI: we need to use fadein/fadeout anim on FAB" <ZION959> 29 hours ago
+e221d2e : SystemUI: hide floating clear all only if were removing all tasks <Altaf-Mahdi> 29 hours ago
+2b45574 : SystemUI: we need to use fadein/fadeout anim on FAB <Altaf-Mahdi> 29 hours ago
+3f149e2 : Framework: Add Fade in and Fade out effect to Recents FAB <snak3ater> 29 hours ago
+043d605 : revert: systemui: animate clear recents button on exit animation <ZION959> 29 hours ago
+6cf2f83 : systemUI: option to ignore the last app when clearing recents (1/2) <ZION959> 2 days ago
+f84825f : SystemUI: update clear all position & add top center <Janson Kang> 2 days ago
+1d31170 : SystemUI: floating button center option <westcripp> 7 months ago
+e9f2198 : SystemUI: replace recents clear all button with a fab button <Altaf-Mahdi> 2 days ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+570354f : ZeroLemon Fuel Gauge Fixed <ZION959> 4 hours ago
+31dca4e : Add trltevzw defconfig <nicklovell23> 13 hours ago
+fa12f09 : Add faux'es IntelliThermal <gekkehenkie11> 4 weeks ago
+fce53ae : revert: intelli_thermal v3.0: initial coding for Linux 3.10 Qualcomm kernels <ZION959> 28 hours ago
+a01b4ab : cpufreq: patch zzmoove to allow lcd notifiers alone and allow simultaneous powersuspend and zzmoove <placiano> 6 weeks ago
+3642d06 : security: SELinux: revert Samsung hard enforcing (AndreiLux ) <ZION959> 8 days ago
+9a904c5 : revert: cpufreq: Add a notifer chain that governors can use to report information <ZION959> 8 days ago
+e341f69 : random: add_hwgenerator_randomness() for feeding entropy from devices <Torsten Duwe> 1 year, 2 months ago
+50298e4 : Revert "arm: add arm optimized memcmp" <placiano> 11 days ago
+629add6 : Revert "arm: add Krait optimized strcmp" <placiano> 11 days ago
+e109e59 : exec: reserve full virtual stack space at execve() <Ray Essick> 5 months ago
+a075da6 : Speed up console framebuffer imageblit function <gustavo> 1 year, 7 months ago
+cc0b625 : defconfig: Update defconfig <ZION959> 8 days ago
+888702a : crypto: msm: Remove lock/unlock APIs used in shared CE HW scenario <AnilKumar Chimata> 9 months ago
+96c9d29 : crypto: msm: Add multi-core crypto support <William Clark> 3 weeks ago
+f9cbe12 : crypto: msm: Add ablkcipher fallback for aes ctr, ecb, and cbc mode <Zhen Kong> 1 year, 2 months ago
+e552197 : crypto: msm: Fix Crypto BAM issue for 64bit <AnilKumar Chimata> 1 year, 4 months ago
+94329f5 : crypto: msm: fix aes counter issue <Zhen Kong> 1 year, 2 months ago
+694cc1b : crypto: msm: Add aead hmac-sha256 support <Zhen Kong> 1 year, 4 months ago
+e2352a9 : crypto: msm: qcrypto: Close window during suspending for SMP <AnilKumar Chimata> 6 months ago
+eaf4f43 : crypto: msm: qcrypto: Update suspend resume code <AnilKumar Chimata> 7 months ago
+a6ab4ed : crypto: msm: Check the return value of cmdlistinfo <AnilKumar Chimata> 12 months ago
+10f06f0 : pft: check bio bi_vcnt before using bi_io_vec <Amir Samuelov> 10 months ago
+b6be9d6 : security: add PFT to the default security LSM list <Amir Samuelov> 10 months ago
+e64dffb : pft: avoid race closing encrypted files when key removed <Amir Samuelov> 10 months ago
+6e46711 : pft: fix pft_get_key_index() when PFT is the chosen lsm <Amir Samuelov> 11 months ago
+490c3c0 : pft: register PFT to security framework <Amir Samuelov> 3 weeks ago
+b2b04e6 : pft: fix pft_allow_merge_bio() to check if key is loaded <Amir Samuelov> 10 months ago
+24b19a5 : platform: msm: fix PFT for 64-bit <Amir Samuelov> 1 year, 1 month ago
+b52b027 : platform: msm: fix PFT when using direct-io <Amir Samuelov> 1 year, 1 month ago
+31f429d : msm: cleanup and minor fixes for PFT driver <Amir Samuelov> 1 year, 2 months ago
+a412489 : platform: msm: fix PFT char device major number <Amir Samuelov> 1 year, 2 months ago
+93eaa47 : platform: msm: pft: fix close all encrypted files <Amir Samuelov> 1 year, 2 months ago
+9b9e139 : platform: msm: add Per-File-Tagger (PFT) driver <Amir Samuelov> 1 year, 2 months ago
+4b30128 : md: dm-req-crypt: Initialize global variables in constructor <Dinesh K Garg> 9 months ago
+8041e76 : md: dm-req-crypt Recalculate nr_phys_segments <Dinesh K Garg> 9 months ago
+e5375ff : dm: dm-req-crypt: fix null pointer reference <Amir Samuelov> 10 months ago
+1d258c6 : md: dm-req-crypt does not release the device <Dinesh K Garg> 10 months ago
+088e712 : md: dm-req-crypt: add message when mapping completed <Amir Samuelov> 11 months ago
+e0aa63c : dm: dm-req-crypt: Add multi-core crypto support <ZION959> 8 days ago
+656d280 : dm: Adding support of AES 256 bits in dm-req-crypt <Dinesh K Garg> 1 year, 5 months ago
+b9931f5 : dm-req-crypt: Remove high priority flag from workqueue <Zhen Kong> 3 weeks ago
+97cebb0 : dm-req-crypt: check argc before access argv[5] <Amir Samuelov> 12 months ago
+912dbb7 : dm: dm-req-crypt: add support for Per-File-Encryption <Amir Samuelov> 1 year, 2 months ago
+5ac016d : crypto: msm: qce50 driver enhancement <AnilKumar Chimata> 4 months ago
+770de27 : crypto: clean up sps_iovec.addr debug sps_event_notify prints <Matt Wagantall> 5 months ago
+19fdb5f : crypto: msm: change dev_err messages to dev_warn for reaper worker <Zhen Kong> 7 months ago
+a76c49f : crypto: msm: remove wakeup lock in qcrypto driver <Zhen Kong> 9 weeks ago
+84c653c : crypto: msm: Add device wakeup initialization for qcrypto driver <Zhen Kong> 7 months ago
+60f1ba7 : list: introduce list_next_entry() and list_prev_entry() <Oleg Nesterov> 1 year, 9 months ago
+ 
+**** sr:packages_apps_Settings ****
+2c8c06f : organized SlimRemix about settings <ZION959> 3 hours ago
+b323bb5 : Lock screen: Weather panel improvements, (2/2) <XXMrHyde> 3 hours ago
+7847274 : enable task manager as default <ZION959> 4 hours ago
+c47e5b4 : QS: Longclick action [2/2] Long press expanded status bar Settings button opens tiles settings <snak3ater> 5 hours ago
+9855516 : Change sabermod logo <srisurya95> 24 hours ago
+9bc798c : [2/2] Settings: option to launch heads up in floating mode. <lion0738> 28 hours ago
+296f3d8 : Settings: Port "Development shortcut" (1/2) <ZION959> 26 hours ago
+179d32a : Settings: replace recents clear all button with a fab button <ZION959> 2 days ago
+ 
+**** sr:platform_manifest ****
+156ab78 : Manifest: Underp new prebuilts toolchains <Josue Rivera> 4 days ago
+6245f91 : slim : use forks of aarch64 gcc for x86 and darwin for A53 erata workarounds. <Nicholas Flintham> 4 days ago
+ 
+**** github:SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9 ****
+4855805 : [darwin-x86] Refresh gcc prebuilts for aarch64 Refresh gcc-4.9 prebuilts for aarch64. This new prebuilts contain (1) workaround for cortex-a53 erratum 843419, (2) some compiler bug fixes, (3) bug fixes for gold. <Rong Xu> 3 months ago
+42dcea5 : [darwin-x86] Refresh gcc prebuilds for aarch64. Fixed Cortex-A53 Erratum 835769 -- LD segfaults with unordered maps. <Rong Xu> 8 months ago
+e5d520b : [darwin-x86] Refresh gcc prebuilts for aarch64 Refresh gcc 4.9 prebuilts for aarch64. This new prebuilts: (1) provide corex-a53 erranum 835769 workaround, (2) fix a few compiler bugs. <Rong Xu> 9 months ago
+7b14592 : Add ld.mcld <Andrew Hsieh> 11 months ago
+5c00418 : [darwin-x86] Refresh gcc-4_9 prebuilts to aarch64 gcc.4-9 source is from google/gcc-4_9 branch. <Rong Xu> 11 months ago
+ 
+**** github:SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 ****
+6c7dfef : [linux-x86] Refresh gcc prebuilts for aarch64 Refresh gcc-4.9 prebuilts for aarch64. This new prebuilts contain (1) workaround for cortex-a53 erratum 843419, (2) some compiler bug fixes, (3) bug fixes for gold. <Rong Xu> 4 months ago
+6b551d8 : [linux-x86] Refresh gcc prebuilds for aarch64. Fixed Cortex-A53 Erratum 835769 -- LD segfaults with unordered maps. <Rong Xu> 8 months ago
+a7bb6f3 : [linux-x86] Refresh gcc prebuilts for aarch64 Refresh gcc 4.9 prebuilts for aarch64. This new prebuilts: (1) provide corex-a53 erranum 835769 workaround, (2) fix a few compiler bugs. <Rong Xu> 9 months ago
+cee064f : Add ld.mcld <Andrew Hsieh> 11 months ago
+a1f277f : [linux-x86] Refresh gcc prebuilts for aarch64 This prebuilts uses gcc 4.9 source from google/gcc-4_9 branch. <Rong Xu> 11 months ago
+ 
+**** bb:arm-eabi-4.9 ****
+b3f5201 : update SM arm-eabi-4.9-07-16-15 <ZION959> 27 hours ago
+ 
+**** bb:arm-linux-androideabi-4.9 ****
+e5ab2c4 : update  SM arm-linux-androideabi-4.9-07-16-15 <ZION959> 27 hours ago
+ 
+**** github:SlimRemix/proprietary_vendor_samsung ****
+d2f5ef7 : Bring on trltevzw <nicklovell23> 2 days ago
+ 
+**** sr:android_vendor_SlimRemix ****
+a9ff9a2 : Update Kernel dependencie <nicklovell23> 12 hours ago
+cf6e7b6 : Add jflteusc <nicklovell23> 12 hours ago
+828f689 : Update dependencies and add trltevzw <nicklovell23> 13 hours ago
+ 
+**** sr:android_vendor_SaberMod ****
+c44b1fb : Add <nicklovell23> 13 hours ago
+ 
