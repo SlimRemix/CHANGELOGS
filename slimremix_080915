@@ -1,0 +1,47 @@
+
+**** sr:frameworks_base ****
+c8bb901 : revert : SystemUi: Remove update to Carrier text Msim makes the carrier text a LinearLayout. Remove the update to the carrier text which expects it to be a TextView <ZION959> 10 minutes ago
+6aa6a83 : Show carrier label / custom & change color fixed " error: cannot find symbol" <ZION959> 13 minutes ago
+328cfe6 : Show carrier label / custom & change color [1/2] <martincz> 89 minutes ago
+09b9211 : Remove unnecessary videos <Janson Kang> 8 months ago
+321a79d : RRO: idmap: fix sorting of overlays.list <Mårten Kongstad> 5 months ago
+dbecc60 : SystemUI: Add vector support to SlimRecents <Aaron Kable> 3 weeks ago
+e391fe7 : Fix left weather temp padding <westcripp> 2 weeks ago
+8f00648 : FWB: statusbar weather font size (1/2) <LorDClockaN> 2 weeks ago
+5fb39e8 : FWB: Statusbar weather color (1/2) <LorDClockaN> 2 weeks ago
+b2c8f7f : FWB: statusbar weather temperature placement (2/2) <eyosen> 3 hours ago
+6e51a9c : Weather Temprature Status Bar Icon 1/2 <Randall Rushing> 3 hours ago
+3bea89a : Lock screen: Text and icon colors, (1/2): <XXMrHyde> 4 days ago
+e244a00 : Lock screen weather: Add options to hide the weather when notifications are visible, (1/2): <XXMrHyde> 4 days ago
+b4a5af8 : Lock screen: Weather panel improvements, (1/2): <XXMrHyde> 4 days ago
+0f96f0a : Lock screen: Weather panel, (WIP), (1/2): <XXMrHyde> 4 days ago
+952ebb8 : revert: Keyguard: Create lockscreen weather, move weatherimpl to utils. <ZION959> 4 days ago
+0d719b9 : revert: Lock screen: Weather panel improvements, (1/2): <ZION959> 4 days ago
+a0e5d32 : Fix StrictMode violation during getDefaultApn() <Qiang Chen> 3 months ago
+aa12284 : AppOps: fix delete ops wrongly matched issue <Kun Liang> 9 weeks ago
+f1c90ca : frameworks/base: synchronize surface control object access. <Sashidhar Ganiga> 3 months ago
+8bd4526 : frameworks/base: Fix ContentService JNI leaks <spooja> 4 weeks ago
+1b0f0f3 : change slimremix banner <ZION959> 3 days ago
+7c909ce : release slimremix 5.1.1r9 <ZION959> 3 days ago
+ea17c40 : fixed build after Sync status bar signal cluster code with AOSP. <ZION959> 4 days ago
+4f0df2d : SystemUI: more SlimDim performance boosts <Daniel Koman> 5 days ago
+ 
+**** sr:packages_apps_Settings ****
+69b51b5 : Settings: statusbar weather fixed build <ZION959> 43 minutes ago
+a627c94 : Revert: revert:  Show carrier label / custom & change color [2/2] <martincz> 2 hours ago
+84e0b3f : Settings: statusbar weather font size (2/2) <LorDClockaN> 3 hours ago
+8b64312 : Disable weather settings if hidden <LorDClockaN> 2 weeks ago
+7a91404 : Settings: Statusbar weather color (2/2) <LorDClockaN> 3 hours ago
+c11c40e : Settings: statusbar weather temperature placement (1/2) <eyosen> 3 hours ago
+382293b : Weather Temprature Status Bar Icon 2/2 <Randall Rushing> 3 hours ago
+05025cf : fixed build <ZION959> 3 days ago
+acb8c9d : Lock screen weather: Add options to hide the weather when notifications are visible, (2/2) <XXMrHyde> 3 days ago
+99fa320 : Lock screen: Text and icon colors, (2/2) <XXMrHyde> 4 days ago
+a9aa1c7 : Lock screen: Weather panel improvements, (2/2): <XXMrHyde> 4 days ago
+5320c7e : Lock screen: Weather panel, (WIP), (2/2) <XXMrHyde> 4 days ago
+058dc7a : revert: Lock screen: Weather panel improvements, (2/2) <ZION959> 4 days ago
+ 
+**** sr:android_vendor_SlimRemix ****
+f0d87e0 : release mr9 version <ZION959> 7 hours ago
+c5bcd80 : update viper4android <ZION959> 7 hours ago
+ 

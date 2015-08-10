@@ -1,0 +1,215 @@
+
+**** github:SlimRoms/bootable_recovery ****
+1cabbd2 : Really fix background color on 480x800 theme <Ethan Yonker> 2 weeks ago
+d79dcd1 : minui: add BOARD_USE_CUSTOM_RECOVERY_FONT <maxwen> 4 weeks ago
+808ff33 : Add ntfs-3g support <Ethan Yonker> 4 weeks ago
+3bf3e8d : Make system read only show no matter what on first TWRP boot <Ethan Yonker> 6 weeks ago
+dca70a1 : Allow devices to override USB init <Matt Mower> 6 months ago
+e7633fb : Update path for libcryptfs_hw to proper variable <Captain Throwback> 6 weeks ago
+af75133 : gui: allow listbox to be used as menu and as read-only list <that> 4 weeks ago
+6e62113 : gui: keyboard: support longpress label offset, code cleanup <that> 6 weeks ago
+4e4526f : Fix minor background bug in 480x800 xml <Ethan Yonker> 4 weeks ago
+303fa08 : gui: allow specifying object type in element name <that> 6 weeks ago
+30b72c9 : Add flag to disable double buffering <Kra1o5> 6 weeks ago
+ 
+**** sr:android_build ****
+fbe459c : "LMY48I" <The Android Automerger> 4 weeks ago
+fc1e1a3 : "LMY48H" <The Android Automerger> 9 weeks ago
+ee26349 : Remove duplicate CTS tests from libcore cts packages. <Narayan Kamath> 10 weeks ago
+ 
+**** aosp:platform/external/conscrypt ****
+edf7055 : OpenSSLX509Certificate: mark mContext as transient <Kenny Root> 2 months ago
+ 
+**** github:CyanogenMod/android_external_icu ****
+45257ef : icu: add Kiev meta translations <Roman Birg> 8 days ago
+ 
+**** aosp:platform/external/sonivox ****
+e999f07 : DLS parser: fix wave pool size check. <Eric Laurent> 3 months ago
+ 
+**** github:SlimRemix/frameworks_av ****
+6c2a765 : audio effects: fix heap overflow <Eric Laurent> 7 weeks ago
+661a1cc : IOMX: Enable buffer ptr to buffer id translation for arm32 <Andy Hung> 2 months ago
+52f19c7 : IOMX: Add buffer range check to emptyBuffer <Andy Hung> 2 months ago
+90a2241 : HDCP: buffer over flow check -- DO NOT MERGE <Chong Zhang> 3 months ago
+00cf4a4 : Add AUtils::isInRange, and use it to detect malformed MPEG4 nal sizes <Lajos Molnar> 4 months ago
+8de461a : Add some sanity checks <Marco Nelissen> 4 months ago
+0e300f4 : SampleTable: fix integer overflow checks. <Wei Jia> 9 weeks ago
+47a2490 : Guard against codecinfo overflow <Marco Nelissen> 9 days ago
+ 
+**** sr:frameworks_base ****
+d40dcf6 : switch to material dark theme <ZION959> 13 hours ago
+cb3f27d : Add dark themes for dialogs and alert dialogs: <XXMrHyde> 15 hours ago
+22117ca : change slimremix banner <ZION959> 16 hours ago
+da97e3c : release slimremix 5.1.1r9 <ZION959> 18 hours ago
+4e99401 : fixed build <ZION959> 20 hours ago
+a94d91d : Lockscreen shortcut customizations, (1/2): <ZION959> 2 days ago
+630feda : Lock screen: Text and icon colors, (1/2): <XXMrHyde> 2 days ago
+c232da1 : Lock screen weather: Add options to hide the weather when notifications are visible, (1/2): <XXMrHyde> 2 days ago
+731b5d2 : Lock screen: Weather panel improvements, (1/2): <XXMrHyde> 2 days ago
+eae0e44 : Lock screen: Weather panel, (WIP), (1/2): <XXMrHyde> 2 days ago
+a88e002 : revert: Keyguard: Create lockscreen weather, move weatherimpl to utils. <ZION959> 2 days ago
+29cbd06 : revert: Lock screen: Weather panel improvements, (1/2): <ZION959> 2 days ago
+9a5eaaa : revert: SystemUI: Use smaller battery padding <ZION959> 2 days ago
+6edf075 : SystemUI: SlimDim performance boost <Victor Lapin> 7 days ago
+9d44cc0 : fixed build after Sync status bar signal cluster code with AOSP. <ZION959> 2 days ago
+b1c2cf4 : SystemUI: Double tap to sleep anywhere on the lock screen (1/2) <Altaf-Mahdi> 10 weeks ago
+ad32648 : Idle Job Start During SCREEN_ON or DREAMING_STOPPED <Kevin Zhu> 6 weeks ago
+91d04cc : Fix NPE in JobStore when jobs.xml is empty. <riddle_hsu> 8 days ago
+fe8c239 : animateNoDamage failed to remove from current frame list <Ye Ouyang> 3 days ago
+dfdf852 : Add config to force using RSSI for LTE signal level calculation <Lin Ma> 9 days ago
+c7db535 : CaptivePortal : Ensure uri is not null <Danesh M> 7 days ago
+dcbd9cd : autobrightness: Fix the brightness dialog is not work when first enable auto-backlight <kai.cao> 2 months ago
+12a0249 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 8 weeks ago
+129f486 : Prevent system uid component from running in an app process <Wale Ogunwale> 8 weeks ago
+43bfe29 : Lockdown AM.getRunningAppProcesses API with permission.REAL_GET_TASKS <Wale Ogunwale> 4 months ago
+cb00418 : Revert "DO NOT MERGE Backport of limited jank-tracking metrics" <John Reck> 3 months ago
+1eae0de : DO NOT MERGE Backport of limited jank-tracking metrics <John Reck> 6 months ago
+aae4257 : Don't inflate new phone states on callbacks. <Danny Baumann> 6 weeks ago
+801ab95 : Clear callback handler queue when unregistering a phone state listener. <Danny Baumann> 6 weeks ago
+dcb6c03 : Don't use the SPN_STRINGS_UPDATED broadcast. <Danny Baumann> 8 weeks ago
+45a9124 : Sync status bar signal cluster code with AOSP. <maniac103> 2 days ago
+3339b5b : Revert "FWB: Hide network activity arrows (1/2)" <ZION959> 2 days ago
+eefcc68 : Automatic translation import <Andreas Blaesius> 3 days ago
+44534bf : SystemUI: SlimDim performance boost <Victor Lapin> 7 days ago
+2c05842 : Add alternate WebView provider package <Alberto97> 3 months ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_chips ****
+4d8a122 : chips: extend phone number regex to recognize russian trunk prefix <emancebo> 3 days ago
+84f0e0a : Fix exception that crashes app when <<>> chip is clicked on issue-id: CYNGNOS-522 <Yvonne Wong> 4 days ago
+ 
+**** github:SlimRemix/frameworks_opt_telephony ****
+f20e6c2 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 8 weeks ago
+aebc63f : [MMS-55]: Add column to interface <Martin Brabham> 3 weeks ago
+9c7c4f3 : Fix LTE attach issue due to wrong initial attach profile. <Muhammed Siju> 6 months ago
+ 
+**** sr:android_frameworks_webview ****
+e20790d : nochromium: fix arm64 <JoseGalRe> 2 days ago
+8033b50 : Updating WebView 44.0.2403.90 to 45.0.2454.19 (arm64) <Björn Hutmacher> 6 days ago
+08b9e06 : WebView 44.0.2403.90 -> 45.0.2454.19 (arm) <Lokesh Chamane> 8 days ago
+5a58b57 : Webview: Remove README.mkdn <Lokesh Chamane> 8 days ago
+ 
+**** github:SlimRoms/hardware_intel_common_libmix ****
+c07c47a : libmix: use kernel headers when available <jrior001> 2 weeks ago
+e970c6b : intel: videdecoder: Allow INTEL_VIDEO_XPROC_SHARING to be defined <Christopher R. Palmer> 3 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_common_libstagefrighthw ****
+d85765a : libstagefrighthw: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_common_libva ****
+4c50dbf : libva: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_common_omx-components ****
+5023ab3 : omx-components: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_common_utils ****
+594edb9 : utils: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_common_wrs_omxil_core ****
+5c148f4 : wrs_omxil_core: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_img_hwcomposer ****
+6ffa91f : hwcomposer: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_img_libdrm ****
+354b8f3 : libdrm: Add drmModeAddFB2 needed by Z00A's hwcomposer blob <Christopher R. Palmer> 5 days ago
+a20f655 : libdrm: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRoms/hardware_intel_img_psb_video ****
+7b3a8b1 : psb_video: use kernel headers when available <jrior001> 2 weeks ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+692c3fc : krait400 cache line size is 64bytes not 16 <ZION959> 3 days ago
+3b63033 : Saberize Kernel <Chet Kener> 11 months ago
+b82179c : ARM: return_address:  Use the unwind tables from the compiler <Paul Beeler> 10 months ago
+ebfad60 : initrd: fix lz4 decompress with initrd <Yinghai Lu> 12 months ago
+c16ca8e : lib/decompress_unlz4.c: always set an error return code on failures <Jan Beulich> 1 year, 6 months ago
+879a1bb : Add missing-syscalls wrapper: <Paul Beeler> 6 months ago
+6169450 : ARM: 8158/1: LLVMLinux: use static inline in ARM ftrace.h <Behan Webster> 11 months ago
+e91fac1 : arm/ftrace: fix ftrace_return_addr() to ftrace_return_address() <Steven Rostedt> 1 year, 2 months ago
+1bfbe68 : ftrace: Make CALLER_ADDRx macros more generic <AKASHI Takahiro> 1 year, 3 months ago
+4361b2e : fixed <ZION959> 4 days ago
+7d9deef : Makefile: Define L1/L2 Cache Sizes <ZION959> 5 days ago
+2258579 : Move inline kernel functions to vendor/sm/device/kernel.mk <ZION959> 5 days ago
+9810d52 : add compiler-gcc5 & 6 <ZION959> 5 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Calendar ****
+4d38720 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Eleven ****
+a0c8e3e : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Gallery2 ****
+40424da : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_LockClock ****
+4619501 : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Mms-caf ****
+7dc6764 : Mms : Replace  REQUEST_CODE_PICK with REQUEST_CODE_ADD_RECIPIENTS <Danesh M> 7 days ago
+68afa3b : Revert "Drafts: Prevent duplicate drafts from being added" <Danesh M> 7 days ago
+af6ff10 : Revert "Drafts: Fix instance where body of the message is lost." <Danesh M> 7 days ago
+9a090ae : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** sr:packages_apps_Settings ****
+a94ce52 : lock screen shortcut derp fixed & update summary <ZION959> 13 hours ago
+0515bd5 : update sumary for lock screen and text colors <ZION959> 18 hours ago
+d83300a : Lockscreen shortcut customizations, (2/2): <XXMrHyde> 19 hours ago
+259a9c6 : fixed build <ZION959> 20 hours ago
+7b2cdeb : Lock screen weather: Add options to hide the weather when notifications are visible, (2/2) <XXMrHyde> 21 hours ago
+96ccd79 : Lock screen: Text and icon colors, (2/2) <XXMrHyde> 2 days ago
+079a53c : Lock screen: Weather panel improvements, (2/2): <XXMrHyde> 2 days ago
+f21653d : Lock screen: Weather panel, (WIP), (2/2) <XXMrHyde> 2 days ago
+c6edfb6 : revert: Lock screen: Weather panel improvements, (2/2) <ZION959> 2 days ago
+ded3799 : Revert "Hide network activity arrows (2/2)" <ZION959> 2 days ago
+cfc4b4b : Settings: Double tap to sleep anywhere on the lock screen (2/2) <Altaf-Mahdi> 3 days ago
+617c879 : Automatic translation import <Andreas Blaesius> 3 days ago
+ 
+**** github:SlimRoms/packages_apps_SlimLauncher ****
+8789eab : Automatic translation import <Andreas Blaesius> 3 days ago
+ 
+**** github:SlimRemix/android_packages_apps_Stk ****
+c2f77c4 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 8 weeks ago
+a07cf1a : Automatic translation import <Michael Bestas> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_providers_TelephonyProvider ****
+2962e6b : [MMS-55]: Add new column when creating a new database and table or upgrade existing table. <Martin Brabham> 3 weeks ago
+ 
+**** github:SlimRemix/packages_services_Telecomm ****
+89c7d09 : Revert "Telecom: don't set incall state when call was disconnected" <Ethan Chen> 4 days ago
+ 
+**** github:SlimRemix/packages_services_Telephony ****
+36fa436 : DO NOT MERGE Change to make STK related intents protected. <Amit Mahajan> 8 weeks ago
+ 
+**** sr:platform_manifest ****
+64adfbd : track stk <ZION959> 19 hours ago
+9d0f0b1 : Manifest: Update to android-5.1.1_r9 <Josue Rivera> 34 hours ago
+b4854d5 : Track Slims intel hardware repos <deadman96385> 2 days ago
+ 
+**** bb:arm-eabi-4.9 ****
+180b7e5 : (20150801 - A15 and krait optimized) <infected_> 6 days ago
+ 
+**** bb:arm-linux-androideabi-4.9 ****
+ae5748c : (20150801 - A15 and krait optimized) <infected_> 6 days ago
+ 
+**** sr:android_system_core ****
+c7cfe87 : init: Allow devices to use user-space tools to set ro.serialno <Christopher R. Palmer> 2 weeks ago
+e559326 : adbd: Add intel style super-speed support <Christopher R. Palmer> 6 weeks ago
+ 
+**** github:SlimRoms/vendor_slim ****
+6c45f65 : Add yu tomato <Josue Rivera> 2 days ago
+350ccf3 : Add X86 device support to chromium prebuilt <Sean Hoyt> 10 days ago
+234ce72 : Add 64-bit devices support to chromium prebuilt script <Abhinav Jhanwar> 13 days ago
+beb445e : Add both zenfone 2 variants <Sean Hoyt> 2 days ago
+a8d8d32 : Clean up MEO/TMN APNs <Marcos Marado> 8 days ago
+65be9c2 : Remove 'preferred' no-op <Abhisek Devkota> 8 days ago
+db8fadc : Update APN for China Telecom <dianlujitao> 8 days ago
+b2dfbba : Fix Rogers APN <Patrick> 3 weeks ago
+1843d54 : APN fine tuning <Abhisek Devkota> 3 weeks ago
+3d73a15 : rendang: Remove unwanted APNs <Lin Ma> 3 weeks ago
+afb8a80 : CYNGNOS-454 - Fix config_preferred_apn Overrides <Abhisek Devkota> 3 weeks ago
+09a8e1a : Yet another massive APN list <Abhisek Devkota> 4 weeks ago
+e70eaad : Updated APN for Austrian Carrier Yesss. <Zyg0te> 4 weeks ago
+ 
+**** sr:android_vendor_SlimRemix ****
+b2961dc : build cm LockClock <ZION959> 4 days ago
+ 

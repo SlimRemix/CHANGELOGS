@@ -1,0 +1,76 @@
+
+**** sr:android_build ****
+fc01586 : Use Qualcomm Snapdragon LLVM Compiler 3.6 [mustermaxmueller] (https://developer.qualcomm.com/mobile-development/increase-app-performance/snapdragon-llvm-compiler-android) for Android Lollipop 5.x for devices with Qualcomm CPU <ZION959> 6 hours ago
+db0c30e : revert: Use Qualcomm Snapdragon LLVM Compiler 3.6 (https://developer.qualcomm.com/mobile-development/increase-app-performance/snapdragon-llvm-compiler-android) for Android Lollipop 5.x for devices with Qualcomm CPU <ZION959> 8 hours ago
+ 
+**** github:SlimRemix/frameworks_av ****
+0a95632 : audio effects: fix heap overflow <Eric Laurent> 7 weeks ago
+6838faa : IOMX: Enable buffer ptr to buffer id translation for arm32 <Andy Hung> 2 months ago
+e39be32 : IOMX: Add buffer range check to emptyBuffer <Andy Hung> 3 months ago
+3619f14 : HDCP: buffer over flow check -- DO NOT MERGE <Chong Zhang> 3 months ago
+12ba02c : Add AUtils::isInRange, and use it to detect malformed MPEG4 nal sizes <Lajos Molnar> 4 months ago
+d120470 : Add some sanity checks <Marco Nelissen> 4 months ago
+d90a375 : nuplayer: Fix incorrect state handling while shutting down a decoder <Haynes Mathew George> 3 months ago
+addbe5d : libstagefright: Fix crash in convertMetaDataToMessage <Shivaprasad Hongal> 6 weeks ago
+f6ff604 : audiopolicy: Fix for isStateInCall() do not return proper status <kunleiz> 7 weeks ago
+a7b2a27 : httplive: Adjust seek time to last video IDR time <Apurupa Pattapu> 4 months ago
+5a8b0c6 : httplive: Check for NULL playlist in postPrepared <Apurupa Pattapu> 9 weeks ago
+fb7a1b6 : httplive: Check for bandwidth switch only for variant playlists <Apurupa Pattapu> 7 months ago
+489c258 : libstagefright: use SW AAC encoder for HE-AAC format <Mingming Yin> 9 weeks ago
+f4803f7 : libmedia: Enable TrackOffload for more usecases <Alexy Joseph> 4 weeks ago
+ebec6b9 : libmedia: AudioTrack offload only for STREAM_MUSIC <Alexy Joseph> 3 months ago
+41a165b : audiopolicy: Make sense of concurrency properties <Ethan Chen> 4 weeks ago
+facd7cc : libstagefright: Fix LPA default min duration <Michael Bestas> 2 weeks ago
+4709154 : audiopolicy: Fix DTS Eagle dependence on kernel <dianlujitao> 3 weeks ago
+7877472 : cameraservice: Resolve message vs start/stop preview races <Ricardo Cerqueira> 3 weeks ago
+028eef4 : camera: add ability for a device to specify MAX_CAMERAS <Dan Pasanen> 1 year, 4 months ago
+7e9335b : stagefright: Remove deprecated FFMPEG config <Ethan Chen> 4 weeks ago
+602cca2 : Prevent reading past the end of the buffer in 3GPP <Joshua J. Drake> 3 months ago
+61d6043 : Prevent integer underflow if size is below 6 <Joshua J. Drake> 3 months ago
+878116a : Fix integer overflow when handling MPEG4 tx3g atom <Joshua J. Drake> 3 months ago
+1d174c8 : Fix integer underflow in covr MPEG4 processing <Joshua J. Drake> 3 months ago
+73d191d : Prevent integer overflow when processing covr MPEG4 atoms <Joshua J. Drake> 3 months ago
+7a9ebb5 : stagefright: Move a bunch of FFMPEG stuff out of here <Steve Kondik> 5 weeks ago
+ad11fb4 : stagefright: Add support for loading a custom OMXPlugin <Steve Kondik> 5 weeks ago
+cd65e5d : audio: Reduce logging verbosity <Ethan Chen> 5 weeks ago
+b98596c : Acodec: Add interlaced video support <Paras Nagda> 6 months ago
+0098401 : audio: fallback to SW decoder for video clips <Pavan Chikkala> 3 months ago
+179a04f : libmedia: restrict nuplayer from using track offload <Alexy Joseph> 3 months ago
+4844739 : libstagefright: back off exynos4_enhancements HWC_HWOVERLAY usage <Caio Schnepper> 8 weeks ago
+975f62c : Revert "CameraService: Bump up the maximum number of cameras" <Robbie Lancaster> 4 weeks ago
+9a88d71 : CameraService: Bump up the maximum number of cameras <Emilian Peev> 1 year, 5 months ago
+562c706 : Revert "libstagefright: free mMoovBoxBuffer" <Ricardo Cerqueira> 6 weeks ago
+0fdfbe4 : audiopolicy: Add msm8994 <Steve Kondik> 6 weeks ago
+6694648 : stagefright: ffmpeg: Slightly raise the threshold for the ffmpeg scanner <Ricardo Cerqueira> 7 weeks ago
+ac5b617 : nuplayer: Fix incorrect audio resume time during seek <Xavier Varricatt> 7 months ago
+b97d707 : stagefright: Fix issues with software decoders <Steve Kondik> 3 months ago
+7d71adf : Nuplayer: During flush operation flush audiosink <Yogesh Solanke> 4 months ago
+bd98b30 : audiooutput: Serialize access to AudioOutput <Haynes Mathew George> 2 months ago
+35343de : audiopolicy: Use legacy alsa to guard incall music feature <Arne Coucheron> 8 weeks ago
+21a7341 : audiopolicy: Unbreak incall music <Steve Kondik> 8 weeks ago
+0528970 : NuPlayer: Clear stale track packets on seek <Xiaoming Yang> 3 months ago
+0ff739f : nuplayer: start or stop audio sink from renderer only <Weiyin Jiang> 3 months ago
+e14a260 : Revert "audio: Reduce device switch delay" <Naresh Tanniru> 3 months ago
+d298fa2 : Fix integer overflow during MP4 atom processing <Joshua J. Drake> 4 months ago
+ebcf9f9 : Fix integer underflow in ESDS processing <Joshua J. Drake> 4 months ago
+25c1473 : Fix several ineffective integer overflow checks <Joshua J. Drake> 4 months ago
+ 
+**** sr:frameworks_base ****
+cec0467 : SystemUI: more SlimDim performance boosts <Daniel Koman> 4 days ago
+bf35886 : Update frameworks-res.apk icon <Chet Kener> 9 weeks ago
+1aaff25 : Prevent crash when leaving Dessert case quickly <Daniel 2 Olofsson> 9 months ago
+cbb946a : Floating windows: Fix statusbar immersive mode for snap points. <BlackDragon> 4 weeks ago
+4d9089d : Fix for rare recents npe? <LorDClockaN> 3 weeks ago
+421b4fb : DocumentsUI: New icon <iceandfire> 3 weeks ago
+8c9e9da : Fix Allocation-less launches <Jason Sams> 4 months ago
+de4f72b : Fix crash in widget pager <Jim Miller> 1 year, 3 months ago
+84d4314 : Remove unnecessary videos <Janson Kang> 8 months ago
+3c332c5 : RRO: idmap: fix sorting of overlays.list <Mårten Kongstad> 5 months ago
+ 
+**** sr:frameworks_native ****
+9c6acf8 : sf: Restrict GPU tile render feature to MAX_LAYER_COUNT <radhakrishna> 5 weeks ago
+57972fc : SF: Enable context priority <Saurabh Shah> 4 months ago
+ 
+**** sr:packages_apps_Settings ****
+e3cd518 : fixed slimremix logo to fit the top row <ZION959> 2 hours ago
+ 
