@@ -1,10 +1,11 @@
 
 **** github:SlimRemix/android_kernel_samsung_trlte ****
+dc3b831 : buidl v1.5 <ZION959> 49 minutes ago
 49cd0e3 : Fixed kernel compile <placiano> 10 days ago
-aee3de8 : update defconfig to latest change <ZION959> 2 hours ago
-ab99361 : block: Add Sioplus & tripndroid <ZION959> 2 hours ago
-2daac52 : block/fs: keep track of the task that dirtied the page <ZION959> 2 hours ago
-568a5d3 : mach-msm: Bricked_Hotplug fix state <ZION959> 2 hours ago
+aee3de8 : update defconfig to latest change <ZION959> 4 hours ago
+ab99361 : block: Add Sioplus & tripndroid <ZION959> 4 hours ago
+2daac52 : block/fs: keep track of the task that dirtied the page <ZION959> 4 hours ago
+568a5d3 : mach-msm: Bricked_Hotplug fix state <ZION959> 5 hours ago
 edfd6f1 : msm: intelli_hotplug: Auto calculations for APQ8084 and ARM64 processors <Pranav Vashi> 5 months ago
 b86ad1a : msm: Fix usage of FB notifiers <Pranav Vashi> 5 months ago
 95bb9d8 : msm: Add Bricked Hotplug Driver <Pranav Vashi> 6 months ago
@@ -13,18 +14,18 @@ d5ab2a5 : msm: msm_rq_stats: Add hotplug enable toggle <Pranav Vashi> 11 months 
 445a52e : soc: qcom: rq_stats: Pass correct cpu id to update_average_load function <Prasad Sodagudi> 9 months ago
 c807a29 : soc: qcom: rq_stats: remove the redundant iowait check <Anji Jonnala> 1 year, 3 months ago
 fa018ac : msm: rq_stats: Calculate load based on current freq limit <myfluxi> 1 year, 3 months ago
-979a455 : msm: Add Intelli Hotplug Driver <ZION959> 2 hours ago
+979a455 : msm: Add Intelli Hotplug Driver <ZION959> 5 hours ago
 cfde74b : cpufreq: Resolve CPUFREQ_NOTIFY issue <Archana Sathyakumar> 2 years, 3 months ago
 48a820b : cpufreq: stats: Print error messages if table initialization fails <Junjie Wu> 10 months ago
-99391bd : cpufreq: cpu-boost: Use MDSS notifiers (neobuddy89) <ZION959> 2 hours ago
-4368871 : cpufreq: cpu-boost: Several optimizations (neobuddy89) <ZION959> 2 hours ago
+99391bd : cpufreq: cpu-boost: Use MDSS notifiers (neobuddy89) <ZION959> 5 hours ago
+4368871 : cpufreq: cpu-boost: Several optimizations (neobuddy89) <ZION959> 5 hours ago
 009aa99 : cpufreq: cpu-boost: Use one work to remove input boost for all CPUs <Rohit Gupta> 1 year, 1 month ago
 f30658c : cpufreq: cpu-boost: Support separate input_boost_freq for different CPUs <Junjie Wu> 1 year, 2 months ago
-3bd817b : msm: Add MSM Hotplug driver <ZION959> 2 hours ago
-bc4d10a : cpufreq: Add a notifer chain that governors can use to report information <ZION959> 2 hours ago
+3bd817b : msm: Add MSM Hotplug driver <ZION959> 5 hours ago
+bc4d10a : cpufreq: Add a notifer chain that governors can use to report information <ZION959> 5 hours ago
 dab3992 : cpufreq: Disable light-weight init/teardown during suspend/resume <Junjie Wu> 1 year, 3 months ago
-427e2e6 : revert: intelli_plug: intelligent hotplug cpu driver with eco mode - squashed committ to v4.0 (faux123) <ZION959> 2 hours ago
-0bd6448 : revert: sched/fair: Implement fast idling of CPUs when the system is partially loaded <ZION959> 2 hours ago
+427e2e6 : revert: intelli_plug: intelligent hotplug cpu driver with eco mode - squashed committ to v4.0 (faux123) <ZION959> 5 hours ago
+0bd6448 : revert: sched/fair: Implement fast idling of CPUs when the system is partially loaded <ZION959> 5 hours ago
 0f4de10 : bcmdhd: reduce rx wakelock timeout via sysfs node <halaszk> 5 months ago
 6132150 : net: wireless: bcmdhd4358: reduce kernel logging <UpInTheAir> 6 months ago
 c8d3220 : bcmdhd4358: WIFI PM support for KitKat driver [halaszk] <UpInTheAir> 8 months ago
@@ -40,7 +41,7 @@ d00c839 : arm/dt: 8084: qcom: Update clock vote for improved performance <placia
 7b4b657 : use lz4c fast compression on zImage <arter97> 1 year, 5 months ago
 d890756 : crypto: lzo - use kvfree() helper <Eric Dumazet> 1 year, 2 months ago
 f3ab789 : crypto: lzo - try kmalloc() before vmalloc() <Eric Dumazet> 1 year, 2 months ago
-0f66fd1 : cpufreq: Update cpugovernors <ZION959> 4 hours ago
+0f66fd1 : cpufreq: Update cpugovernors <ZION959> 6 hours ago
 3c4d9bf : lib: lz4: Set ARM_EFFICIENT_UNALIGNED_ACCESS <Shashank Shekhar> 8 months ago
 ed7b54d : page_alloc: Make watermarks tunable separately <Paul Reioux> 1 year, 5 months ago
 265ad4d : mm: add a field to store names for private anonymous memory <Colin Cross> 2 years, 1 month ago
@@ -49,17 +50,16 @@ ed7b54d : page_alloc: Make watermarks tunable separately <Paul Reioux> 1 year, 5
 0e1d587 : ARM: dts: msm: Fix boolean property misuse <Stepan Moskovchenko> 1 year ago
 b00952e : mm/rmap: fix coccinelle warnings <Fengguang Wu> 1 year, 7 months ago
 7c3fd9c : mm/rmap: use rmap_walk() in page_mkclean() <Joonsoo Kim> 1 year, 7 months ago
-c8938e5 : mm/rmap: use rmap_walk() in page_referenced() <Joonsoo Kim> 1 year, 7 months ago
  
 **** github:DirtyUnicorns/android_packages_apps_Apollo ****
 9fa4036 : New Apollo Icon by Jacek Malinowski aka YAdesign <Alex Cruz> 3 days ago
  
 **** sr:packages_apps_Settings ****
-e26eeb4 : Welcome to SlimRemix <ZION959> 5 hours ago
-f9836c9 : Settings: statusbar weather & statusbar weather font size fixed build <ZION959> 5 hours ago
-44dc610 : Show carrier label / custom & change color [2/2] <martincz> 8 hours ago
+e26eeb4 : Welcome to SlimRemix <ZION959> 8 hours ago
+f9836c9 : Settings: statusbar weather & statusbar weather font size fixed build <ZION959> 8 hours ago
+44dc610 : Show carrier label / custom & change color [2/2] <martincz> 11 hours ago
  
 **** github:SlimRoms/vendor_slim ****
 111d47c : Use the new zenfone names <Sean Hoyt> 3 days ago
-b320be7 : Bump to Beta 04 <Josue Rivera> 2 days ago
+b320be7 : Bump to Beta 04 <Josue Rivera> 3 days ago
  
