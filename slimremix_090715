@@ -1,0 +1,175 @@
+
+**** sr:android_build ****
+bd107de : build: Enable A53 errata workarounds on targets that need it <Rashed Abdel-Tawab> 8 weeks ago
+b7a6447 : Don't use -Wl,--fix-cortex-a8 for Cortex A7, A9, A15, Krait or Denver <Bernhard Rosenkränzer> 6 months ago
+4aaba32 : Allow -mcpu=cortex-a15 for clang <Bernhard Rosenkränzer> 6 months ago
+d3dc14f : Move definition of -D__ARM_FEATURE_LPAE=1 cflag to top-level. <Ian Rogers> 11 months ago
+10ee17f : Apply correct, optimized mfpu compiler flag for ARMv7-A Cortex CPUs <arter97> 12 months ago
+052ca10 : roomservice: use force-sync when adding projects with roomservice <Brint E. Kriebel> 4 weeks ago
+74b8d38 : Set metadata on bootzip <Andreas Blaesius> 4 weeks ago
+8f0f9f3 : envsetup: remove entries in hmm descriptive <Anthony King> 4 months ago
+ 
+**** github:SlimRoms/device_qcom_common ****
+a1d7228 : Adding init for msm8909 <Marcos Marado> 3 weeks ago
+82f8e00 : power: Enable 4+0 core config for display off cases <Dilip Gudlur> 10 weeks ago
+ 
+**** github:CyanogenMod/android_device_qcom_sepolicy ****
+a06d6bb : sepolicy: perfd to have access to mediaserver <Howard M. Harte> 2 days ago
+ 
+**** github:SlimRemix/android_device_samsung_trlte-common ****
+7c7e7c1 : update hardlimit for new oc table <ZION959> 4 days ago
+584ac66 : disable dynamic f-sync for now <ZION959> 10 days ago
+5e67252 : update msm hotplugs default value <ZION959> 2 weeks ago
+fe8ac2f : enabled various settings in zion kernel <ZION959> 2 weeks ago
+eda6d39 : revert: fixed viper4android global <ZION959> 3 weeks ago
+d32a9b0 : set msm hotplug default <ZION959> 3 weeks ago
+42c626f : fixed flags <ZION959> 3 weeks ago
+55cb9c1 : diabled performance profile <ZION959> 8 weeks ago
+fd0b84c : trlte-common: Update config for performance profiles <ZION959> 8 weeks ago
+a962e10 : trlte-common enable stylus gestures. <ZION959> 8 weeks ago
+5e6c805 : revert: Turn art optimization to everything >> Move to slimremix vendor <ZION959> 8 weeks ago
+09307c3 : enabled changelog <ZION959> 3 months ago
+c17146a : Turn art optimization to everything <ZION959> 3 months ago
+da8cd8c : 3GB dalvik heap and hwui memory (Originally 2GB) <Zion-Tran> 9 months ago
+1d331a2 : fixed viper4android global <ZION959> 4 months ago
+a7fb5aa : trlte: Set call recording source to voice line <willl03> 5 months ago
+bdddc3b : L1/L2 cache size parameters by @JustArchi <ZION959> 3 months ago
+4318677 : Correct Overlays <nicklovell23> 2 days ago
+c52f4a2 : trlte-common: increase video recording volume <gekkehenkie11> 6 weeks ago
+7a663f7 : trlte-common: align tcp settings with touchwiz <gekkehenkie11> 6 weeks ago
+cedeffa : trlte-common: use CAF Power HAL instead of CM's <gekkehenkie11> 7 weeks ago
+a7245f7 : trlte-common: change IO scheduler to cfq <gekkehenkie11> 7 weeks ago
+1b48e39 : Revert "trlte-common: change io scheduler to fiops" <Allard addink> 7 weeks ago
+f994f59 : trlte-common: change io scheduler to fiops <Michael Wawrzyniak> 7 weeks ago
+8a25f76 : trlte-common: Cleanup trlte.mk <Michael Wawrzyniak> 7 weeks ago
+7749674 : enable intellithermal and use Samsung's CPU governor parameters <gekkehenkie11> 9 weeks ago
+555d8c9 : trlte-common: Don't copy FFMPEG config anymore <Steve Kondik> 3 months ago
+bb81498 : fix parsing problem in gps.conf <gekkehenkie11> 3 months ago
+5495a56 : Update gps config files <gekkehenkie11> 3 months ago
+7094cb9 : Add HFR capabilities <gekkehenkie11> 3 months ago
+bbf5b14 : use yuv420p for better compatability <gekkehenkie11> 3 months ago
+8fb2548 : Bring up to date with CM <nicklovell23> 4 months ago
+ad6c335 : trlte-common more camera fixes <nicklovell23> 4 months ago
+e40d1d9 : Camera fixes <nicklovell23> 4 months ago
+8183b21 : Fix up overlays <nicklovell23> 3 months ago
+d139209 : trlte-common: update proprietary files <gekkehenkie11> 9 weeks ago
+1e0f608 : enable overlays <nicklovell23> 4 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trltespr ****
+fb31233 : dont need slim dependencies here, add it in slimremix vendor <ZION959> 4 days ago
+71cfe6c : trltespr add board define for camera preview. <nicklovell23> 4 months ago
+0935085 : trltespr: remove qcom hw dependencies <Josue Rivera> 7 months ago
+d6813cc : Switch to CM kernel <nicklovell23> 7 months ago
+47bbeb5 : Kill init with fire/move to system.prop <nicklovell23> 8 months ago
+9003aee : Update and rename cm.mk to slim.mk <nicklovell23> 8 months ago
+526418e : Update and rename cm.dependencies to slim.dependencies <nicklovell23> 8 months ago
+f764211 : Updates and add Keymaster <WoundTight> 8 months ago
+ad65644 : Update: ril - init - other <WoundTight> 8 months ago
+707fc08 : Fix the ring of death <WoundTight> 8 months ago
+242de57 : Fixed type name error for full_trltespr.mk <WoundTight> 8 months ago
+30a572b : LTE Fix <WoundTight> 8 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trltetmo ****
+e2839d6 : dont need slim dependencies no more add it in slimnremix vendor <ZION959> 4 days ago
+3bd2c19 : trltetmo add board define for camera preview. <nicklovell23> 4 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trltexx ****
+5ca6422 : remove cm dependencies <ZION959> 5 days ago
+5b439a8 : Kill init with fire/move to system.prop <ZION959> 5 days ago
+c7b688e : Expose the APN settings menu <WoundTight> 8 months ago
+e5bfb77 : fixed up dependencies to CMRemix <ZION959> 5 days ago
+ 
+**** github:CyanogenMod/android_external_stagefright-plugins ****
+dc2a013 : ffmpeg-extractor: Fix deadlock when stopping the reader thread <Christopher R. Palmer> 7 days ago
+ 
+**** github:CyanogenMod/android_frameworks_opt_chips ****
+f101d20 : Revert "More Chip: use pendingcount instead of counting again" <Danesh M> 5 weeks ago
+ 
+**** github:CyanogenMod/android_packages_apps_AudioFX ****
+91d6891 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Bluetooth ****
+67081fd : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_BluetoothExt ****
+8b093e6 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Calculator ****
+f6a6522 : Calculator: fix localization for the widget <Yvonne Wong> 3 days ago
+3045e4c : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Calendar ****
+dd1dd45 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Camera2 ****
+597cd76 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_CellBroadcastReceiver ****
+a31f1e2 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Eleven ****
+441f4da : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 days ago
+cd2937a : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Email ****
+a048f26 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Gallery2 ****
+218cfbb : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_LockClock ****
+e379cd2 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Mms-caf ****
+61c63da : Mms: Don't try to send an SMS to a null destination. <Adnan Begovic> 2 days ago
+f5f16e1 : Fix mms failures due to invalid mmsc url <Susheel nyamala> 4 months ago
+3c75cf9 : Mms: show default app icon for unresolved links <Roman Birg> 5 days ago
+309e658 : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 days ago
+a380361 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:SlimRemix/android_packages_apps_Stk ****
+2548c51 : REAL_GET_TASKS > GET_TASKS <Abhisek Devkota> 5 days ago
+3cd3b14 : DO NOT MERGE Change to add STK_PERMISSION for stk related commands. <Amit Mahajan> 3 months ago
+ 
+**** github:CyanogenMod/android_packages_apps_UnifiedEmail ****
+b440e37 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:CyanogenMod/android_packages_providers_TelephonyProvider ****
+857572a : TelephonyProvider: change default user nw mode to invalid <Roman Birg> 4 days ago
+9762ec8 : Revert "MmsProvider : Add ability to get thread information in search" <Danesh M> 7 days ago
+ 
+**** github:CyanogenMod/android_packages_services_Mms ****
+d55f960 : Automatic translation import <Michael Bestas> 6 days ago
+ 
+**** github:SlimRemix/packages_services_Telephony ****
+f2b753d : Network Settings: default user mode to preferred mode <Roman Birg> 5 days ago
+ 
+**** sr:android_system_core ****
+dcfab0a : core: This is CMRemiX <ZION959> 27 hours ago
+ 
+**** github:SlimSaber/cm_platform_sdk ****
+94eaa20 : cmsdk: Change parceling for DisplayMode. <Adnan Begovic> 5 days ago
+a89e0e3 : BugFix: Fix potential NPEs with getService() <BadDaemon> 7 days ago
+1d92775 : cmsdk: Build in the Manifest and R classes for the sdk. <Adnan Begovic> 9 days ago
+ 
+**** github:SlimRemix/vendor_slim ****
+fad9de4 : Add generic device check in prebuilt chromium script <Abhinav Jhanwar> 13 days ago
+e4722c9 : Update Spain APNs <Kra1o5> 5 days ago
+f894bab : Update India APNs to YU list <Abhisek Devkota> 4 days ago
+589694f : Fix Airtel APN Selection <Abhisek Devkota> 7 days ago
+0d59b00 : Updated APN settings for Latvian operators <Davis Mosenkovs> 7 days ago
+6d4b3b9 : Rogers LTE apn fix? <Abhisek Devkota> 11 days ago
+362a07c : Fix Movistar APNs <Marcos Marado> 7 days ago
+b68f74f : Bump Beta 0.6 <Josue Rivera> 2 weeks ago
+6a2768e : slim: envsetup: force all variables to be local <Anthony King> 4 months ago
+9c060f2 : slim: envsetup: add an append method for hmm <Anthony King> 4 months ago
+a483f7b : slim: envsetup: add new entries for hmm <Anthony King> 4 months ago
+40ca181 : slim: envsetup: extend hmm <Anthony King> 4 months ago
+ 
+**** sr:android_vendor_SlimRemix ****
+e3391d2 : add UKM support for Note 4 <ZION959> 64 minutes ago
+d0c0db9 : update apk directory <ZION959> 4 hours ago
+c6a33e7 : add Flar2 wake gesture apps <ZION959> 5 hours ago
+9a09981 : # Google play services wakelock fix <ZION959> 27 hours ago
+2a14b80 : update savoca kcal to v1.2 <ZION959> 5 days ago
+ 

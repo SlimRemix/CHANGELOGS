@@ -1,0 +1,50 @@
+
+**** sr:frameworks_base ****
+3e00dab : derp fixed 2x c/p <ZION959> 5 hours ago
+0b1f6c5 : derp fixed <ZION959> 5 hours ago
+2b09d3b : SystemUI: time-context header fixes <maxwen> 12 days ago
+7e46748 : [1/2] SystemUI: Add time-context headers to the notification header <xplodwild> 7 hours ago
+577a2da : More weather font styles 2/2 <rogersb11> 2 days ago
+1a3aa12 : Fix font type not refreshing on placement change <rogersb11> 2 days ago
+7d2efff : SystemUI: Status bar weather font style (1/2) <Janson Kang> 7 hours ago
+999b7bc : [1/2] Slim Recent App Sidebar <SpiritCroc> 4 days ago
+45ab7fc : Update sounds to Android M <Tony Malagisi> 4 weeks ago
+b55434b : utils: Introduce ScreenType class <Michael Bestas> 7 months ago
+109a2b2 : Revert: androidfw: Declare and load cmsdk resource package w/ id. <ZION959> 11 hours ago
+ac8627f : Revert: androidfw: fix cmsdk attribute lookup <ZION959> 11 hours ago
+0135dd6 : NotificationTile: Ring ring my bell <fusionjack> 29 hours ago
+c72d88b : NotificationTile: Fix wrong ringer index after reboot <fusionjack> 30 hours ago
+0830867 : NotificationTile: Change long press to show zen mode settings <fusionjack> 31 hours ago
+36e8369 : ResolverActivity: reduce elevation to make it flat <Hamster Tian> 4 days ago
+a439624 : Set mProximity to PROXIMITY_UNKNOWN on screen off <d34d> 5 days ago
+04125fa : Add support for Samsung extended AGPS <ghepeu> 2 years, 2 months ago
+d205cc7 : Added show volume panel tile to QS <stofstik> 18 hours ago
+22a8af5 : Framework: SlimAction as QuickTile (1/2) <fusionjack> 18 hours ago
+b581f1f : Add more icons for task manager switch <Alex Cruz> 11 days ago
+6c6f1eb : FWB: Toast icon switch (1/2) <LorDClockaN> 2 days ago
+741153b : LEDs Brightness [2/2]: Lights notifications brightness support <AdrianDC> 19 hours ago
+229aca4 : Lights with Screen On [1/2]: Optional allowment of lights <AdrianDC> 19 hours ago
+b89ee0a : Show icon of package associated with Toast <d34d> 7 days ago
+ 
+**** github:SlimRemix/packages_apps_ContactsCommon ****
+baad42d : LookupProvider updates <emancebo> 5 days ago
+ 
+**** sr:packages_apps_Settings ****
+ccd84ca : revert: Settings: Always enable the per-app pulse light settings <ZION959> 5 hours ago
+da50c18 : [2/2] Settings: Add time-context headers to the notification header <maxwen> 7 hours ago
+4588d95 : Settings: Always enable the per-app pulse light settings <Gabriele M> 2 weeks ago
+7417238 : More weather font styles 1/2 <rogersb11> 7 hours ago
+b4bb664 : Settings: Status bar weather font style (2/2) <Janson Kang> 7 hours ago
+cf25b2e : [2/2] Slim Recent App Sidebar <SpiritCroc> 4 days ago
+3877e26 : Added show volume to tile chooser <stofstik> 18 hours ago
+acbd8b0 : QS: Fix double SlimAction tiles <fusionjack> 4 months ago
+a9f1e37 : Settings: SlimAction as QuickTile (2/2) <fusionjack> 18 hours ago
+fde480e : QS: Add Notifications tile <fusionjack> 18 hours ago
+94647ff : settings: Display apk path in App info <Abhinav Jhanwar> 4 days ago
+64cb423 : Settings: Toast icon switch (2/2) <LorDClockaN> 19 hours ago
+8343421 : LEDs Brightness [1/2]: Lights notifications brightness support <AdrianDC> 19 hours ago
+8f25d2e : Lights with Screen On [2/2]: Optional allowment of lights <AdrianDC> 19 hours ago
+ 
+**** github:SlimRemix/packages_services_Telephony ****
+350e5b5 : Network Settings: don't crash on bad lookup <Roman Birg> 28 hours ago
+ 

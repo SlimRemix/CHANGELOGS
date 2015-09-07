@@ -1,0 +1,346 @@
+
+**** github:omnirom/android_bootable_recovery ****
+d6821a1 : Add TW_IGNORE_ABS_MT_TRACKING_ID <Ethan Yonker> 4 days ago
+89583ef : Fix up some TW_OEM_BUILD things <Ethan Yonker> 5 days ago
+bc85b63 : Wipe crypto key when formatting data <Ethan Yonker> 3 weeks ago
+ 
+**** sr:android_build ****
+0b9e854 : UKM: add support for Synapse Universal Kernel Manager (2/2) <Petr kecinzer Řezníček> 3 months ago
+ 
+**** github:CyanogenMod/android_device_qcom_sepolicy ****
+188ecce : sepolicy: Add thermal and irqbalancer sockets <Stephen Boyd> 8 months ago
+e821bc8 : sepolicy: Add policy for SurfaceFlinger access to rotator device <Tatenda Chipeperekwa> 8 months ago
+bcc374c : SEAndroid: Allow SurfaceFlinger to access dynamic_fps node <Arun Kumar K.R> 8 months ago
+ 
+**** github:SlimRemix/android_device_samsung_trlte-common ****
+a14cff1 : disable dynamic f-sync for now <ZION959> 3 days ago
+ 
+**** github:CyanogenMod/android_external_f2fs-tools ****
+6a5e46b : mkfs.f2fs: don't need to limit MIN_VOLUME SIZE <Jaegeuk Kim> 3 weeks ago
+7894ee2 : mkfs.f2fs: set overprovision size more precisely <Jaegeuk Kim> 3 weeks ago
+f656e44 : mkfs.f2fs: fix wrong documentation <Jaegeuk Kim> 3 weeks ago
+cbcba15 : fsck.f2fs: add segment type in sit_dump <Yunlei He> 7 weeks ago
+7d6a66a : fsck.f2fs: drop extent_info to avoid potential wrong access <Jaegeuk Kim> 9 weeks ago
+e3b67c9 : fsck.f2fs: select to update the latest valid summary <Jaegeuk Kim> 9 weeks ago
+37c77ef : fsck.f2fs: add hash conversion for encrypted dentries <Jaegeuk Kim> 4 months ago
+17d4489 : fsck.f2fs: avoid build warning <Jaegeuk Kim> 4 months ago
+b9dcc1c : dump.f2fs: show i_advise field in inode <Jaegeuk Kim> 4 months ago
+8031cf0 : fsck.f2fs: show superblock features and encryption info <Jaegeuk Kim> 4 months ago
+eab8f30 : mkfs.f2fs: set encryption feature <Jaegeuk Kim> 4 months ago
+76d95e6 : fsck.f2fs: show ckeckpoint version info <Jaegeuk Kim> 5 months ago
+3ddc8f5 : Revert "mkfs.f2fs: 512 UTF-16 characters for label" <Jaegeuk Kim> 5 months ago
+f708622 : fsck.f2fs: fix orphan inode's link count <Jaegeuk Kim> 5 months ago
+e03821c : fsck.f2fs: fix missing dentries <Jaegeuk Kim> 5 months ago
+aeac2ec : fsck.f2fs: clean up child information <Jaegeuk Kim> 5 months ago
+9e7fc17 : fsck.f2fs: fix missing i_links <Jaegeuk Kim> 5 months ago
+555fc6f : fsck.f2fs: count child directories correctly for i_links <Jaegeuk Kim> 5 months ago
+de0695d : fsck.f2fs: fix corrupted dentries <Jaegeuk Kim> 5 months ago
+036299b : fsck.f2fs: fix summary block <Jaegeuk Kim> 5 months ago
+eecceb5 : fsck.f2fs: return summary block pointer and types <Jaegeuk Kim> 5 months ago
+16c38ca : fsck.f2fs: preserve orphan blocks <Jaegeuk Kim> 5 months ago
+a9bada5 : fsck.f2fs: skip block count fix when i_links is fixed <Jaegeuk Kim> 5 months ago
+8508f68 : fsck.f2fs: fix inodes having wrong i_links <Jaegeuk Kim> 5 months ago
+bf7acc8 : fsck.f2fs: check file types <Jaegeuk Kim> 5 months ago
+ee13ba8 : fsck.f2fs: remove inconsistent named directories <Jaegeuk Kim> 5 months ago
+251a8fe : fsck.f2fs: reduce redundant message <Jaegeuk Kim> 5 months ago
+9e641f3 : mkfs.f2fs: 512 UTF-16 characters for label <Jaegeuk Kim> 5 months ago
+9d27580 : mkfs.f2fs: add quite mode, -q <Jaegeuk Kim> 5 months ago
+0c016cd : fsck.f2fs: show total sectors consumed by filesystem <Jaegeuk Kim> 5 months ago
+7617ccc : fsck.f2fs: show cp_state for fsck.f2fs <Jaegeuk Kim> 5 months ago
+811d6ff : mkfs.f2fs: show bytes for total_sectors <Jaegeuk Kim> 5 months ago
+bbfd384 : configure: add check for fallocate <Gustavo Zacarias> 6 months ago
+ca54f96 : f2fs-tools: fix build system to make distcheck correctly <Anthony G. Basile> 6 months ago
+ 
+**** github:SlimRemix/frameworks_av ****
+6b48028 : libmedia: Add 1440p camcorder quality <Sultanxda> 2 weeks ago
+dd5a79b : Fix benign unsigned overflow in OggExtractor <Chad Brubaker> 6 days ago
+62de1a7 : Fix benign unsigned integer overflows <Vishwath Mohan> 3 weeks ago
+fb97ba3 : Fix benign unsigned integer overflow <Vishwath Mohan> 3 weeks ago
+6c35703 : Fix benign unsigned integer overflow <Chad Brubaker> 3 weeks ago
+3160711 : Fix benign unsigned integer overflows in loop conditions <Chad Brubaker> 4 weeks ago
+1eb8bf5 : don't trigger an integer underflow when decrementing. <Nick Kralevich> 3 months ago
+7c8e70e : Prevent divide by zero in WAVExtractor <Joshua J. Drake> 2 weeks ago
+73015d3 : Prevent integer underflows in ID3::Iterator <Joshua J. Drake> 2 weeks ago
+c73c974 : soundpool: update sample rate when reusing audiotrack <Dhananjay Kumar> 6 months ago
+899d8c8 : soundpool: reuse channel for same sample if available <Dhananjay Kumar> 8 months ago
+ae2d19c : mediaplayerservice: reset mBytesWritten in AudioSink flush and stop <Satya Krishna Pindiproli> 6 weeks ago
+c5f5361 : stagefright: Correct Exynos4 stride alignment <Caio Schnepper> 4 weeks ago
+59c2443 : stagefright: Exynos4 MPEG4 decoder should set native color format. <rINanDO> 3 weeks ago
+ 
+**** sr:frameworks_base ****
+f3511f9 : Removing some more FloatMath references <Neil Fuller> 11 months ago
+16a6d64 : Switch from FloatMath -> Math and Math.hypot where possible <Neil Fuller> 11 months ago
+652b30d : Remove usages of FloatMath <Neil Fuller> 7 months ago
+f208955 : Don't broadcast before boot is completed. <Danny Baumann> 7 months ago
+e74dc55 : binder: adjust GC interval for binder ops <Wei Wang> 5 months ago
+a12b895 : [ActivityManager] Use synchronized to protect object <mark_chen> 9 months ago
+42f9c72 : Layout the config-changed window if it has surface <tiger_huang> 9 months ago
+26fde47 : Avoid capture all black screenshot bitmap <tingna_sung> 10 months ago
+1c4a662 : Default icon is shown after uninstalling updated priv-app <Akira Numata> 1 year, 6 months ago
+df21c6b : Fix Presentation window is removed on stack change <tingna_sung> 11 months ago
+f468841 : Sync focus stack frame and layer with focus app. <tingna_sung> 10 months ago
+c09cbf2 : Vectone UK (MNC01) considered non-roaming on T-Mobile (MNC30) <dh-harald> 9 months ago
+07b1184 : add MVNO info for tele2 in croatia per CYAN-5178 <Evan Widger> 12 months ago
+602bf7d : Lycamobile (MNC04) considered non-roaming on Vodafone (MNC01) <neatchee> 1 year ago
+e9fdc93 : Vectone/Delight (MNC07) considered non-roaming on NOS (MNC03) <neatchee> 1 year ago
+b2f2a99 : Virgin Mobile (MNC07) considered non-roaming on Movistar (MNC02) <neatchee> 1 year, 2 months ago
+63c2635 : Noverca (MNC07) considered non-romaing on TIM (MNC01) <neatchee> 1 year, 2 months ago
+7df9b2f : Tele2 considered non-roaming on T-Mo <neatchee> 1 year, 4 months ago
+6e7cf06 : Saunalahti considered non-roaming on Elisa <neatchee> 1 year, 3 months ago
+33bb36c : National Roaming: Allow T-Mobile AT (MNC03) to roam on 3 AT (MNC10) in Austria <Phil Eichinger> 1 year, 4 months ago
+1f50345 : Allow 3 AT (mnc05) to roam on T-Mobile in Austria <Arne Coucheron> 1 year, 4 months ago
+3303dda : Added Non-Roaming for carrier BSNL in UP East and WEST INDIA <Aditya Pandey> 1 year, 4 months ago
+8e0fa81 : National roaming for Telfort in the Netherlands <Nikos Kermanidis> 1 year, 6 months ago
+63ef56a : core: added national roaming info for Spring Mobil in Sweden... <d95andek> 1 year, 7 months ago
+5dd0631 : core: added national roaming info for Bob in Austria. <broodplank> 1 year, 7 months ago
+e75154b : core: added national roaming info for Tesco Mobile in Ireland. <broodplank> 1 year, 8 months ago
+c0d202d : National roaming info for 3 in Ireland <Nebojsa Cvetkovic> 1 year, 8 months ago
+35392d9 : National roaming info for yesss! in Austria <Geo Pan> 1 year, 9 months ago
+0a02510 : National roaming info for Drei in Austria <Phil Eichinger> 1 year, 9 months ago
+9c221b2 : CamcorderProfile: Add 1440p camcorder profile <Sultanxda> 2 weeks ago
+23b2b20 : Fix the cell standby mobile radio active issue <Jose Ferreira> 3 days ago
+d4fd370 : SystemUI: do not load header bar if boot isn't complete <Raj Yengisetty> 2 weeks ago
+5e1ab10 : Fix "Select correct 12 or 24 time format" breaking Chrome <Wilhelm Fitzpatrick> 4 days ago
+16d94a9 : Select correct 12 or 24 time format according to Locale <Wilhelm Fitzpatrick> 6 days ago
+6d8c67b : Fix WallpaperCropper crash when setting wallpaper over 8MB <Stephen Woo> 8 weeks ago
+fbe1405 : FWB: Hide carrier on lock screen (1/2) <LorDClockaN> 3 days ago
+47e355b : Base: Implement ad blocker [2/3] <tsubus> 9 months ago
+6cd90c0 : (1/2) Base: custom power key chord actions and delay <0xD34D> 3 days ago
+83e3b4c : service: pm: Show packagename during dexopt <Alexander Martinz> 8 months ago
+6985b6e : (1/2) Frameworks: allow to toggle smart cover wake <Alexander Martinz> 5 days ago
+9ea1d13 : Trim task thumbnail within MAX_RECENT_BITMAPS. <jinchul.kim> 5 months ago
+446f663 : SystemUI: Fade keyguard visualizer along with other icons <lion0738> 9 days ago
+872b8ef : SystemUI: use new visualizer from Eleven <UtkarshGupta> 5 days ago
+f720ded : androidfw: fix cmsdk attribute lookup <Scott Mertz> 6 days ago
+2f14439 : androidfw: Declare and load cmsdk resource package w/ id. <Adnan Begovic> 8 weeks ago
+eaca21d : Add the user set network mode to the siminfo table <Chirayu Desai> 6 weeks ago
+917c1c6 : Keyguard: increase clickable area of pin-entry backspace button <Daniel Koman> 8 days ago
+b46f721 : Add 44.1 kHz SlimSounds <andi34> 3 weeks ago
+f915352 : zygote: fix memory leak when fork process <Mykola Kondratenko> 4 weeks ago
+2a8be62 : Filter internal account when set device owner <blong> 3 months ago
+ 
+**** sr:frameworks_native ****
+9861290 : libagl: Fix buffer read overrun in eglCreatePbufferSurface <Jesse Hall> 10 days ago
+ 
+**** github:SlimRemix/frameworks_opt_net_wifi ****
+3814251 : Wifi: set mConnected true before start monitor thread <Hu Wang> 4 months ago
+e7a1c36 : wifi: do not adjust wifi score when WQE is enabled <sanketk> 9 weeks ago
+1391ee9 : Fix memory leak in WifiNative <Henrik Baard> 8 weeks ago
+4cbf095 : Wifi: get rid of the log from Gbk2Utf <Hu Wang> 4 months ago
+d169112 : Wifi:Set framework disconnected state scan interval when P2P connected <Nalla Kartheek> 4 months ago
+e5efc13 : wifi: wifi priorities <Jorge Ruesga> 3 months ago
+a967bee : wifi: Allow Settings to retrieve country code (1/3) <Jorge Ruesga> 3 months ago
+268eb61 : WiFi : Enable saved profiles, before PNO is issued <Nalla Kartheek> 3 months ago
+a951636 : WiFi:Configure the priority for the profiles obtained by WPS connection <Nalla Kartheek> 4 months ago
+e113dea : Wifi: Reduce the frequency of scans in disconnected state and display ON <Nalla Kartheek> 6 months ago
+221cd07 : Wifi: Screen state to set/reset mEnableBackgroundScan <Nalla Kartheek> 6 months ago
+9dcfba1 : Wifi: Disable PNO (if enabled) only when the scan is allowed to trigger <Nalla Kartheek> 5 months ago
+53a7b53 : wifi: broadcast bssid change event <Sagar Regmi> 5 months ago
+eaf1111 : Wifi: Do not enable saved networks in ConnectedState <Nalla Kartheek> 6 months ago
+135c664 : Wifi: Filter the scan results based on the configured band <Nalla Kartheek> 6 months ago
+229e3de : wifi: Handle the NULL check for the STATUS command <c_rrajiv> 5 months ago
+819c6d1 : Wifi: Exit the monitor thread when killSupplicant is issued. <Hu Wang> 5 months ago
+ 
+**** github:SlimRemix/frameworks_opt_telephony ****
+a23ada7 : Telephony: DcTracker: Fix CDMA APN Data issues. <Shareef Ali> 2 years, 1 month ago
+fcc357c : Add the user set network mode to the siminfo table <Chirayu Desai> 5 weeks ago
+61913f2 : Change network mode on data sub change <Chirayu Desai> 10 weeks ago
+98f18b8 : Telephony: fallback to xml resources for sms shortcode recognition <emancebo> 4 months ago
+ 
+**** sr:android_frameworks_webview ****
+1ba2ebd : arm: update to 45.0.2454.48 <Park Ju Hyung> 7 days ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_audio ****
+4d8c8b2 : hal: Tell Huawei acdb loader which files to load <Thomas Wendt> 4 months ago
+256bdda : compress offload: use new sample rate representation. <Eric Laurent> 10 months ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_audio ****
+4ec87c1 : hal: Tell Huawei acdb loader which files to load <Thomas Wendt> 4 months ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_audio ****
+05772c1 : hal: Fix voice session setup failure <Venkata Narendra Kumar Gutta> 9 weeks ago
+a1e599d : hal: reroute active capture usecases which share same backend <Narsinga Rao Chella> 8 weeks ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_bt ****
+f3fe2e0 : Bluetooth: Fix for BT crashes during preload timeout <pramod kotreshappa> 4 months ago
+340ffaa : Bluetooth: Fix for ANT standalone turn on failure <pramod kotreshappa> 4 months ago
+c606d27 : Bluetooth: Send controller logging VS cmd after wcnss filter init <pramod kotreshappa> 4 months ago
+c6a374a : Bluetooth: Fix to handle invalid VS event during patch download <pramod kotreshappa> 5 months ago
+a0dc758 : Bluetooth: Get FW build label information from VS command <Bhakthavatsala Raghavendra> 5 months ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_display ****
+b7ad94a : hwc/hdmi: Return FB attributes to f/w for active config <Saurabh Shah> 8 weeks ago
+ 
+**** github:CyanogenMod/android_hardware_qcom_media ****
+379c0ab : Revert "mm-video-v4l2: vidc: venc: Update color conversion decision" <Srinu Gorle> 5 weeks ago
+c0ad5df : mm-video-v4l2: vidc: update thread names <Ashray Kulkarni> 7 weeks ago
+817b307 : mm-video-v4l2: venc: fix all I frame encoding usecase <Ashray Kulkarni> 7 weeks ago
+ 
+**** github:SlimRoms/hardware_ti_omap4 ****
+34b26e3 : camera: add support for espresso <Ziyan> 2 weeks ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+9ad598c : build ultimate v2.6 <ZION959> 2 days ago
+fbd1a8d : Linux 3.10.87 <placiano> 12 days ago
+cced235 : Revert "fs: support task's adj rbtree" <placiano> 7 days ago
+97661a1 : fs: ext4: use e/frandom, do not deplete entropy <placiano> 7 days ago
+19ebebf : random.h: declare erandom function <placiano> 7 days ago
+f65dfae2 : Revert "msm: kgsl: Bump the GPU frequency for long blocks of processing" <placiano> 10 days ago
+4a58aaf : Revert "mm: vmstat: make vmstat_work cpu bound during requeue" <placiano> 10 days ago
+d9156721 : Revert "lowmemorykiller: implement task's adj rbtree" <ZION959> 2 days ago
+af07b17 : adreno_idler: updates <placiano> 7 weeks ago
+2f8803c : power: update flag, and save time of last suspend/resume <placiano> 13 days ago
+3d74bda : Wake_Gestures: use system_wq instead of dedicated, avoid resource waste <placiano> 11 days ago
+f1b5e87 : Wake_Gestures: Fix S2S Right <placiano> 12 days ago
+a9f1c00 : Wake_Gestures: Updates 1.- fts_ts: attempt to use existing LOWPOWER to work with DT2W 2.- fts_ts: don't wait for irq events to be handled 3.- fts_ts: remove wakeup procedure for i2c device 4.- fts_ts: retry i2c commands if it fails at first 5.- fts_ts: fix cases when dt2w_switch is 0 <placiano> 12 days ago
+e479767 : Wake_Gestures: New feactures: 1.- Add haptic feedback 2.- Proximity Sensor Detect <placiano> 13 days ago
+e13606b : DT2S: added option to change the screen size <ZION959> 2 days ago
+dc948d2 : DT2S: Make it work <placiano> 2 weeks ago
+85f3a76 : Wake gesutures: Sweep2wake, Sweep2sleep, DoubleTap2Wake and DoubleTap2Sleep <ZION959> 2 days ago
+ 
+**** github:DirtyUnicorns/android_packages_apps_Apollo ****
+4d8b916 : Apollo: use fading scrollbars <maxwen> 6 months ago
+ 
+**** github:SlimRemix/packages_apps_Contacts ****
+060db28 : Automatic translation import <Tom Powell> 9 days ago
+4851d4a : Automatic translation import <Michael Bestas> 13 days ago
+588a967 : Automatic translation import <Tom Powell> 3 weeks ago
+1dabaa0 : Automatic translation import <Michael Bestas> 4 weeks ago
+f82d708 : Automatic translation import <Michael Bestas> 5 weeks ago
+ 
+**** github:SlimRemix/packages_apps_ContactsCommon ****
+bd8be27 : Automatic translation import <Tom Powell> 9 days ago
+1ca2c32 : SelectAccountActivity : Support local phone account <Rohit Yengisetty> 5 weeks ago
+6d8fdfe : Revert "Revert "Store all local contacts in only one account."" <fusionjack> 9 days ago
+e808ef6 : Fix:Shouln't display any contacts after clean all letters in dialer search view. <chengzhi.hou> 2 weeks ago
+fb5fad8 : ContactsCommon: Telephony expects sim_index <cretin45> 12 days ago
+d2060f6 : EmergencyContacts: Check if quickdial number is an emergency number <Stephen Bird> 5 weeks ago
+b33fbac : Automatic translation import <Tom Powell> 3 weeks ago
+6cb5ac1 : Automatic translation import <Michael Bestas> 5 weeks ago
+ 
+**** sr:packages_apps_DeskClock ****
+3891e9f : Expose FAB elevation value for themes. <Dave Kover> 9 days ago
+0853420 : Automatic translation import <Tom Powell> 9 days ago
+ 
+**** github:SlimRemix/packages_apps_Dialer ****
+ee10ba5 : Automatic translation import <Tom Powell> 9 days ago
+9e8bc0b : Automatic translation import <Tom Powell> 10 days ago
+f3d3ac7 : Automatic translation import <Tom Powell> 3 weeks ago
+83601a4 : Automatic translation import <Michael Bestas> 4 weeks ago
+6de1f1d : Automatic translation import <Michael Bestas> 5 weeks ago
+ 
+**** github:CyanogenMod/android_packages_apps_Eleven ****
+0f7bc21 : Automatic translation import <Tom Powell> 9 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Email ****
+142a1f8 : Automatic translation import <Tom Powell> 9 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Gallery2 ****
+52a4634 : Automatic translation import <Tom Powell> 9 days ago
+ 
+**** github:SlimRemix/packages_apps_InCallUI ****
+ee1bbd5 : Automatic translation import <Tom Powell> 9 days ago
+552ccfc : Automatic translation import <Tom Powell> 10 days ago
+c8791a1 : Automatic translation import <Michael Bestas> 13 days ago
+19ba94a : Automatic translation import <Tom Powell> 3 weeks ago
+b848483 : Automatic translation import <Tom Powell> 3 weeks ago
+5b73209 : Automatic translation import <Michael Bestas> 4 weeks ago
+890b1f9 : Automatic translation import <Michael Bestas> 5 weeks ago
+ 
+**** github:CyanogenMod/android_packages_apps_LockClock ****
+5e1f12d : Automatic translation import <Tom Powell> 9 days ago
+ 
+**** github:CyanogenMod/android_packages_apps_Mms-caf ****
+1b80da8 : Fix "To" label hide/show when adding/removing subject <Richard MacGregor> 3 days ago
+f51cfec : MMS: Change subject logic <Stephen Bird> 5 days ago
+cf728d8 : Automatic translation import <Tom Powell> 9 days ago
+7d55bcb : Improve QuickMessage string <Michael Bestas> 9 days ago
+a1de05d : Mms: Check whether data is enabled on current subscription <Ethan Chen> 9 days ago
+cf56d78 : Mms: Use system API for setDataEnabled <Ethan Chen> 9 days ago
+2f46b9f : QuickMessage: Make useful on lockscreen <Stephen Bird> 12 days ago
+ 
+**** sr:packages_apps_Settings ****
+2c69ac1 : organized slimremix settings & add extra icons to various settings <ZION959> 2 days ago
+574160c : Settings: Hide carrier on lock screen (2/2) PS2: save CarrierLabel option and add systemUI restart PS3: hide switch for WiFi only devices PS4: really hide PS5: publish edit PS6: fix whitespace PS7: fix typo in commit message PS8: fix title and remove summary PS9: add back summarry about restarting SystemUI PS10: restart UI on every switch toggle <LorDClockaN> 3 days ago
+7649dab : Fix Adaway once and for all <LorDClockaN> 7 weeks ago
+8303d0f : HFM: Add whitelist to HFM (Miccia94) <ZION959> 3 days ago
+592e16e : Add back Ad Blocker from AICP kk (1/3) <Toni Toivanen> 3 days ago
+8a0ebbf : Settings - App sidebar (2/2) <0xD34D> 3 days ago
+c3456f0 : (2/2) Settings: allow to toggle smart cover wake <Alexander Martinz> 5 days ago
+e62bf43 : settings: LiveDisplay color profiles <Steve Kondik> 5 days ago
+76906f4 : livedisplay: Fix for multiuser <Steve Kondik> 6 months ago
+4be15a9 : livedisplay: Add an "off" state <Steve Kondik> 6 months ago
+c2eee06 : Update settings_main_background_exposed.xml <xWASABI> 2 months ago
+a7aabc3 : revert: Selinux switch <ZION959> 8 days ago
+d2f5a82 : Add the ability to color dashboard title independently <camcory> 3 weeks ago
+43d4123 : Launch LockClock from settings Credit: XXMrHyde, liquidsmooth, and temasek <David LaMontagne III> 9 days ago
+ 
+**** github:SlimRoms/packages_apps_SlimLauncher ****
+6cc5d69 : Cleanup resources <Griffin Millender> 2 days ago
+ 
+**** github:CyanogenMod/android_packages_providers_TelephonyProvider ****
+9542f79 : Add the user set network mode to the siminfo table <Chirayu Desai> 6 weeks ago
+ 
+**** github:SlimRemix/packages_services_Telecomm ****
+e23ff2e : Automatic translation import <Tom Powell> 9 days ago
+3ad791a : Automatic translation import <Michael Bestas> 5 weeks ago
+d06c70e : Automatic translation import <Tom Powell> 3 weeks ago
+7d0f00b : Telecomm: Avoid NPE when invoking setAudioParameters <Bruno Martins> 10 days ago
+ 
+**** github:SlimRemix/packages_services_Telephony ****
+69c3516 : Network settings: re-enable network preference selection <Roman Birg> 5 days ago
+2ed9ccc : For non-data SIMs, only set user configured mode, not preferred mode. <Chirayu Desai> 10 weeks ago
+c4615c0 : Remove network mode handling for other SIM <Chirayu Desai> 10 weeks ago
+21d481e : telephony: Don't bypass telephony stack when switching RAT. <Adnan Begovic> 13 days ago
+f61c753 : Automatic translation import <Tom Powell> 9 days ago
+2f08575 : Telephony : Null check cellInfo before calling addAll <Danesh M> 9 days ago
+a8fa5cb : Automatic translation import <Michael Bestas> 13 days ago
+1b10d6a : Automatic translation import <Tom Powell> 3 weeks ago
+6735208 : Automatic translation import <Tom Powell> 3 weeks ago
+f426bc7 : Automatic translation import <Michael Bestas> 4 weeks ago
+402f637 : Automatic translation import <Michael Bestas> 5 weeks ago
+ 
+**** sr:platform_manifest ****
+cb2f4c4 : track cm system/vold <ZION959> 2 days ago
+afbf056 : add slimremix CHANGELOGS <ZION959> 5 days ago
+939254a : derpX2 <nicklovell23> 5 days ago
+4dd3b67 : derp <ZION959> 5 days ago
+c90601a : track our sqlite <ZION959> 7 days ago
+87ee68c : track CMRemix external/sepolicy <ZION959> 7 days ago
+037f822 : remove an empty repo <Omar Einea> 8 days ago
+24a01d1 : track OmniRom twrp <ZION959> 8 days ago
+c4bf49e : update readme <ZION959> 9 days ago
+dc81149 : Add Credit to repo <ZION959> 9 days ago
+0e9b79b : deskclock switch to cm-12.1 branch <ZION959> 9 days ago
+ 
+**** github:SlimRoms/android_prebuilt ****
+e0957c7 : Add Linaro 4.9 15.05 <Josue Rivera> 13 days ago
+ 
+**** sr:android_system_core ****
+dd322bc : VectorImpl.cpp: fix benign multiplication overflow <Nick Kralevich> 3 days ago
+205e5bb : Revert "fs_mgr: let fsck.f2fs actually attempt a fix" <Jaegeuk Kim> 6 months ago
+3dc483a : libcutils/liblog: Add functions required by Huawei g620_a2 binaries <Thomas Wendt> 3 months ago
+ 
+**** github:SlimSaber/cm_platform_sdk ****
+9803cc9 : cmhw: Add makeDefault arg to setDisplayMode <Steve Kondik> 11 days ago
+a7a1008 : Automatic translation import <Tom Powell> 10 days ago
+29f9522 : Automatic translation import <Tom Powell> 10 days ago
+ 
+**** github:SlimRemix/vendor_slim ****
+5b35b27 : Slim: APN: Fix Rogers apn <Josue Rivera> 4 days ago
+ 
+**** sr:android_vendor_SlimRemix ****
+237f448 : enabled synapse modules <ZION959> 45 minutes ago
+6a3dabf : UKM: Add support for Synapse Universal Kernel Manager (1/2) <CPA-Poke> 2 days ago
+5aa59ea : Vendor: Implement ad blocker [1/3] <ILWT> 3 days ago
+42c0846 : move slimremix all packages to main config <ZION959> 4 days ago
+798dfc9 : Added support for bacon <Ujwal> 5 days ago
+0c827ab : SMH <nicklovell23> 7 days ago
+0e9f852 : More derp fixes <nicklovell23> 7 days ago
+860ddae : swith to slimremix trees <nicklovell23> 7 days ago
+52b9458 : fix up jflteusc dependencies <nicklovell23> 7 days ago
+ 
+**** sr:android_vendor_SaberMod ****
+9cfa87f : add support for bacon <Ujwal> 5 days ago
+2bf87b6 : Fix Build <Ujwal> 5 days ago
+ 

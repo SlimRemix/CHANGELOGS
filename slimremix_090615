@@ -1,0 +1,33 @@
+
+**** sr:frameworks_base ****
+fbe5eec : revert: systemui: respect navigation rings configuration <ZION959> 11 minutes ago
+e3849ed : systemui: respect navigation rings configuration <Jorge Ruesga> 5 days ago
+d3e9dea : Import Moto X Ringtones and Notifications <Peter Carenza> 2 days ago
+2e4bdaf : Fix Android API exceptions <Joe Maples> 4 months ago
+8b04a5d : FWB: Make all 14 font variants available to Weather (2/2) <rogersb11> 3 days ago
+ec76891 : FWB: Make all 14 font variants available to Statusbar Clock (1/2) <Janson Kang> 2 days ago
+fabac4f : [2/2] base: Add lockscreen rotation as an optional rotation setting <maxwen> 2 days ago
+ade22c1 : VolumePanel: Option to show as expanded mode by default (1/2) <fusionjack> 4 days ago
+e2ac778 : SystemUI: check RecentsConfiguration isn't null before running RecentsTaskLoader <Raj Yengisetty> 6 days ago
+d879506 : FWB:Status bar carrier label font size 2/2 <rogersb11> 2 days ago
+dac786b : FWB: Statusbar clock font size (1/2) <Janson Kang> 2 days ago
+d75af51 : Status bar clock: Add BOLD ITALIC to font style (1/2) <Janson Kang> 5 days ago
+de73007 : Statusbar clock font style (1/2) <Daxxmax> 2 days ago
+5e04960 : Status bar weather: Add BOLD ITALIC to font style (1/2) <Janson Kang> 5 days ago
+abdd957 : Re-do contextual notification header images <Chris> 2 days ago
+ 
+**** github:SlimRemix/android_kernel_samsung_trlte ****
+5d93e5f : trlte: oc rework 268mhz - 307ghz <ZION959> 4 days ago
+ 
+**** sr:packages_apps_Settings ****
+244e131 : fixed parsing XML: unbound prefix & build error <ZION959> 3 minutes ago
+85818da : Settings: System app remover <ILWT> 75 minutes ago
+3de12b8 : Settings: Make all 14 font variants available to Weather (1/2) <rogersb11> 81 minutes ago
+a315ad9 : Settings: Make all 14 font variants available to Statusbar Clock (2/2) <Janson Kang> 86 minutes ago
+cbf0ae1 : Settings: Avoid possible NPE if resolve infos return null. <Adnan Begovic> 4 days ago
+97c2a8f : VolumePanel: Option to show as expanded mode by default (2/2) <fusionjack> 2 hours ago
+1aa88de : Settings:Status bar carrier label font size 1/2 <rogersb11> 2 hours ago
+e81ed33 : Settings: Statusbar clock font size (2/2) <Janson Kang> 2 hours ago
+df9e3a7 : Status bar clock: clock font style Add BOLD ITALIC to font style (2/2) <Janson Kang> 2 hours ago
+b05fec8 : Status bar weather: Add BOLD ITALIC to font style (2/2) <Janson Kang> 25 hours ago
+ 

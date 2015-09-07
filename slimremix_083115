@@ -1,0 +1,133 @@
+
+**** github:SlimRemix/android_art ****
+0f3e7f4 : Revert "ART: Check for exceptions from unresolved classes" <Josue Rivera> 12 days ago
+3080e32 : ART: Tuning compiler thread count for application runtime <Jie Cheng> 8 weeks ago
+6944b3a : AArch64: Fix incorrect use of preceding LIR. <Ningsheng Jian> 9 months ago
+d519fb3 : AArch64: Addressing Cortex-A53 erratum 835769. <Matteo Franchin> 10 months ago
+e1a48e9 : Improve dalvik cache pruning <Chirayu Desai> 8 weeks ago
+786d70b : dex2oat: Add a --compile-pic option <Igor Murashkin> 11 months ago
+d20fa19 : Allow skipping of dalvik cache pruning if boot marker is in place. <Chirayu Desai> 3 months ago
+3dd9e77 : ART: prevent patchoat from symlinking with dummy files <Yevgeny Rouban> 6 months ago
+3352b39 : ART: patchoat gets gzip support for compressed odex files <Yevgeny Rouban> 6 months ago
+ff0c763 : libsigchain: Fix OSX compilation <Brian Chu> 8 months ago
+0f05dde : art: Update QC-PERF board flag to TARGET_HAVE_QC_PERF <Steve Kondik> 10 months ago
+e132977 : ART: clean up compiler data <Wei Wang> 7 months ago
+352a00e : more ART Extension <Wei Wang> 11 months ago
+6c43c9b : setting RLIMIT to INFINITY. <Maunik Shah> 12 months ago
+3553c7b : ART: minor bugfix <Wei Wang> 12 months ago
+99090f5 : ART Extension <Wei Wang> 1 year, 1 month ago
+9ad5069 : ART: Check for exceptions from unresolved classes <Andreas Gampe> 12 months ago
+ 
+**** sr:android_build ****
+247f9ff : Fix TWRP warning about unmounted system <reS28raM> 3 months ago
+ 
+**** github:SlimRemix/frameworks_av ****
+35ac1bd : libmedia: Add 1440p camcorder quality <Sultanxda> 2 weeks ago
+be5aca4 : Revert "stagefright: Remove deprecated Exynos platform variant logic" <Josue Rivera> 9 days ago
+c0324e5 : stagefright: Remove deprecated Exynos platform variant logic <Ethan Chen> 2 weeks ago
+6cfdd32 : soundpool: update sample rate when reusing audiotrack <Dhananjay Kumar> 6 months ago
+197ed24 : soundpool: reuse channel for same sample if available <Dhananjay Kumar> 8 months ago
+ef56087 : mediaplayerservice: reset mBytesWritten in AudioSink flush and stop <Satya Krishna Pindiproli> 6 weeks ago
+4e5c959 : stagefright: Correct Exynos4 stride alignment <Caio Schnepper> 4 weeks ago
+1db1e76 : stagefright: Exynos4 MPEG4 decoder should set native color format. <rINanDO> 3 weeks ago
+2e3ce93 : libstagefright: Add support for NV21 color format <Andreas Schneider> 2 weeks ago
+8556ee4 : libmedia: Increase framecount in Track Offload <Alexy Joseph> 5 weeks ago
+79d15b0 : stagefright: Add libhwc to exynos include paths <Christopher R. Palmer> 2 weeks ago
+c2299dd : stagefright: Add support for Exynos hardware audio decoding <Christopher N. Hesse> 3 weeks ago
+6f97075 : stagefright: Update makefile for Exynos variants. <Ethan Chen> 2 weeks ago
+5fb5ced : stagefright: Don't crash on invalid / null AVCC atoms in MKV <Steve Kondik> 3 weeks ago
+ee40372 : Fatal error while playing certain mkv files. <Mazhar> 1 year, 4 months ago
+b62ecac : MPEG4Extractor.cpp: handle chunk_size > SIZE_MAX <Nick Kralevich> 4 weeks ago
+4cb0883 : AudioMixer: fill 0s at right place when no more buffers available <Zhou Song> 7 weeks ago
+493f1e6 : video: Disable resync markers <Surajit Podder> 8 weeks ago
+392167a : libstagefright: Scale up bitrate for HSR videos <Sultanxda> 4 weeks ago
+30e9bf6 : libstagefright: Fix incorrect duration calculation <Manikanta Kanamarlapudi> 2 months ago
+87ea4a2 : libstagefright: fix output buffer is not released by Writer when stopping <Kim Zhang> 8 months ago
+6be67eb : Validation of Number of Channels on WAV files <Niel Alejandro Paz> 3 months ago
+4a6fa82 : The preview frame data is broken when sending via Binder <daisuke jinno> 4 months ago
+e3bd1da : Fix new[] vs delete mismatch. <Evgenii Stepanov> 4 months ago
+b873002 : Check allocation <Marco Nelissen> 4 months ago
+79ec25c : Fix global-buffer-overflow in voAWB_Copy. <Evgenii Stepanov> 8 weeks ago
+41a4205 : libstagefright: Remove nBitPerSample CHECK <myfluxi> 4 weeks ago
+fc6923c : Detect allocation failures and bail gracefully <Joshua J. Drake> 5 months ago
+efaf8ce : MPEG4Extractor.cpp: Add check for size == SIZE_MAX <Nick Kralevich> 4 weeks ago
+a1e764e : Fix null-pointer-dereferences accessing the SampleTable <Joshua J. Drake> 5 months ago
+785882c : Fix multiple division-by-zero conditions in MPEG4 parsing <Joshua J. Drake> 5 months ago
+6435fca : libeffects: validate channel mask in downmixer configure <Dhananjay Kumar> 8 weeks ago
+0314c27 : audiopolicy: fix playback of multichannel pcm clips via low latency output <Ashish Jain> 4 months ago
+f8f33e8 : audiopolicy: fix for voice call to work on USB headset during concurrency <Narsinga Rao Chella> 6 weeks ago
+a586522 : audiopolicy: use deep_buffer as default output for music stream <Mingming Yin> 5 months ago
+973f1fd : AudioOutput: Always open AudioTrack with a flag <Haynes Mathew George> 9 weeks ago
+588eff1 : SampleTable: fix integer overflow checks. <Wei Jia> 3 months ago
+1f43bb9 : MPEG4Extractor: still more NULL dereference fixes <Joshua J. Drake> 5 months ago
+a6712d0 : Guard against codecinfo overflow <Marco Nelissen> 5 weeks ago
+2caba17 : DO NOT MERGE: Lock drm plugin API calls globally, not per MediaDrm instance <Jeff Tinker> 4 months ago
+0a95632 : audio effects: fix heap overflow <Eric Laurent> 2 months ago
+6838faa : IOMX: Enable buffer ptr to buffer id translation for arm32 <Andy Hung> 3 months ago
+e39be32 : IOMX: Add buffer range check to emptyBuffer <Andy Hung> 3 months ago
+3619f14 : HDCP: buffer over flow check -- DO NOT MERGE <Chong Zhang> 4 months ago
+12ba02c : Add AUtils::isInRange, and use it to detect malformed MPEG4 nal sizes <Lajos Molnar> 5 months ago
+d120470 : Add some sanity checks <Marco Nelissen> 4 months ago
+d90a375 : nuplayer: Fix incorrect state handling while shutting down a decoder <Haynes Mathew George> 4 months ago
+addbe5d : libstagefright: Fix crash in convertMetaDataToMessage <Shivaprasad Hongal> 10 weeks ago
+f6ff604 : audiopolicy: Fix for isStateInCall() do not return proper status <kunleiz> 3 months ago
+a7b2a27 : httplive: Adjust seek time to last video IDR time <Apurupa Pattapu> 4 months ago
+ 
+**** sr:frameworks_base ****
+f30d601 : services: button brightness should check proximity <Erica Chang> 3 months ago
+25abb7e : PowerManagerService: Fix updating of mUserActivitySummary <nadlabak> 3 months ago
+0ecefbe : Base: Extended Hardware Buttons (1/2) <fusionjack> 3 hours ago
+3902804 : Revert: Add PowerManager integration for button and keyboard backlight. <ZION959> 3 hours ago
+ebb1fe9 : RebootDialog: Bring back old confirmation <fusionjack> 2 months ago
+bcc4ba2 : PowerManagerService: Honor config_dreamsActivatedOnSleepByDefault <dhacker29> 4 months ago
+bf92857 : Frameworks: follow charging notification settings also for wireless charging <Petr Sedlacek> 7 months ago
+497ca48 : Revert: advanced reboot: add soft reboot option <ZION959> 3 hours ago
+ 
+**** sr:frameworks_native ****
+6555aab : binder: Update makefile for Exynos variants <Ethan Chen> 2 weeks ago
+b5db5a4 : Verify that the native handle was created <Adam Lesinski> 4 months ago
+9c6acf8 : sf: Restrict GPU tile render feature to MAX_LAYER_COUNT <radhakrishna> 8 weeks ago
+57972fc : SF: Enable context priority <Saurabh Shah> 5 months ago
+909ed2c : Revert "Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS" <Robbie Lancaster> 7 weeks ago
+52f4e96 : Remove gamma correction from color correction shader <Alan Viverette> 4 months ago
+578b628 : Revert "Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS" <Steve Kondik> 8 weeks ago
+d4f9d9b : Tuning compiler thread count for optimal application install times <Chitti Babu Theegala> 3 months ago
+4057a38 : SF: Skip render-to-texture for color transforms <Dan Stoza> 11 months ago
+3c15549 : native: dock battery <Jorge Ruesga> 9 weeks ago
+af9de64 : Enable fingerprint option in Settings [2/3] <Andy Mast> 2 months ago
+fbdaf6d : surfaceflinger: use Mutex timedLock instead of tryLock loop <Jesse Hall> 8 months ago
+6876a13 : SF: Reduce resync samples without present <Dan Stoza> 3 months ago
+7cf66f5 : Add dalvik heap override for xxxhdpi phone <bmc08gt> 6 months ago
+fc3933e : Add HWUI overrides for xxxhdpi phone <bmc08gt> 6 months ago
+9fe4b2c : libgui: bail assertion if sensorservice cannot be found <Scott Mertz> 4 months ago
+ 
+**** sr:android_libcore ****
+4d46def : Remove forced alignment code. <Christopher Ferris> 6 months ago
+ 
+**** sr:packages_apps_Settings ****
+b263d83 : fixed build for : Settings: Extended Hardware Buttons (2/2) <ZION959> 5 minutes ago
+8ef4812 : HWKeySettings: Don't enable NavBar when disabling hw keys <fusionjack> 2 months ago
+3a641f3 : Settings: Extended Hardware Buttons (2/2) <Chandra Poerwanto> 2 hours ago
+ac35dc4 : revert: Forward port button/keyboard backlight options <ZION959> 2 hours ago
+ 
+**** sr:android_system_core ****
+47ade3a : Prevent integer overflow when allocating native_handle_t <Adam Lesinski> 4 months ago
+041b27b : init: Add support for gzipped firmware files <Chris Fries> 6 months ago
+f078b53 : healthd: Add secondary backlight path support <Mrcl1450> 5 weeks ago
+c7cfe87 : init: Allow devices to use user-space tools to set ro.serialno <Christopher R. Palmer> 6 weeks ago
+e559326 : adbd: Add intel style super-speed support <Christopher R. Palmer> 10 weeks ago
+ac45a5b : slim : fix mismerge <Nicholas Flintham> 5 weeks ago
+6d13f15 : init: Add a "starting" state for services <Steve Kondik> 6 weeks ago
+3077c48 : healthd: Support QC2.0 type charger <Chao Chen> 7 weeks ago
+d4a8119 : Added umount to init <Tony Layher> 4 years, 8 months ago
+e65bcdf : libutils: Improve support for POSIX timers <Steve Kondik> 10 weeks ago
+7797843 : healthd: dock battery <Jorge Ruesga> 9 weeks ago
+5717816 : Charger: Add font to show real battery capacity in charger mode. <Chao Chen> 9 weeks ago
+1717e06 : Add Wileyfox VID part 2 <Ethan Chen> 9 weeks ago
+a3c56ed : Add Wileyfox VID <Ethan Chen> 9 weeks ago
+1f43f4e : healthd: allow custom charger <Scott Mertz> 5 months ago
+f4bf4be : Mutex: add timedLock() method <Jesse Hall> 8 months ago
+7bcc9c0 : Provide better advice on using gdb with debuggerd on crashed applications. <Pete Delaney> 3 months ago
+0fbfb0b : audio: fix incall music ifdefs (1/3) <Arne Coucheron> 3 months ago
+06f3fc3 : liblog: add Amazon logging functions for prebuilt compatibility <cpasjuste> 3 months ago
+ 
